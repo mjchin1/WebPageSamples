@@ -1,0 +1,745 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.square {
+  border: solid;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vw; 
+  margin-bottom: 1vw;
+}
+
+/*MOSAIC TEMPLATE*/
+.mosaicContainer {
+  border: solid;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.mosaicSquare1 {
+  width: 40vw;
+  height: 20vw;
+
+}
+
+.mosaicSquare2 {
+  width: 16vw;
+  height: 20vw;
+  
+}
+
+.mosaicSquare3 {
+  width: 24vw;
+  height: 20vw;
+  
+}
+
+.mosaicSquare4 {
+  width: 22.5vw;
+  height: 20vw;
+  
+}
+
+.mosaicSquare5 {
+  width: 14vw;
+  height: 20vw;
+
+}
+
+.mosaicSquare6 {
+  width: 19vw;
+  height: 20vw;
+  
+}
+
+.mosaicSquare7 {
+  width: 22.5vw;
+  height: 20vw;
+  
+  
+}
+
+.mosaicSquare8 {
+  width: 41vw;
+  height: 20vw;
+  
+}
+.mosaicSquare9 {
+  width: 41.5vw;
+  height: 20vw;
+
+}
+
+.mosaicSquare10 {
+  width: 31vw;
+  height: 20vw;
+  
+}
+
+.mosaicSquare11 {
+  width: 18.5vw;
+  height: 20vw;
+  
+}
+
+.mosaicSquare12 {
+  width: 31vw;
+  height: 20vw;
+  
+}
+
+/*DESCENDING SCALE TEMPLATE*/
+
+.alternatingScaleContainer {
+  border: solid;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.asSquare1 {
+  width: 40vw;
+  height: 20vw;
+
+}
+
+.asSquare2 {
+  width: 25vw;
+  height: 20vw;
+  
+}
+
+.asSquare3 {
+  width: 15vw;
+  height: 20vw;
+  
+}
+
+.asSquare4 {
+  width: 15vw;
+  height: 20vw;
+  
+}
+
+.asSquare5 {
+  width: 25vw;
+  height: 20vw;
+  
+}
+
+.asSquare6 {
+  width: 40vw;
+  height: 20vw;
+  
+}
+
+.asSquare7 {
+  width: 40vw;
+  height: 20vw;
+  
+}
+
+.asSquare8 {
+  width: 25vw;
+  height: 20vw;
+  
+}
+.asSquare9 {
+  width: 15vw;
+  height: 20vw;
+
+}
+
+.asSquare10 {
+  width: 15vw;
+  height: 20vw;
+  
+}
+
+.asSquare11 {
+  width: 25vw;
+  height: 20vw;
+  
+}
+
+.asSquare12 {
+  width: 40vw;
+  height: 20vw;
+}
+
+
+
+
+
+/*DESCENDING SCALE TEMPLATE 2*/
+
+.descendingScale2Container {
+  border: solid;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.ds2Square1 {
+  width: 40vw;
+  height: 20vw;
+
+}
+
+.ds2Square2 {
+  width: 25vw;
+  height: 20vw;
+  
+}
+
+.ds2Square3 {
+  width: 15vw;
+  height: 20vw;
+  
+}
+
+.ds2Square4 {
+  width: 84.5vw;
+  height: 20vw;
+  
+}
+
+.ds2Square5 {
+  width: 40vw;
+  height: 20vw;
+
+}
+
+.ds2Square6 {
+  width: 25vw;
+  height: 20vw;
+  
+}
+
+.ds2Square7 {
+  width: 15vw;
+  height: 20vw;
+  
+}
+
+.ds2Square8 {
+  width: 84.5vw;
+  height: 20vw;
+  
+}
+.ds2Square9 {
+  width: 40vw;
+  height: 20vw;
+
+}
+
+.ds2Square10 {
+  width: 25vw;
+  height: 20vw;
+  
+}
+
+.ds2Square11 {
+  width: 15vw;
+  height: 20vw;
+  
+}
+
+.ds2Square12 {
+  width: 84.5vw;
+  height: 20vw;
+  
+}
+
+
+/*VERTICAL ALTERNATING SQUARES 1*/
+
+.vas1Container {
+  border: solid;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.vas1Square1 {
+  width: 20vw;
+  height: 20vw;
+
+}
+
+.vas1Square2 {
+  width: 40vw;
+  height: 20vw;
+  
+}
+
+.vas1Square3 {
+  width: 20vw;
+  height: 20vw;
+  
+}
+
+.vas1Square4 {
+  width: 84.5vw;
+  height: 20vw;
+  
+}
+
+.vas1Square5 {
+  width: 20vw;
+  height: 20vw;
+
+}
+
+.vas1Square6 {
+  width: 40vw;
+  height: 20vw;
+}
+
+.vas1Square7 {
+  width: 20vw;
+  height: 20vw;
+  
+}
+
+.vas1Square8 {
+  width: 84.5vw;
+  height: 20vw;
+  
+}
+.vas1Square9 {
+  width: 20vw;
+  height: 20vw;
+
+}
+
+.vas1Square10 {
+  width: 40vw;
+  height: 20vw;
+  
+}
+
+.vas1Square11 {
+  width: 20vw;
+  height: 20vw;
+  
+}
+
+.vas1Square12 {
+  width: 84.5vw;
+  height: 20vw;
+  
+}
+
+/*Kaleidescope*/
+.kldsContainer {
+  border: solid;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.kldsSquare1 {
+  width: 30vw;
+  height: 20vw;
+  border: none;
+
+}
+
+.kldsSquare2 {
+  width: 20vw;
+  height: 20vw;
+  
+}
+
+.kldsSquare3 {
+  width: 30vw;
+  height: 20vw;
+  border: none;
+  
+}
+
+.kldsSquare4 {
+  width: 20vw;
+  height: 20vw;
+  
+}
+
+.kldsSquare5 {
+  width: 30vw;
+  height: 30vw;
+ 
+
+}
+
+.kldsSquare6 {
+  width: 20vw;
+  height: 20vw;
+}
+
+.kldsSquare7 {
+  width: 20vw;
+  height: 20vw;
+  
+}
+
+
+/*Horizontal Alternating Squares*/
+.hasContainer {
+  border: solid;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.hasSquare1 {
+  width: 20vw;
+  height: 20vw;
+  
+}
+
+.hasSquare2 {
+  width: 30vw;
+  height: 30vw;
+ 
+
+}
+
+.hasSquare3 {
+  width: 20vw;
+  height: 20vw;
+}
+
+
+
+/*Big Box 1*/
+
+.bbContainer {
+  border: solid;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.bbSquare1 {
+  width: 100vw;
+  height: 50vw;
+}
+
+.bbSquare2 {
+  width: 47.75vw;
+  height: 40vw;
+}
+
+.bbSquare3 {
+  width: 47.75vw;
+  height: 40vw;
+}
+
+.bbSquare4 {
+  width: 47.75vw;
+  height: 40vw;
+}
+
+.bbSquare5 {
+  width: 47.75vw;
+  height: 40vw;
+}
+
+.bbSquare6 {
+  width: 47.75vw;
+  height: 40vw;
+}
+
+.bbSquare7 {
+  width: 47.75vw;
+  height: 40vw;
+}
+
+.bbSquare8 {
+  width: 100vw;
+  height: 50vw;
+}
+
+
+
+/*BlockFrame*/
+.bfContainer {
+  border: solid;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.bfSquare1 {
+  width: 90vw;
+  height: 30vw;
+  
+}
+
+.bfSquare2 {
+  margin-top: -22.5vw;
+  width: 30vw;
+  height: 30vw;
+  background-color: white;
+ 
+
+}
+
+.bfSquare3 {
+  width: 20vw;
+  height: 20vw;
+}
+
+/*Booklet*/
+.bkltSquare {
+  border: solid;
+  margin-top: 1vw; 
+  margin-bottom: 1vw;
+}
+.bkltContainer {
+  border: solid;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.bkltSquare1 {
+  width: 49vw;
+  height: 52vw;
+}
+
+.bkltSquare2 {
+  width: 49vw;
+  height: 52vw;
+}
+
+/*TriFold*/
+.tfSquare {
+  border: solid;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  margin-top: 1vw; 
+  margin-bottom: 1vw;
+}
+.tfContainer {
+  border: solid;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.tfSquare1 {
+  width: 32vw;
+  height: 50vw;
+}
+
+.tfSquare2 {
+  width: 32vw;
+  height: 50vw;
+}
+.tfSquare3 {
+  width: 32vw;
+  height: 50vw;
+}
+
+/*Mondrian*/
+.monSquare {
+  border: solid;
+}
+
+.monContainer {
+  border: solid;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.monSquare1 {
+  width: 10vw;
+  height: 20vw;
+
+}
+
+.monSquare2 {
+  width: 25vw;
+  height: 20vw;
+  
+}
+
+.monSquare3 {
+  width: 15vw;
+  height: 20vw;
+  
+}
+
+.monSquare4 {
+  width: 40vw;
+  height: 40vw;
+  
+}
+
+.monSquare5 {
+  width: 20vw;
+  height: 20vw;
+  margin-top: -20vw;
+
+}
+
+.monSquare6 {
+  width: 10vw;
+  height: 20vw;
+  margin-top: -20vw;
+}
+
+.monSquare7 {
+  width: 20vw;
+  height: 20vw;
+  margin-top: -20vw;
+  
+}
+
+.monSquare8 {
+  width: 40vw;
+  height: 15.5vw;
+  
+}
+.monSquare9 {
+  width: 28.4vw;
+  height: 15.3vw;
+  margin-top: -15.5vw;
+  margin-left: -19vw;
+}
+
+.monSquare10 {
+  width: 22vw;
+  height: 15.3vw;
+  margin-top: -15.5vw;
+  margin-right:21vw;
+  
+}
+
+.monSquare11 {
+  width: 32vw;
+  height: 20vw;
+  margin-left: -20vw;
+  
+}
+
+.monSquare12 {
+  width: 40vw;
+  height: 20vw;
+  
+}
+.monSquare13 {
+  width: 15vw;
+  height: 20vw;
+  
+}
+
+.monSquare14 {
+  width: 15vw;
+  height: 20vw;
+  
+}
