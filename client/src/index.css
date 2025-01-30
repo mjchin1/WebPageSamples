@@ -508,8 +508,6 @@ img {
 /*Big Box 1*/
 
 .bbContainer {
-  border: solid;
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -518,18 +516,22 @@ img {
 }
 
 .bbSquare1 {
-  width: 100vw;
+  width: 98.5vw;
   height: 50vw;
+  border: none;
+  height: 60vw;
 }
 
 .bbSquare2 {
   width: 47.75vw;
   height: 40vw;
+  border: none;
 }
 
 .bbSquare3 {
   width: 47.75vw;
   height: 40vw;
+  border: none;
 }
 
 .bbSquare4 {
@@ -553,7 +555,7 @@ img {
 }
 
 .bbSquare8 {
-  width: 100vw;
+  width: 90vw;
   height: 50vw;
 }
 
@@ -601,7 +603,6 @@ img {
   margin-bottom: 1vw;
 }
 .bkltContainer {
-  border: solid;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -612,12 +613,22 @@ img {
 
 .bkltSquare1 {
   width: 49vw;
-  height: 52vw;
+  height: 50vw;
+  border: none;
+  margin-left: .25vw;
+  margin-right: .25vw;
 }
 
 .bkltSquare2 {
   width: 49vw;
-  height: 52vw;
+  height: 50vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
 }
 
 /*TriFold*/
