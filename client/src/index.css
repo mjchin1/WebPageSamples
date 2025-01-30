@@ -476,31 +476,31 @@ img {
 
 /*Horizontal Alternating Squares*/
 .hasContainer {
-  border: solid;
   width: 90vw;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
+  background-color: #9db7c9
 }
 
 .hasSquare1 {
   width: 20vw;
   height: 20vw;
-  
+  border: none;
 }
 
 .hasSquare2 {
   width: 30vw;
   height: 30vw;
- 
-
+  border: none;
 }
 
 .hasSquare3 {
   width: 20vw;
   height: 20vw;
+  border: none;
 }
 
 
