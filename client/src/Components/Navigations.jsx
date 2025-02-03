@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 export default function Navigations() {
     return (
         <nav className="navbar">
-            <Link to = '/'>Home</Link>
             <Link to = '/mos'>Mosaic</Link>
             <Link to = '/as'>Alternating Scale</Link>
             <Link to = '/ds2'>Descending Scale2</Link>
