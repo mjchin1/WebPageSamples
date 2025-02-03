@@ -2,8 +2,9 @@ import {Link} from 'react-router-dom';
 
 export default function Navigations() {
     return (
-        <nav>
-            <Link to = '/'>Mosaic</Link>
+        <nav className="navbar">
+            <Link to = '/'>Home</Link>
+            <Link to = '/mos'>Mosaic</Link>
             <Link to = '/as'>Alternating Scale</Link>
             <Link to = '/ds2'>Descending Scale2</Link>
             <Link to = '/vas1'>Vertical Alternating Squares1</Link>

@@ -35,6 +35,13 @@ h1 {
   line-height: 1.1;
 }
 
+a {
+display: flex;
+justify-content: right;
+padding-left: 10px;
+padding-right: 10px;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -517,10 +524,14 @@ img {
 }
 
 .bbSquare1 {
-  width: 98.5vw;
-  height: 50vw;
+  width: 100vw;
   border: none;
   height: 60vw;
+}
+
+.bbImage {
+  width: 100vw;
+  object-position: 0 1vw;
 }
 
 .bbSquare2 {

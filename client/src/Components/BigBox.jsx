@@ -24,11 +24,9 @@ export default function BigBox({}) {
 
   return (
     <>
-
-    <h1>Wayfarer</h1>
     <h1>Travel Photography</h1>
     <div className="bbContainer"> 
-    <div className="bbSquare1 square"><img src={lighthouse}/></div>
+    <div className="bbSquare1 square"><img className="bbImage" src={lighthouse}/></div>
     <div className="bbSquare2 square"><img src={frog}/></div>
     <div className="bbSquare3 square"><img src={swans}/></div>
     <div className="bbSquare4 square"><img src={park}/></div> 
