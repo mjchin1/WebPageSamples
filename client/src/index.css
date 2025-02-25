@@ -434,6 +434,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
+  background-color: #2a335c;
 }
 
 .kldsSquare1 {
@@ -446,6 +447,7 @@ img {
 .kldsSquare2 {
   width: 20vw;
   height: 20vw;
+  border: none;
   
 }
 
@@ -459,12 +461,14 @@ img {
 .kldsSquare4 {
   width: 20vw;
   height: 20vw;
+  border: none;
   
 }
 
 .kldsSquare5 {
   width: 30vw;
   height: 30vw;
+  border: none;
  
 
 }
@@ -472,11 +476,13 @@ img {
 .kldsSquare6 {
   width: 20vw;
   height: 20vw;
+  border: none;
 }
 
 .kldsSquare7 {
   width: 20vw;
   height: 20vw;
+  border: none;
   
 }
 
@@ -630,7 +636,7 @@ img {
 
 .bkltSquare1 {
   width: 49vw;
-  height: 50vw;
+  height: 45.5vw;
   border: none;
   margin-left: .25vw;
   margin-right: .25vw;
@@ -638,7 +644,7 @@ img {
 
 .bkltSquare2 {
   width: 49vw;
-  height: 50vw;
+  height: 45.5vw;
   margin-left: .25vw;
   margin-right: .25vw;
   border: none;

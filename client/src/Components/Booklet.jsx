@@ -9,7 +9,7 @@ export default function Booklet({}) {
 
   return (
     <>
-    <h1>Art & Objects</h1>
+    <h1>Booklet</h1>
     <div className="bkltContainer"> 
     <div className="bkltSquare1 bkltSquare"><img src={sculpture2}/></div> 
     <div className="bkltSquare2 bkltSquare"><img src={sculpture1}/></div>
