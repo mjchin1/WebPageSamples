@@ -27,12 +27,12 @@ export default function BigBox({}) {
     <h1 className="bbHeading">Big Box</h1>
     <div className="bbContainer"> 
     <div className="bbSquare1"><img className="bbImage" src={lighthouse}/></div>
-    <div className="sliderContainer">
-      <div className="sliderWrapper">
-        <div className="bbSquare2 bbsquare"><img src={frog}/></div>
-        <div className="bbSquare3 bbsquare"><img src={swans}/></div>
-      </div>
+    
+    <div className="bbContainer slider">
+      <div className="bbSquare2 bbsquare"><img src={frog}/></div>
+      <div className="bbSquare3 bbsquare"><img src={swans}/></div>
     </div>
+   
     <div className="bbSquare4 bbsquare"><img src={park}/></div> 
     <div className="bbSquare5 bbsquare"><img src={cactus}/></div>
     <div className="bbSquare8"><img src={sand1}/></div>
