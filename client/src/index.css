@@ -437,6 +437,59 @@ img {
   background-color: #2a335c;
 }
 
+@keyframes slideDown {
+  0% {
+    transform: translateY(-50vw)
+  }
+  100% {
+    transform: translateX(0vw)
+  }
+
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50vw)
+  }
+  100% {
+    transform: translateX(0vw)
+  }
+
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50vw)
+  }
+  100% {
+    transform: translateX(0vw)
+  }
+
+}
+
+@keyframes slideLeft{
+  0% {
+    transform: translateX(150vw)
+  }
+  100% {
+    transform: translateX(0vw)
+  }
+
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-150vw)
+  }
+  100% {
+    transform: translateX(0vw)
+  }
+
+}
+
+
+
+
 .kldsSquare1 {
   width: 30vw;
   height: 20vw;
@@ -448,6 +501,7 @@ img {
   width: 20vw;
   height: 20vw;
   border: none;
+  animation: slideDown 2s linear;
   
 }
 
@@ -462,6 +516,7 @@ img {
   width: 20vw;
   height: 20vw;
   border: none;
+  animation: slideRight 2s linear;
   
 }
 
@@ -477,12 +532,14 @@ img {
   width: 20vw;
   height: 20vw;
   border: none;
+  animation: slideLeft 2s linear;
 }
 
 .kldsSquare7 {
   width: 20vw;
   height: 20vw;
   border: none;
+  animation: slideUp 2s linear;
   
 }
 
