@@ -552,29 +552,52 @@ img {
 .bbSquare2 {
   width: 49vw;
   height: 40vw;
-  animation: slideright 20s infinite;
+  animation: slideright 5s linear;
 }
 
 .bbSquare3 {
   width: 49vw;
   height: 40vw;
   border: none;
-  animation: slideright 20s infinite;
+  animation: slideright 5s linear;
 }
-
 .bbSquare4 {
   width: 49vw;
   height: 40vw;
   border: none;
-  animation: slideleft 20s infinite;
+  animation: slideleft 5s linear;
 }
 
 .bbSquare5 {
   width: 49vw;
   height: 40vw;
   border: none;
-  animation: slideleft 20s infinite;
+  animation: slideleft 5s linear;
 }
+
+.centralTextDiv {
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralText {
+  font-size: 200px;
+  font-weight: 600;
+  color: black;
+  animation: textAppear 5s linear;
+}
+
+@keyframes textAppear {
+  0% {
+    opacity: 0
+  };
+  100% {
+    opacity: 1
+  };
+}
+
 
 .bbSquare6 {
   width: 49vw;
@@ -598,10 +621,10 @@ img {
   
   0% {
     transform: translateX(-100vw)
-  }
+  };
   100% {
-    transform: translateX(101vw)
-  }
+    transform: translateX(0vw)
+  };
 }
 
 @keyframes slideleft {
@@ -610,7 +633,7 @@ img {
     transform: translateX(101vw)
   }
   100% {
-    transform: translateX(-100vw)
+    transform: translateX(0vw)
   }
 }
 
