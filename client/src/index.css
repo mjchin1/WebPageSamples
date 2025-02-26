@@ -906,3 +906,16 @@ img {
   height: 20vw;
   
 }
+
+/* animations */
+
+.text1 {
+  animation: twist 1s linear;
+}
+
+@KeyFrames twist {
+  0% {
+    transform: rotate(1turn);
+  }
+}
+
