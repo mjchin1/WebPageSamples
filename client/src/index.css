@@ -524,7 +524,16 @@ img {
 .bbHeading {
   position: absolute;
   left: 1vw;
+  color: white;
 }
+
+.bbNav {
+  position: absolute;
+  right: 1vw;
+  top: 3vw;
+  color: white;
+}
+
 .bbsquare {
   border: none;
   margin-left: 5px;

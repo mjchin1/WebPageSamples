@@ -16,6 +16,8 @@ import stairs from '../assets/Photos/BigBox/stairs.jpg'
 import frog from '../assets/Photos/BigBox/frog.jpg'
 import sintra2 from '../assets/Photos/BigBox/sintra2.jpg'
 import cactus from '../assets/Photos/BigBox/cactus.jpg'
+import {Link} from 'react-router-dom';
+
 export default function BigBox({}) {
 
 
@@ -25,6 +27,8 @@ export default function BigBox({}) {
   return (
     <>
     <h1 className="bbHeading">Big Box</h1>
+    
+    <Link to = '/'><h3 className="bbNav">Home</h3></Link>
     <div className="bbContainer"> 
     <div className="bbSquare1"><img className="bbImage" src={lighthouse}/></div>
     <div className="bbSquare2 bbsquare"><img src={frog}/></div>
