@@ -21,7 +21,7 @@ function App() {
   return (
     <>
     <div>
-    <Link to = '/'>Home</Link>
+    {/* <Link to = '/'>Home</Link> */}
     <Routes>
       <Route path='/mos' element={<MosaicPage/> } />
       <Route path='/ds2' element={<DescendingScalePage2/> } />

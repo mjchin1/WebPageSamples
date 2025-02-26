@@ -24,14 +24,18 @@ export default function BigBox({}) {
 
   return (
     <>
-    <h1>Travel Photography</h1>
+    <h1 className="bbHeading">Big Box</h1>
     <div className="bbContainer"> 
-    <div className="bbSquare1 square"><img className="bbImage" src={lighthouse}/></div>
-    <div className="bbSquare2 square"><img src={frog}/></div>
-    <div className="bbSquare3 square"><img src={swans}/></div>
-    <div className="bbSquare4 square"><img src={park}/></div> 
-    <div className="bbSquare5 square"><img src={cactus}/></div>
-    <div className="bbSquare8 square"><img src={sand1}/></div>
+    <div className="bbSquare1"><img className="bbImage" src={lighthouse}/></div>
+    <div className="sliderContainer">
+      <div className="sliderWrapper">
+        <div className="bbSquare2 bbsquare"><img src={frog}/></div>
+        <div className="bbSquare3 bbsquare"><img src={swans}/></div>
+      </div>
+    </div>
+    <div className="bbSquare4 bbsquare"><img src={park}/></div> 
+    <div className="bbSquare5 bbsquare"><img src={cactus}/></div>
+    <div className="bbSquare8"><img src={sand1}/></div>
 
     </div>
     </>
