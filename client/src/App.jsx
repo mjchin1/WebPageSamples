@@ -14,6 +14,7 @@ import Booklet from './Components/Booklet'
 import TriFold from './Components/TriFold'
 import Mondrian from './Components/Mondrian'
 import Homepage from './Components/Homepage'
+import Animations from './Components/Animations'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
       <Route path='/tf' element={<TriFold/> } />
       <Route path='/mon' element={<Mondrian/> } />
       <Route path='/' element={<Homepage/> } />
+      <Route path='/animations' element={<Animations/> } />
     </Routes>
 
     </div>

@@ -12,6 +12,7 @@ export default function Navigations() {
             <Link to = '/bb'>Big Box</Link>
             <Link to = '/bklt'>Booklet</Link>
             <Link to = '/bf'>BlockFrame</Link>
+            <Link to = '/animations'>Animations</Link>
             {/* <Link to = '/tf'>Trifold</Link>
             <Link to = '/mon'>Mondrian</Link> */}
         </nav>
