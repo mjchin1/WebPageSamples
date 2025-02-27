@@ -739,6 +739,30 @@ img {
 }
 
 /*Booklet*/
+
+.bkltHeader {
+  text-align: left;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.bkltLogo {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+
+}
+
+.bkltNav {
+  display: flex;
+  justify-content: right;
+  color: black;
+
+}
 .bkltSquare {
   border: solid;
   margin-top: 1vw; 
@@ -759,6 +783,7 @@ img {
   border: none;
   margin-left: .25vw;
   margin-right: .25vw;
+  animation: slideOutLeft 10s linear;
 }
 
 .bkltSquare2 {
@@ -771,7 +796,34 @@ img {
   align-items: center;
   justify-content: center;
   font-size: 72px;
+  animation: slideOutRight 10s linear;
 }
+
+
+@keyframes slideOutLeft {
+
+  0% {
+    transform : translateX(0)
+
+  }
+  100% {
+    transform : translateX(-150vw)
+
+  }
+}
+
+@keyframes slideOutRight {
+  0% {
+    transform : translateX(0)
+
+  }
+  100% {
+    transform : translateX(150vw)
+
+  }
+  
+}
+
 
 /*TriFold*/
 .tfSquare {
@@ -913,7 +965,7 @@ img {
   animation: twist 1s linear;
 }
 
-@KeyFrames twist {
+@keyframes twist {
   0% {
     transform: rotate(1turn);
   }

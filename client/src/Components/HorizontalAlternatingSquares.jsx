@@ -10,7 +10,7 @@ export default function HorizontalAlternatingSquares({}) {
 
   return (
     <>
-    <h1>Millie's Tea Shop</h1>
+    <h1>Alternating Squares</h1>
     <div className="hasContainer"> 
     <div className="hasSquare1 square"><img src={SnackPlate}/></div> 
     <div className="hasSquare2 square"><img src={tea}/></div>
