@@ -20,7 +20,8 @@ export default function Booklet({}) {
     <div className="bkltContainer"> 
     <div className="bkltSquare1 bkltSquare"><img src={sculpture2}/></div> 
     <div className="bkltSquare2 bkltSquare"><img src={sculpture1}/></div>
-    {/* <div className="bkltSquare2 bkltSquare">Art and Objects</div> */}
+    <div className="bkltSquare3">Subtle Yet Striking. </div> 
+
     </div>
     </>
 );

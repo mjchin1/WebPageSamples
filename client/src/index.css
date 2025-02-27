@@ -799,6 +799,17 @@ img {
   animation: slideOutRight 10s linear;
 }
 
+.bkltSquare3 {
+  display: flex;
+  align-items: center;
+  height: 18vw;
+  font-size: 125px;
+  font-weight: 600;
+  animation: textAppear 7s linear;
+  color: black;
+  /* position: absolute; */
+}
+
 
 @keyframes slideOutLeft {
 
