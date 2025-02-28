@@ -18,12 +18,12 @@ export default function Kaleidescope({}) {
     <div className="kldsContainer"> 
 
     <div className="kldsSquare1 square"></div>
-    <div className="kldsSquare2 square"><img src={grapefruit}/></div>
+    <div className="kldsSquare2 square"></div>
     <div className="kldsSquare3 square"></div>
-    <div className="kldsSquare4 square"><img src={matcha}/></div> 
-    <div className="kldsSquare5 square"><img src={snackplate}/></div>
-    <div className="kldsSquare6 square"><img src={granola}/></div>
-    <div className="kldsSquare7 square"><img src={cupcake}/></div>
+    <div className="kldsSquare4 square"></div> 
+    <div className="kldsSquare5 square">Welcome.</div>
+    <div className="kldsSquare6 square"></div>
+    <div className="kldsSquare7 square"></div>
     
 
     </div>

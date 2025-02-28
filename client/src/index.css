@@ -427,14 +427,12 @@ img {
 
 /*Kaleidescope*/
 .kldsContainer {
-  border: solid;
   width: 90vw;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  background-color: #2a335c;
 }
 
 @keyframes slideDown {
@@ -501,7 +499,8 @@ img {
   width: 20vw;
   height: 20vw;
   border: none;
-  animation: slideDown 2s linear;
+  background-color: red;
+  animation: slideDown 3s linear;
   
 }
 
@@ -516,15 +515,20 @@ img {
   width: 20vw;
   height: 20vw;
   border: none;
-  animation: slideRight 2s linear;
-  
+  background-color: blue;
+  animation: slideRight 3s linear;
 }
 
 .kldsSquare5 {
   width: 30vw;
   height: 30vw;
   border: none;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 600;
+  animation: textAppear 3s linear
 
 }
 
@@ -532,14 +536,16 @@ img {
   width: 20vw;
   height: 20vw;
   border: none;
-  animation: slideLeft 2s linear;
+  background-color: yellow;
+  animation: slideLeft 3s linear;
 }
 
 .kldsSquare7 {
   width: 20vw;
   height: 20vw;
   border: none;
-  animation: slideUp 2s linear;
+  background-color: green;
+  animation: slideUp 3s linear;
   
 }
 
