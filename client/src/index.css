@@ -991,3 +991,24 @@ img {
   }
 }
 
+/*FixedBackground*/
+
+.backgroundPic {
+  width: 100vw;
+  height: 100vh;
+  opacity: .75;
+  object-fit: cover;
+}
+
+.pageContent {
+  width: 75vw;
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  border: solid;
+  margin-top: 15vh;
+  border-color: white;
+}

@@ -12,7 +12,8 @@ export default function FixedBackground() {
 
   return (
     <>
-    <div className="text"><img src={peaches}/></div> <br/>
+    <div className="backgroundPic"><img src={peaches}/></div> <br/>
+    <div className="pageContent"></div>
     </>
 );
 
