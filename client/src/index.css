@@ -1009,8 +1009,6 @@ img {
 }
 
 .pageContent {
-  width: 75vw;
-  height: 70vh;
   position: absolute;
   top: 0;
   right: 0;
@@ -1051,4 +1049,18 @@ img {
 .contactInfo {
 font-size: 25px;
 font-weight: 600;
+}
+
+.fbBackButton {
+  position: absolute;
+  float: right;
+  top: 2vh;
+  right: 2vw;
+  background: transparent; 
+  border-color: white;
+  border-width: thick;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+ 
 }
