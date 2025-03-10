@@ -1003,6 +1003,11 @@ img {
   left: 0;
 }
 
+.fbHeader {
+  font-size: 100px;
+  margin-top: 0;
+}
+
 .pageContent {
   width: 75vw;
   height: 70vh;
@@ -1015,6 +1020,7 @@ img {
   /* border: solid;
   border-color: white;
   border-width: thick;  */
+  color: white;
 }
 
 .menuCard {
@@ -1040,4 +1046,9 @@ img {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+.contactInfo {
+font-size: 25px;
+font-weight: 600;
 }
