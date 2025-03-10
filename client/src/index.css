@@ -998,6 +998,9 @@ img {
   height: 100vh;
   opacity: .75;
   object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .pageContent {
@@ -1008,7 +1011,33 @@ img {
   right: 0;
   left: 0;
   margin: 0 auto;
-  border: solid;
   margin-top: 15vh;
+  /* border: solid;
   border-color: white;
+  border-width: thick;  */
+}
+
+.menuCard {
+  width: 30vw;
+  height: 40vw;
+  margin: 0 auto; 
+  background-color: white;
+}
+
+.fixedBackgroundButtons {
+  margin: 0 auto;
+  width: 20vw;
+}
+.fbButton{
+  width: 15vw;
+  height: 4vw;
+  border: solid;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
