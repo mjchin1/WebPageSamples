@@ -11,7 +11,7 @@ export default function TriFold2({}) {
   return (
     <>
 
-    <h1>Trifold</h1>
+    <h1>Trifold 2</h1>
     <div className="tfContainer"> 
     <div className="tfSquare1 tfSquare"><img src={steps}/></div> 
     <div className="tfSquare2 tfSquare"><img src={pebbles}/></div>

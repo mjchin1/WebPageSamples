@@ -12,6 +12,7 @@ import BigBox from './Components/BigBox'
 import BlockFrame from './Components/BlockFrame'
 import Booklet from './Components/Booklet'
 import TriFold from './Components/TriFold'
+import TriFold2 from './Components/TriFold2'
 import Mondrian from './Components/Mondrian'
 import Homepage from './Components/Homepage'
 import Animations from './Components/Animations'
@@ -39,6 +40,7 @@ function App() {
       <Route path='/' element={<Homepage/> } />
       <Route path='/animations' element={<Animations/> } />
       <Route path='/fb' element={<FixedBackground/> } />
+      <Route path='/tf2' element={<TriFold2/> } />
     </Routes>
 
     </div>
