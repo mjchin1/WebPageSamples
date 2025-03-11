@@ -624,27 +624,27 @@ img {
 .bbSquare2 {
   width: 49vw;
   height: 40vw;
-  animation: slideright 5s linear;
+  /* animation: slideright 5s linear; */
 }
 
 .bbSquare3 {
   width: 49vw;
   height: 40vw;
   border: none;
-  animation: slideright 5s linear;
+  /* animation: slideright 5s linear; */
 }
 .bbSquare4 {
   width: 49vw;
   height: 40vw;
   border: none;
-  animation: slideleft 5s linear;
+  /* animation: slideleft 5s linear; */
 }
 
 .bbSquare5 {
   width: 49vw;
   height: 40vw;
   border: none;
-  animation: slideleft 5s linear;
+  /* animation: slideleft 5s linear; */
 }
 
 .centralTextDiv {
@@ -658,7 +658,7 @@ img {
   font-size: 200px;
   font-weight: 600;
   color: black;
-  animation: textAppear 5s linear;
+  /* animation: textAppear 5s linear; */
 }
 
 @keyframes textAppear {
@@ -1078,7 +1078,6 @@ animation-delay:6s;
 }
 
 
-
 /*Mondrian*/
 .monSquare {
   border: solid;
@@ -1203,11 +1202,13 @@ animation-delay:6s;
   position: fixed;
   top: 0;
   left: 0;
+ 
 }
 
 .fbHeader {
   font-size: 100px;
   margin-top: 0;
+  animation: textAppear2 1s;
 }
 
 .pageContent {
@@ -1233,6 +1234,7 @@ animation-delay:6s;
 .fixedBackgroundButtons {
   margin: 0 auto;
   width: 20vw;
+  
 }
 .fbButton{
   width: 15vw;
@@ -1248,23 +1250,59 @@ animation-delay:6s;
   margin: 0 auto;
 }
 
+.fbButton1 {
+  animation: textAppear2 3s;
+
+}
+.fbButton2 {
+  animation: textAppear2 4s;
+  
+}
+.fbButton3 {
+  animation: textAppear2 5s;
+  
+}
+
+.contactDiv {
+  animation: textAppear2 6s;
+
+}
+
 .contactInfo {
 font-size: 25px;
 font-weight: 600;
 }
-
 .fbBackButton {
   position: absolute;
   float: right;
   top: 2vh;
   right: 2vw;
-  background: transparent; 
-  border-color: white;
+  background: transparent;
+  border-color: #118a7e;
   border-width: thick;
-  color: white;
-  font-weight: 600;
+  color:#118a7e;
+  font-weight: 800;
   font-size: 20px;
+
  
+}
+
+@keyframes textAppear2 {
+  0% {
+    opacity: 0
+  };
+  25% {
+    opacity: 0
+  };
+  % {
+    opacity: 0
+  };
+  75% {
+    opacity: 0
+  };
+  100% {
+    opacity: 1
+  };
 }
 
 /* Slide */
