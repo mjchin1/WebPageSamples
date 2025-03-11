@@ -866,15 +866,18 @@ img {
 .tfSquare1 {
   width: 32vw;
   height: 50vw;
+  border: none;
 }
 
 .tfSquare2 {
   width: 32vw;
   height: 50vw;
+  border: none;
 }
 .tfSquare3 {
   width: 32vw;
   height: 50vw;
+  border: none;
 }
 
 /*Mondrian*/
