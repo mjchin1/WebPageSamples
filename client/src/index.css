@@ -671,6 +671,7 @@ img {
 }
 
 
+
 .bbSquare6 {
   width: 49vw;
   height: 40vw;
@@ -879,6 +880,59 @@ img {
   height: 50vw;
   border: none;
 }
+
+/*TriFold 2*/
+.tf2Square {
+  border: solid;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  margin-top: 1vw; 
+  margin-bottom: 1vw;
+}
+.tf2Container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.tf2Square1 {
+  width: 32vw;
+  height: 50vw;
+  border: none;
+  animation: imageAppear 1s linear;
+}
+
+.tf2Square2 {
+  width: 32vw;
+  height: 50vw;
+  border: none;
+  animation: imageAppear 2s linear;
+}
+.tf2Square3 {
+  width: 32vw;
+  height: 50vw;
+  border: none;
+  animation: imageAppear 3s linear;
+}
+
+@keyframes imageAppear {
+  0% {
+    opacity: 0
+  };
+  25% {
+    opacity: 0
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
+  };
+}
+
 
 /*Mondrian*/
 .monSquare {
