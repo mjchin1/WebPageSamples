@@ -17,6 +17,7 @@ import Mondrian from './Components/Mondrian'
 import Homepage from './Components/Homepage'
 import Animations from './Components/Animations'
 import FixedBackground from './Components/FixedBackground'
+import Slide from './Components/Slide'
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
       <Route path='/animations' element={<Animations/> } />
       <Route path='/fb' element={<FixedBackground/> } />
       <Route path='/tf2' element={<TriFold2/> } />
+      <Route path='/sld' element={<Slide/> } />
     </Routes>
 
     </div>

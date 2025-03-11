@@ -1266,3 +1266,48 @@ font-weight: 600;
   font-size: 20px;
  
 }
+
+/* Slide */
+
+.sldBackgroundPic{
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffcab0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: slideRight 5s;
+  animation: slideLeft 5s;
+}
+
+.sldHeader {
+  font-size: 300px;
+  margin-top: 0;
+}
+
+.sldPageContent {
+  position: absolute;
+  top: 30vh;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  /* border: solid;
+  border-color: white;
+  border-width: thick;  */
+  color: white;
+}
+
+.sldBackButton {
+  position: absolute;
+  float: right;
+  top: 2vh;
+  right: 2vw;
+  background: transparent; 
+  border-color: white;
+  border-width: thick;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+ 
+}
