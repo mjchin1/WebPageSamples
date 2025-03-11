@@ -847,6 +847,31 @@ img {
 
 
 /*TriFold*/
+
+.tfHeader {
+  text-align: left;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.tfLogo {
+  display: flex;
+  justify-content: left;
+  margin-left: 1vw;
+
+}
+
+.tfNav {
+  display: flex;
+  justify-content: right;
+  color: black;
+  margin-right: 1vw;
+
+}
 .tfSquare {
   border: solid;
   margin-left: .25vw;
@@ -928,11 +953,9 @@ height: 50vw;
 margin-left: .25vw;
 margin-right: .25vw;
 opacity: 0;
-animation: altImageAppear 1s;
-animation-fill-mode: forwards;
+animation: imageAppear 1s;
+animation-fill-mode: both;
 animation-delay:6s;
-
-
 }
 
 .bottomImage2 {
@@ -943,11 +966,9 @@ animation-delay:6s;
   margin-left: .25vw;
   margin-right: .25vw;
   opacity: 0;
-  animation: altImageAppear 2s;
+  animation: imageAppear 2s;
   animation-fill-mode: forwards;
   animation-delay:6s;
-
-  
 }
 
 .bottomImage3 {
@@ -958,11 +979,88 @@ animation-delay:6s;
   margin-left: .25vw;
   margin-right: .25vw;
   opacity: 0;
-  animation: altImageAppear 3s;
+  animation: imageAppear 3s;
   animation-fill-mode: forwards;
   animation-delay:6s;
   }
 
+.bottomImage4 {
+  position: absolute;
+  left: 1.25vw;
+  width: 32vw;
+  height: 50vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  opacity: 0;
+  animation: altImageAppear 1s;
+  animation-fill-mode: both;
+  animation-delay:12s;  
+    
+} 
+.bottomImage5 {
+  position: absolute;
+  left: 33.75vw;
+  width: 32vw;
+  height: 50vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  opacity: 0;
+  animation: altImageAppear 2s;
+  animation-fill-mode: forwards;
+  animation-delay:12s;
+}
+.bottomImage6 {
+  position: absolute;
+  left: 66.25vw;
+  width: 32vw;
+  height: 50vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  opacity: 0;
+  animation: altImageAppear 3s;
+  animation-fill-mode: forwards;
+  animation-delay:12s;
+}
+.bottomImage7 {
+  position: absolute;
+  left: 1.25vw;
+  width: 32vw;
+  height: 50vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  opacity: 0;
+  animation: altImageAppear 1s;
+  animation-fill-mode: both;
+  animation-delay:18s;
+
+
+}
+
+.bottomImage8 {
+  position: absolute;
+  left: 33.75vw;
+  width: 32vw;
+  height: 50vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  opacity: 0;
+  animation: altImageAppear 2s;
+  animation-fill-mode: forwards;
+  animation-delay:18s;
+}
+
+.bottomImage9 {
+  position: absolute;
+  left: 66.25vw;
+  width: 32vw;
+  height: 50vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  opacity: 0;
+  animation: altImageAppear 3s;
+  animation-fill-mode: forwards;
+  animation-delay:18s;
+  }
 
 @keyframes imageAppear {
   0% {
@@ -979,20 +1077,6 @@ animation-delay:6s;
   };
 }
 
-@keyframes altImageAppear {
-  0% {
-    opacity: 0
-  };
-  25% {
-    opacity: 0
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  };
-}
 
 
 /*Mondrian*/
