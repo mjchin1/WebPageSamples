@@ -761,14 +761,12 @@ img {
   display: flex;
   justify-content: left;
   margin-left: 10px;
-
 }
 
 .bkltNav {
   display: flex;
   justify-content: right;
   color: black;
-
 }
 .bkltSquare {
   border: solid;
@@ -844,6 +842,42 @@ img {
   }
   
 }
+
+@keyframes slideOutLeft {
+
+  0% {
+    transform : translateX(0)
+
+  }
+  100% {
+    transform : translateX(50vw)
+
+  }
+}
+
+@keyframes slideToPlaceLeft {
+  0% {
+    transform : translateX(50vw)
+    
+
+  }
+  100% {
+    transform : translateX(0)
+
+  }
+}
+
+  @keyframes slideToPlaceRight {
+    0% {
+      transform : translateX(-50vw)
+
+    }
+    100% {
+      transform : translateX(0)
+  
+    }
+  }
+  
 
 
 /*TriFold*/
@@ -1294,7 +1328,7 @@ font-weight: 600;
   25% {
     opacity: 0
   };
-  % {
+  50% {
     opacity: 0
   };
   75% {
