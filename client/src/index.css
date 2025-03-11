@@ -1349,7 +1349,6 @@ font-weight: 600;
   position: fixed;
   top: 0;
   left: 0;
-  animation: slideRight 5s;
   animation: slideLeft 5s;
 }
 
