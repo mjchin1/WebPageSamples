@@ -855,7 +855,6 @@ img {
   margin-bottom: 1vw;
 }
 .tfContainer {
- 
   width: 100vw;
   display: flex;
   align-items: center;
@@ -868,17 +867,20 @@ img {
   width: 32vw;
   height: 50vw;
   border: none;
+  animation: imageAppear 1s linear;
 }
 
 .tfSquare2 {
   width: 32vw;
   height: 50vw;
   border: none;
+  animation: imageAppear 2s linear;
 }
 .tfSquare3 {
   width: 32vw;
   height: 50vw;
   border: none;
+  animation: imageAppear 3s linear;
 }
 
 /*TriFold 2*/
@@ -918,6 +920,50 @@ img {
   animation: imageAppear 3s linear;
 }
 
+.bottomImage1 {
+position: absolute;
+left: 1.25vw;
+width: 32vw;
+height: 50vw;
+margin-left: .25vw;
+margin-right: .25vw;
+opacity: 0;
+animation: altImageAppear 1s;
+animation-fill-mode: forwards;
+animation-delay:6s;
+
+
+}
+
+.bottomImage2 {
+  position: absolute;
+  left: 33.75vw;
+  width: 32vw;
+  height: 50vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  opacity: 0;
+  animation: altImageAppear 2s;
+  animation-fill-mode: forwards;
+  animation-delay:6s;
+
+  
+}
+
+.bottomImage3 {
+  position: absolute;
+  left: 66.25vw;
+  width: 32vw;
+  height: 50vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  opacity: 0;
+  animation: altImageAppear 3s;
+  animation-fill-mode: forwards;
+  animation-delay:6s;
+  }
+
+
 @keyframes imageAppear {
   0% {
     opacity: 0
@@ -929,7 +975,22 @@ img {
     opacity: 0;
   }
   100% {
-    opacity: 1
+    opacity: 1;
+  };
+}
+
+@keyframes altImageAppear {
+  0% {
+    opacity: 0
+  };
+  25% {
+    opacity: 0
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   };
 }
 
