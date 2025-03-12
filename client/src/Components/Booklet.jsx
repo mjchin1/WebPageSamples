@@ -23,8 +23,8 @@ export default function Booklet({}) {
     <div className="bkltContainer"> 
     <div className="bkltSquare1 bkltSquare"><img src={sculpture2}/></div> 
     <div className="bkltSquare2 bkltSquare"><img src={sculpture1}/></div>
-    <div className="bkltSquare3">Subtle, Yet Striking. </div> 
-    <div className="bkltSquare4 bkltSquar"><img src={cups}/></div> 
+    {/* <div className="bkltSquare3"> A Beautiful Way to Tell Your Brand's Story. </div> <br/> 
+    <div className="bkltSquare4 bkltSquare"><img src={cups}/></div>  */}
 
     </div>
     </>

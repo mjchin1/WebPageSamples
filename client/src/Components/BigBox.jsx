@@ -34,7 +34,7 @@ export default function BigBox({}) {
     <div className="bbSquare2 bbsquare"><img src={frog}/></div>
     <div className="bbSquare3 bbsquare"><img src={swans}/></div> 
    </div>
-   <div className="centralTextDiv"> <p className="centralText">Welcome.</p></div>
+   <div className="centralTextDiv"> <p className="centralText">Big spaces for your big ideas.</p></div>
   
    <div className="bbContainer">
     <div className="bbSquare4 bbsquare"><img src={park}/></div> 

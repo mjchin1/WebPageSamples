@@ -655,7 +655,7 @@ img {
 }
 
 .centralText {
-  font-size: 200px;
+  font-size: 100px;
   font-weight: 600;
   color: black;
   /* animation: textAppear 5s linear; */
@@ -924,20 +924,20 @@ img {
 
 .tfSquare1 {
   width: 32vw;
-  height: 50vw;
+  height: 47vw;
   border: none;
   animation: imageAppear 1s linear;
 }
 
 .tfSquare2 {
   width: 32vw;
-  height: 50vw;
+  height: 47vw;
   border: none;
   animation: imageAppear 2s linear;
 }
 .tfSquare3 {
   width: 32vw;
-  height: 50vw;
+  height: 47vw;
   border: none;
   animation: imageAppear 3s linear;
 }
