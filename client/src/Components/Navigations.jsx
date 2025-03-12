@@ -16,6 +16,7 @@ export default function Navigations() {
             <Link to = '/fb'>Fixed Background</Link>
             <Link to = '/tf'>Trifold</Link> 
             <Link to = '/sld'>Slide</Link> 
+            <Link to = '/sldn'>Slide-In</Link> 
 
              {/* <Link to = '/tf2'>Trifold 2</Link>  */}
             {/* <Link to = '/mon'>Mondrian</Link> */} 
