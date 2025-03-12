@@ -1382,3 +1382,63 @@ font-weight: 600;
   font-size: 20px;
  
 }
+
+/* Slide-In */
+
+.sldnBackgroundPic{
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffcab0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sldnHeader {
+ margin-top: 0;
+ font-size: 300px;
+ position: absolute;
+ top: 30vh;
+ right: 0;
+ left: 0;
+ margin: 0 auto;
+ color: white;
+ z-index: 10;
+}
+
+.sldnPageContent {
+}
+
+.sldnBackButton {
+  position: absolute;
+  float: right;
+  top: 2vh;
+  right: 2vw;
+  background: transparent; 
+  border-color: white;
+  border-width: thick;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+ 
+}
+.slidingDivs {
+  display: inline-flex;
+}
+
+.sldnDiv1 {
+  width: 40vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideToPlaceRight 3s;
+}
+
+.sldnDiv2 {
+  width: 40vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideToPlaceLeft 3s;
+}

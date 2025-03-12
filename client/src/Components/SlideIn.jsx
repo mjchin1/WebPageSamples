@@ -22,8 +22,10 @@ export default function SlideIn() {
     <button className="sldnBackButton" onClick={navToHome}>Back</button>
     <div className="sldnPageContent"> 
     <h1 className="sldnHeader">Slide-In</h1>
-    <div className="sldnDiv1"></div>
-    <div className="sldnDiv2"></div>
+    <div className="slidingDivs">
+      <div className="sldnDiv1"></div>
+      <div className="sldnDiv2"></div>
+    </div>
 
     </div>
     </>
