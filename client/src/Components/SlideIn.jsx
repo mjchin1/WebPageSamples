@@ -1,7 +1,4 @@
-import pebbles from '../assets/Photos/Slide/pebbles.jpg'
-import steps from '../assets/Photos/Slide/steps.jpg'
 import { useNavigate } from 'react-router-dom'
-
 
 export default function SlideIn() {
 

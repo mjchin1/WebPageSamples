@@ -19,6 +19,7 @@ import Animations from './Components/Animations'
 import FixedBackground from './Components/FixedBackground'
 import Slide from './Components/Slide'
 import SlideIn from './Components/SlideIn'
+import Outline from './Components/Outline'
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
       <Route path='/tf2' element={<TriFold2/> } />
       <Route path='/sld' element={<Slide/> } />
       <Route path='/sldn' element={<SlideIn/> } />
+      <Route path='/outln' element={<Outline/> } />
     </Routes>
 
     </div>
