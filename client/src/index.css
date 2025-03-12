@@ -1451,16 +1451,19 @@ font-weight: 600;
   top: 0;
   left: 0;
 }
+.outlnPageContent {
+  display: flex; 
+  flex-direction: column;
+}
 
 .outlnHeader {
  margin-top: 0;
  font-size: 300px;
- position: absolute;
  top: 30vh;
  right: 0;
  left: 0;
  margin: 0 auto;
- color: white;
+ color: black;
  z-index: 10;
 }
 
@@ -1478,17 +1481,14 @@ font-weight: 600;
  
 }
 .outln1 {
-  width: 40vw;
-  color: black;
-  height: 40vw;
-  background-color: blue;
+  margin-right: 0;
+  border-bottom: solid;
+  border-width: thick;
   animation: slideToPlaceRight 3s;
+  
 }
-
 .outln2 {
-  width: 40vw;
-  color: black;
-  height: 40vw;
-  background-color: blue;
+  border-bottom: solid;
+  border-width: thick;
   animation: slideToPlaceLeft 3s;
 }
