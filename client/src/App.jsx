@@ -20,6 +20,10 @@ import FixedBackground from './Components/FixedBackground'
 import Slide from './Components/Slide'
 import SlideIn from './Components/SlideIn'
 import Outline from './Components/Outline'
+import MosaicGrid from './Components/MosaicGrid'
+import ChangingText from './Components/ChangingText'
+import Xylophone from './Components/Xylophone'
+
 
 function App() {
 
@@ -47,6 +51,9 @@ function App() {
       <Route path='/sld' element={<Slide/> } />
       <Route path='/sldn' element={<SlideIn/> } />
       <Route path='/outln' element={<Outline/> } />
+      <Route path='/ct' element={<ChangingText/> } />
+      <Route path='/mg' element={<MosaicGrid/> } />
+      <Route path='/xylp' element={<Xylophone/> } />
     </Routes>
 
     </div>

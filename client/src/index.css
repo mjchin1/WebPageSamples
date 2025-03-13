@@ -181,7 +181,7 @@ img {
   
 }
 
-/*DESCENDING SCALE TEMPLATE*/
+/*ALTERNATE SCALE TEMPLATE*/
 
 .alternatingScaleContainer {
   border: solid;
@@ -1527,6 +1527,248 @@ font-weight: 600;
   
 }
 .outln2 {
+  border-bottom: solid;
+  border-width: thick;
+  animation: slideToPlaceLeft 3s;
+}
+
+
+/*Mosaic Grid*/
+
+.mgSquare {
+  border: solid;
+  margin-left: .5vw;
+  margin-right: .5vw;
+  margin-top: .5vw; 
+  margin-bottom: .5vw;
+}
+
+.mgHeader {
+  text-align: left;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mgLogo {
+  display: flex;
+  justify-content: left;
+  margin-left: 1vw;
+}
+
+.mosaicGridContainer {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.mgSquare1 {
+  width: 40vw;
+  height: 19vw;
+
+}
+
+.mgSquare2 {
+  width: 25vw;
+  height: 19vw;
+  
+}
+
+.mgSquare3 {
+  width: 15vw;
+  height: 19vw;
+  
+}
+
+.mgSquare4 {
+  width: 15vw;
+  height: 19vw;
+  
+}
+
+.mgSquare5 {
+  width: 25vw;
+  height: 19vw;
+  
+}
+
+.mgSquare6 {
+  width: 40vw;
+  height: 19vw;
+  
+}
+
+/* Xylophone */
+
+.xylpHeader {
+  text-align: left;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.xylpLogo {
+  display: flex;
+  justify-content: left;
+  margin-left: 1vw;
+}
+
+.xylpBackgroundPic{
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffcab0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.xylpText {
+ margin-top: 0;
+ font-size: 200px;
+ position: absolute;
+ top: 35vh;
+ right: 0;
+ left: 0;
+ margin: 0 auto;
+ color: white;
+ z-index: 10;
+}
+
+.xylpBackButton {
+  position: absolute;
+  float: right;
+  top: 2vh;
+  right: 2vw;
+  background: transparent; 
+  border-color: blue;
+  border-width: thick;
+  color: blue;
+  font-weight: 600;
+  font-size: 20px;
+ 
+}
+.slidingDivs {
+  display: inline-flex;
+}
+
+.xylpSquare1 {
+  width: 10vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideDown 1s;
+}
+
+.xylpSquare2 {
+  width: 10vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideDown 2s;
+}
+
+.xylpSquare3 {
+  width: 10vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideDown 3s;
+}
+
+.xylpSquare4 {
+  width: 10vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideDown 4s;
+}
+
+.xylpSquare5 {
+  width: 10vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideDown 5s;
+}
+
+.xylpSquare6 {
+  width: 10vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideDown 6s;
+}
+
+.xylpSquare7 {
+  width: 10vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideDown 7s;
+}
+.xylpSquare8 {
+  width: 10vw;
+  color: black;
+  height: 40vw;
+  background-color: blue;
+  animation: slideDown 8s;
+}
+
+
+
+/* Changingtext */
+
+.ctBackgroundPic{
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffcab0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.ctPageContent {
+  display: flex; 
+  flex-direction: column;
+}
+
+.ctHeader {
+ margin-top: 0;
+ font-size: 200px;
+ top: 30vh;
+ right: 0;
+ left: 0;
+ margin: 0 auto;
+ color: black;
+ z-index: 10;
+}
+
+.ctBackButton {
+  position: absolute;
+  float: right;
+  top: 2vh;
+  right: 2vw;
+  background: transparent; 
+  border-color: black;
+  border-width: thick;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+ 
+}
+.ct1 {
+  margin-right: 0;
+  border-bottom: solid;
+  border-width: thick;
+  animation: slideToPlaceRight 3s;
+  
+}
+.ct2 {
   border-bottom: solid;
   border-width: thick;
   animation: slideToPlaceLeft 3s;

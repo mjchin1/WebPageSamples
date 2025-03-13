@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom';
 export default function Navigations() {
     return (
         <nav className="navbar">
-            {/* <Link to = '/mos'>Mosaic</Link>
-            <Link to = '/as'>Alternating Scale</Link>
-            <Link to = '/ds2'>Descending Scale2</Link> */}
+            {/* <Link to = '/mos'>Mosaic</Link> */}
+            {/* <Link to = '/as'>Alternating Scale</Link> */}
+            {/* <Link to = '/ds2'>Descending Scale2</Link>  */}
             {/* <Link to = '/vas1'>Vertical Alternating Squares1</Link> */}
             {/* <Link to = '/has'>Horizontal Alternating Squares</Link> */}
             {/* <Link to = '/klds'>Kaleidescope</Link> */}
@@ -18,9 +18,12 @@ export default function Navigations() {
             <Link to = '/sld'>Slide</Link> 
             <Link to = '/sldn'>Slide-In</Link> 
             <Link to = '/outln'>Outline</Link> 
+            <Link to = '/ct'>Changing Text</Link> 
+            <Link to = '/mg'>Mosaic Grid</Link> 
+            <Link to = '/xylp'>Xylophone</Link> 
 
              {/* <Link to = '/tf2'>Trifold 2</Link>  */}
-            {/* <Link to = '/mon'>Mondrian</Link> */} 
+            {/* <Link to = '/mon'>Mondrian</Link>  */}
         </nav>
     );
 };
