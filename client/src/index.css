@@ -1436,6 +1436,7 @@ font-weight: 600;
   height: 40vw;
   background-color: blue;
   animation: slideToPlaceRight 3s;
+  /* animation: slideInSlideOutRight 5s; */
 }
 
 .sldnDiv2 {
@@ -1443,10 +1444,42 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
+
   animation: slideToPlaceLeft 3s;
+  /* animation: slideInSlideOutLeft 5s; */
 }
 
-/* Slide-In */
+@keyframes slideInSlideOutRight{
+  0% {
+    transform : translateX(-150vw)
+  }
+
+  50% {
+    transform : translateX(0)
+  }
+    
+  100% {
+    transform: translateY(150vh)
+
+  }
+}
+
+@keyframes slideInSlideOutLeft{
+  0% {
+    transform : translateX(150vw)
+
+  }
+  50% {
+    transform : translateX(0)
+
+  }
+  100% {
+    transform : translateY(-150vw)
+  }
+}
+
+
+/* Outline */
 
 .outlnBackgroundPic{
   width: 100vw;
