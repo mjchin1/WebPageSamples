@@ -17,7 +17,7 @@ export default function Outline() {
   return (
     <>
   
-    <button className="outlnBackButton" onClick={navToHome}>Back</button>
+    <button className="outlnBackButton" onClick={navToHome}>Home</button>
     <div className="outlnPageContent"> 
     
     <div className="outln1"></div>  
