@@ -1746,7 +1746,7 @@ font-weight: 600;
  margin: 0 auto;
  color: black;
  z-index: 10;
- animation: changeText .3s;
+ animation: changeText .5s;
 }
 
 .ctBackButton {
@@ -1762,29 +1762,28 @@ font-weight: 600;
   font-size: 20px;
  
 }
-.ct1 {
-  margin-right: 0;
-  border-bottom: solid;
-  border-width: thick;
-  animation: slideToPlaceRight 3s;
-  
-}
-.ct2 {
-  border-bottom: solid;
-  border-width: thick;
-  animation: slideToPlaceLeft 3s;
-}
 
 @keyframes changeText {
  
   0% {
     font-family: "Libre Barcode 128", system-ui; 
   }
-  33% {
+  15% {
     font-family: "Flow Circular", system-ui;
     
   }
-  66% {
+  30% {
+  font-family: "Redacted Script", cursive;
+    
+  }
+  45% {
+    font-family: "Libre Barcode 128", system-ui; 
+  }
+  60% {
+    font-family: "Flow Circular", system-ui;
+    
+  }
+  75% {
   font-family: "Redacted Script", cursive;
     
   }
