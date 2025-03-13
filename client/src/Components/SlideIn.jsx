@@ -16,7 +16,7 @@ export default function SlideIn() {
   return (
     <>
   
-    <button className="sldnBackButton" onClick={navToHome}>Back</button>
+    <button className="sldnBackButton" onClick={navToHome}>Home</button>
     <div className="sldnPageContent"> 
     <h1 className="sldnHeader">Slide-In</h1>
     <div className="slidingDivs">

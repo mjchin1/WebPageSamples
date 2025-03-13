@@ -20,7 +20,7 @@ export default function Slide() {
     <>
     <div className="sldBackgroundPic"><img src={steps}/></div> <br/>
   
-    <button className="sldBackButton" onClick={navToHome}>Back</button>
+    <button className="sldBackButton" onClick={navToHome}>Home</button>
     <div className="sldPageContent"> 
     <h1 className="sldHeader">Slide</h1>
 
