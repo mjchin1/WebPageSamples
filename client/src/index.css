@@ -1746,6 +1746,7 @@ font-weight: 600;
  margin: 0 auto;
  color: black;
  z-index: 10;
+ animation: changeText .3s;
 }
 
 .ctBackButton {
@@ -1772,4 +1773,23 @@ font-weight: 600;
   border-bottom: solid;
   border-width: thick;
   animation: slideToPlaceLeft 3s;
+}
+
+@keyframes changeText {
+ 
+  0% {
+    font-family: "Libre Barcode 128", system-ui; 
+  }
+  33% {
+    font-family: "Flow Circular", system-ui;
+    
+  }
+  66% {
+  font-family: "Redacted Script", cursive;
+    
+  }
+  100% {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    
+  }
 }
