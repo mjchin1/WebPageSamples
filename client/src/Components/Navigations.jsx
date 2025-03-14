@@ -19,8 +19,8 @@ export default function Navigations() {
             <Link to = '/sld'>Slide</Link> 
             <Link to = '/sldn'>Slide-In</Link> 
             <Link to = '/outln'>Outline</Link> 
-            <Link to = '/ct'>Changing Text</Link> 
-            <Link to = '/mg'>Mosaic Grid</Link> 
+            {/* <Link to = '/ct'>Changing Text</Link> 
+            <Link to = '/mg'>Mosaic Grid</Link>  */}
             <Link to = '/xylp'>Xylophone</Link> 
             <Link to = '/bbk'>Big Book</Link> 
 
