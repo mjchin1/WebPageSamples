@@ -1660,7 +1660,8 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
-  animation: slideDown 1s;
+  animation: slideDown .5s;
+  /* animation: slideToPlaceLeft .5s; */
 }
 
 .xylpSquare2 {
@@ -1668,7 +1669,8 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
-  animation: slideDown 2s;
+  animation: slideDown 1s;
+  /* animation: slideToPlaceLeft 1s; */
 }
 
 .xylpSquare3 {
@@ -1676,7 +1678,8 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
-  animation: slideDown 3s;
+  animation: slideDown 1.5s;
+  /* animation: slideToPlaceLeft 1.5s; */
 }
 
 .xylpSquare4 {
@@ -1684,7 +1687,8 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
-  animation: slideDown 4s;
+  animation: slideDown 2s;
+  /* animation: slideToPlaceLeft 2s; */
 }
 
 .xylpSquare5 {
@@ -1692,7 +1696,8 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
-  animation: slideDown 5s;
+  animation: slideDown 2.5s;
+  /* animation: slideToPlaceLeft 2.5s; */
 }
 
 .xylpSquare6 {
@@ -1700,7 +1705,8 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
-  animation: slideDown 6s;
+  animation: slideDown 3s;
+  /* animation: slideToPlaceLeft 3s; */
 }
 
 .xylpSquare7 {
@@ -1708,14 +1714,16 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
-  animation: slideDown 7s;
+  animation: slideDown 3.5s;
+  /* animation: slideToPlaceLeft 3.5s; */
 }
 .xylpSquare8 {
   width: 10vw;
   color: black;
   height: 40vw;
   background-color: blue;
-  animation: slideDown 8s;
+  animation: slideDown 4s;
+  /* animation: slideToPlaceLeft 4s; */
 }
 
 
