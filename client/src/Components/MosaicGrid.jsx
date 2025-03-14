@@ -1,3 +1,11 @@
+
+import photo1 from '../assets/Photos/MosaicGrid/photo1.jpg'
+import photo2 from '../assets/Photos/MosaicGrid/photo2.jpg'
+import photo3 from '../assets/Photos/MosaicGrid/photo3.jpg'
+import photo4 from '../assets/Photos/MosaicGrid/photo4.jpg'
+import photo5 from '../assets/Photos/MosaicGrid/photo5.jpg'
+import photo6 from '../assets/Photos/MosaicGrid/photo6.jpg'
+
 import { useNavigate, Link } from 'react-router-dom'
 
 export default function MosaicGrid({}) {
@@ -15,12 +23,12 @@ export default function MosaicGrid({}) {
     </div>
 
     <div className="mosaicGridContainer"> 
-    <div className="mgSquare1 mgSquare">1</div>
-    <div className="mgSquare2 mgSquare">2</div>
-    <div className="mgSquare3 mgSquare">3</div>
-    <div className="mgSquare4 mgSquare">4</div> 
-    <div className="mgSquare5 mgSquare">5</div>
-    <div className="mgSquare6 mgSquare">6</div>
+    <div className="mgSquare1 mgSquare"><img src={photo1}/></div>
+    <div className="mgSquare2 mgSquare"><img src={photo2}/></div>
+    <div className="mgSquare3 mgSquare"><img src={photo3}/></div>
+    <div className="mgSquare4 mgSquare"><img src={photo4}/></div> 
+    <div className="mgSquare5 mgSquare"><img src={photo5}/></div>
+    <div className="mgSquare6 mgSquare"><img src={photo6}/></div>
     </div>
 
   
