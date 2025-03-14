@@ -23,6 +23,7 @@ import Outline from './Components/Outline'
 import MosaicGrid from './Components/MosaicGrid'
 import ChangingText from './Components/ChangingText'
 import Xylophone from './Components/Xylophone'
+import BigBook from './Components/BigBook'
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
       <Route path='/ct' element={<ChangingText/> } />
       <Route path='/mg' element={<MosaicGrid/> } />
       <Route path='/xylp' element={<Xylophone/> } />
+      <Route path='/bbk' element={<BigBook/> } />
     </Routes>
 
     </div>

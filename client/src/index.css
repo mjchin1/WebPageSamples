@@ -1799,3 +1799,111 @@ font-weight: 600;
     
   }
 }
+
+/*Booklet*/
+
+.bbkHeader {
+  text-align: left;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  
+}
+
+.bbkLogo {
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}
+
+.bbkNav {
+  display: flex;
+  justify-content: right;
+  color: black;
+  margin-right: 10px;
+}
+
+.bbkDivider {
+  width: 100vw;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.bbkText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.bbkSquare {
+  border: solid;
+  margin-top: .25vw; 
+  margin-bottom: .25vw;
+}
+.bbkContainer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.bbkSquare1 {
+  width: 49vw;
+  height:100vh;
+  border: none;
+  margin-left: .25vw;
+  margin-right: .25vw;
+}
+
+.bbkTopPhoto {
+  width: 49vw;
+  height: 100vh;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  margin-bottom: .5vw;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+}
+.bbkMidPhoto {
+  width: 49vw;
+  height: 100vh;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+}
+.bbkBottomPhoto {
+  width: 98vw;
+  height: 100vh;
+  margin-top: .5vw;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+}
+
+.bbkTextBlock {
+  width: 49vw;
+  height: 100vh;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+}
+.bbkContactHeader {
+  position: absolute;
+  color: white;
+}

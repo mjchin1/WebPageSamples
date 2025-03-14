@@ -21,6 +21,7 @@ export default function Navigations() {
             <Link to = '/ct'>Changing Text</Link> 
             <Link to = '/mg'>Mosaic Grid</Link> 
             <Link to = '/xylp'>Xylophone</Link> 
+            <Link to = '/bbk'>Big Book</Link> 
 
              {/* <Link to = '/tf2'>Trifold 2</Link>  */}
             {/* <Link to = '/mon'>Mondrian</Link>  */}
