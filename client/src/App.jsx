@@ -24,6 +24,7 @@ import MosaicGrid from './Components/MosaicGrid'
 import ChangingText from './Components/ChangingText'
 import Xylophone from './Components/Xylophone'
 import BigBook from './Components/BigBook'
+import Booklet2 from './Components/Booklet2'
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <Route path='/klds' element={<Kaleidescope/> } />
       <Route path='/bb' element={<BigBox/> } />
       <Route path='/bklt' element={<Booklet/> } />
+      <Route path='/bklt2' element={<Booklet2/> } />
       <Route path='/bf' element={<BlockFrame/> } />
       <Route path='/tf' element={<TriFold/> } />
       <Route path='/mon' element={<Mondrian/> } />

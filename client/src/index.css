@@ -759,8 +759,6 @@ img {
   width: 100vw;
   justify-content: space-between;
   align-items: center;
-
-
 }
 
 .bkltLogo {
@@ -790,40 +788,36 @@ img {
 
 .bkltSquare1 {
   width: 49vw;
-  height: 45.5vw;
-  border: none;
+  height: 46vw;
   margin-left: .25vw;
   margin-right: .25vw;
+  border: none;
+  display: flex;
+  align-items: end;
+  justify-content: center;
 }
 
 .bkltSquare2 {
   width: 49vw;
-  height: 45.5vw;
+  height: 46vw;
   margin-left: .25vw;
   margin-right: .25vw;
   border: none;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
-  font-size: 72px;
 }
-
-.bkltSquare3 {
-  display: flex;
-  align-items: center;
-  height: 18vw;
-  font-size: 125px;
-  font-weight: 600;
-  animation: textAppear;
-  animation-timeline: view();
-  color: black;
-  /* position: absolute; */
+.bkltHPButton {
+  position: absolute;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 200;
+  background-color: transparent;
+  color: white;
+  border: solid;
+  border-radius: 5%;
+  /* text-decoration: underline; */
 }
-
-.bkltSquare4 {
-  width: 100vw;
-}
-
 
 @keyframes slideOutLeft {
 
@@ -883,6 +877,74 @@ img {
   
     }
   }
+
+  /*Booklet*/
+
+.bklt2Header {
+  text-align: left;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bklt2Logo {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+}
+
+.bklt2Nav {
+  display: flex;
+  justify-content: right;
+  color: black;
+}
+.bklt2Square {
+  border: solid;
+  margin-top: 1vw; 
+  margin-bottom: 1vw;
+}
+.bklt2Container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.bklt2Square1 {
+  width: 49vw;
+  height: 46vh;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  border: none;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.bklt2Square2 {
+  width: 49vw;
+  height: 46vh;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  border: none;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.bklt2HPButton {
+  position: absolute;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 200;
+  background-color: transparent;
+  color: white;
+  border: solid;
+  border-radius: 5%;
+  /* text-decoration: underline; */
+}
   
 
 
