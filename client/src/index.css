@@ -1432,9 +1432,7 @@ font-weight: 600;
 .sldBackgroundPic{
   width: 100vw;
   height: 100vh;
-  background-color: #ffcab0;
   object-fit: cover;
-  position: fixed;
   top: 0;
   left: 0;
   animation: slideLeft 5s;
@@ -1450,10 +1448,8 @@ font-weight: 600;
   top: 30vh;
   right: 0;
   left: 0;
+  bottom: 0;
   margin: 0 auto;
-  /* border: solid;
-  border-color: white;
-  border-width: thick;  */
   color: white;
 }
 
@@ -1471,12 +1467,72 @@ font-weight: 600;
  
 }
 
+.sldFooter {
+  background-color:#fff6f6;
+}
+
+.sldContentBlock1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffe0e0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* animation: slideRight;
+  animation-timeline: view();
+  animation-range: entry 0; */
+}
+
+.sldcb1Content {
+  width: 30vw;
+  height: 30vw;
+  border: solid;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  /* animation: slideRight;
+  animation-timeline: view();
+  animation-range: entry 0; */
+}
+
+
+.sldContentBlock2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f9ecec;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* animation: slideLeft;
+  animation-timeline: view();
+  animation-range: entry 0; */
+}
+
+.sldcb2Content {
+  width: 46vw;
+  height: 90vh;
+  border: solid;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* animation: slideLeft;
+  animation-timeline: view();
+  animation-range: entry 0; */
+}
+
+.sldCBText {
+  font-size: 40px;
+}
+
+
+
 /* Slide-In */
 
 .sldnBackgroundPic{
   width: 100vw;
   height: 100vh;
-  background-color: #ffcab0;
+  background-color: blue;
   object-fit: cover;
   position: fixed;
   top: 0;
