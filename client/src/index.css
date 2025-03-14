@@ -620,10 +620,10 @@ img {
 
 .bbsquare {
   border: none;
-  margin-top: 1.5vw;
-  margin-bottom: 1.5vw;
-  margin-left: 1.5vw;
-  margin-right: 1.5vw;
+  margin-top: .5vw;
+  margin-bottom: .5vw;
+  margin-left: .5vw;
+  margin-right: .5vw;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -700,7 +700,7 @@ img {
   font-weight: 700;
 }
 .bbSquare8 {
-  width: 97vw;
+  width: 100vw;
   height: 50vw;
   border: none;
   margin-top: .5vw;
