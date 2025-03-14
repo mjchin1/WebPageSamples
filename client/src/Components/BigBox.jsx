@@ -43,7 +43,7 @@ export default function BigBox({}) {
     <div className="bbTextBlock">Bringing beauty to the world one photo at a time. </div>
     <div className="bbSquare8"><img src={sand1}/></div>
     </div>
-    <div className="footer">© 2025</div>
+    <div className="footer bbFooter">© 2025</div>
     </>
 );
 

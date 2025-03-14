@@ -613,6 +613,12 @@ img {
   color: white;
 }
 
+.bbFooter {
+  background-color: #113f67;
+  color: white;
+  margin-top: .25vw;
+}
+
 .bbsquare {
   border: none;
   margin-top: .25vw;
@@ -637,6 +643,7 @@ img {
   width: 100vw;
   border: none;
   height: 57vw;
+  margin-bottom: .25vw;
 }
 
 .bbTextBlock {
@@ -646,11 +653,16 @@ img {
   justify-content: center;
   align-items: center;
   font-size: 50px;
+  background-color: #113f67;
+  color: white;
+  margin-top: .25vw;
+  margin-bottom: .25vw;
 }
 
 .bbSquare2 {
   width: 49.75vw;
   height: 30vw;
+  margin-top: .5vw;
   /* animation: slideright 5s linear; */
 }
 
@@ -659,6 +671,7 @@ img {
   height: 30vw;
   margin-left: 2.5px;
   border: none;
+  margin-top: .5vw;
   /* animation: slideright 5s linear; */
 }
 .bbSquare4 {
@@ -684,20 +697,6 @@ img {
   font-weight: 700;
 }
 
-.centralTextDiv {
-  height: 20vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.centralText {
-  font-size: 100px;
-  font-weight: 600;
-  color: black;
-  /* animation: textAppear 5s linear; */
-}
-
 @keyframes textAppear {
   0% {
     opacity: 0
@@ -707,24 +706,12 @@ img {
   };
 }
 
-
-
-.bbSquare6 {
-  width: 49vw;
-  height: 40vw;
-  border: none;
-}
-
-.bbSquare7 {
-  width: 49vw;
-  height: 40vw;
-  border: none;
-}
-
 .bbSquare8 {
   width: 100vw;
   height: 50vw;
   border: none;
+  margin-top: .25vw;
+  margin-bottom: .25vw;
 }
 
 @keyframes slideright {
