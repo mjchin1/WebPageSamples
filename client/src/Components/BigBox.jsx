@@ -31,16 +31,19 @@ export default function BigBox({}) {
     <Link to = '/'><h3 className="bbNav">Home</h3></Link>
     <div className="bbContainer"> 
     <div className="bbSquare1"><img className="bbImage" src={lighthouse}/></div>
-    <div className="bbSquare2 bbsquare"><img src={frog}/></div>
-    <div className="bbSquare3 bbsquare"><img src={swans}/></div> 
+    <div className="bbTextBlock">Get in touch to learn about our services. </div>
+    <div className="bbSquare2 bbsquare"><img src={frog}/> <button className="bbButton"> Shop </button></div>
+    <div className="bbSquare3 bbsquare"><img src={swans}/><button className="bbButton"> About </button></div> 
    </div>
-   <div className="centralTextDiv"> <p className="centralText">Big spaces for your big ideas.</p></div>
+   {/* <div className="centralTextDiv"> <p className="centralText">Big spaces for your big ideas.</p></div> */}
   
    <div className="bbContainer">
-    <div className="bbSquare4 bbsquare"><img src={park}/></div> 
-    <div className="bbSquare5 bbsquare"><img src={cactus}/></div>
+    <div className="bbSquare4 bbsquare"><img src={park}/> <button className="bbButton"> Gallery </button> </div> 
+    <div className="bbSquare5 bbsquare"><img src={cactus}/> <button className="bbButton"> Contact </button> </div>
+    <div className="bbTextBlock">Bringing beauty to the world one photo at a time. </div>
     <div className="bbSquare8"><img src={sand1}/></div>
     </div>
+    <div className="footer">© 2025</div>
     </>
 );
 

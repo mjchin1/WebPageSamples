@@ -98,6 +98,16 @@ img {
  object-fit: cover;
 }
 
+.footer {
+  width: 100vw;
+  height: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: #EEEEEE;
+}
+
 
 /*MOSAIC TEMPLATE*/
 .mosaicContainer {
@@ -605,20 +615,22 @@ img {
 
 .bbsquare {
   border: none;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: .25vw;
+  margin-bottom: .25vw;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
 .bbContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
   width: 100vw;
   margin-top: 0;
+  margin-bottom: .25
 }
 
 .bbSquare1 {
@@ -627,30 +639,49 @@ img {
   height: 57vw;
 }
 
+.bbTextBlock {
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
 .bbSquare2 {
-  width: 49vw;
-  height: 40vw;
+  width: 49.75vw;
+  height: 30vw;
   /* animation: slideright 5s linear; */
 }
 
 .bbSquare3 {
-  width: 49vw;
-  height: 40vw;
+  width: 49.75vw;
+  height: 30vw;
+  margin-left: 2.5px;
   border: none;
   /* animation: slideright 5s linear; */
 }
 .bbSquare4 {
-  width: 49vw;
-  height: 40vw;
+  width: 49.75vw;
+  height: 30vw;
   border: none;
   /* animation: slideleft 5s linear; */
 }
 
 .bbSquare5 {
-  width: 49vw;
-  height: 40vw;
+  width: 49.75vw;
+  height: 30vw;
   border: none;
   /* animation: slideleft 5s linear; */
+}
+
+.bbButton {
+  position: absolute;
+  font-size: 30px;
+  background-color: transparent;
+  border: solid;
+  color: white;
+  font-weight: 700;
 }
 
 .centralTextDiv {
