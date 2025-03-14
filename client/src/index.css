@@ -100,7 +100,7 @@ img {
 
 .footer {
   width: 100vw;
-  height: 25vw;
+  height: 30vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -614,7 +614,7 @@ img {
 }
 
 .bbFooter {
-  background-color: #113f67;
+  background-color:#38598b;
   color: white;
 }
 
@@ -655,12 +655,10 @@ img {
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  background-color: white;
-  color: black;
+  background-color: #38598b;
+  color: white;
   margin-top: .5vw;
   margin-bottom: .25vw;
-  /* margin-left: 1.5vw;
-  margin-right: 1.5vw; */
 }
 
 .bbSquare2 {
@@ -700,10 +698,11 @@ img {
   font-weight: 700;
 }
 .bbSquare8 {
-  width: 100vw;
+  width: 97vw;
   height: 50vw;
   border: none;
   margin-top: .5vw;
+  margin-bottom: 1vw;
 }
 
 
