@@ -21,7 +21,7 @@ export default function ChangingText() {
     <div className="ctPageContent"> 
     
    
-    <h1 className="ctHeader">Changing Text</h1>
+    <h1 className="ctHeader">ChangingText</h1>
 
 
     </div>

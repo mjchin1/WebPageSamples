@@ -616,13 +616,14 @@ img {
 .bbFooter {
   background-color: #113f67;
   color: white;
-  margin-top: .25vw;
 }
 
 .bbsquare {
   border: none;
-  margin-top: .25vw;
-  margin-bottom: .25vw;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -631,12 +632,13 @@ img {
 .bbContainer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
   width: 100vw;
   margin-top: 0;
-  margin-bottom: .25
+  margin-bottom: .25;
+  background-color: #113f67;
 }
 
 .bbSquare1 {
@@ -647,42 +649,43 @@ img {
 }
 
 .bbTextBlock {
-  width: 100vw;
+  width: 97vw;
   height: 50vw;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  background-color: #113f67;
-  color: white;
-  margin-top: .25vw;
+  background-color: white;
+  color: black;
+  margin-top: .5vw;
   margin-bottom: .25vw;
+  /* margin-left: 1.5vw;
+  margin-right: 1.5vw; */
 }
 
 .bbSquare2 {
-  width: 49.75vw;
+  width: 48vw;
   height: 30vw;
   margin-top: .5vw;
   /* animation: slideright 5s linear; */
 }
 
 .bbSquare3 {
-  width: 49.75vw;
+  width: 48vw;
   height: 30vw;
-  margin-left: 2.5px;
   border: none;
   margin-top: .5vw;
   /* animation: slideright 5s linear; */
 }
 .bbSquare4 {
-  width: 49.75vw;
+  width: 48vw;
   height: 30vw;
   border: none;
   /* animation: slideleft 5s linear; */
 }
 
 .bbSquare5 {
-  width: 49.75vw;
+  width: 48vw;
   height: 30vw;
   border: none;
   /* animation: slideleft 5s linear; */
@@ -696,6 +699,13 @@ img {
   color: white;
   font-weight: 700;
 }
+.bbSquare8 {
+  width: 97vw;
+  height: 50vw;
+  border: none;
+  margin-top: .5vw;
+}
+
 
 @keyframes textAppear {
   0% {
@@ -706,13 +716,6 @@ img {
   };
 }
 
-.bbSquare8 {
-  width: 100vw;
-  height: 50vw;
-  border: none;
-  margin-top: .25vw;
-  margin-bottom: .25vw;
-}
 
 @keyframes slideright {
   

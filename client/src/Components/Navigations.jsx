@@ -11,7 +11,7 @@ export default function Navigations() {
             {/* <Link to = '/klds'>Kaleidescope</Link> */}
             <Link to = '/bb'>Big Box</Link>
             <Link to = '/bklt'>Booklet</Link>
-            <Link to = '/bklt2'>Booklet 2</Link>
+            {/* <Link to = '/bklt2'>Booklet 2</Link> */}
             {/* <Link to = '/bf'>BlockFrame</Link> */}
             {/* <Link to = '/animations'>Animations</Link> */}
             {/* <Link to = '/fb'>Fixed Background</Link> */}
