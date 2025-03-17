@@ -1582,10 +1582,115 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
-
   animation: slideToPlaceLeft 3s;
   /* animation: slideInSlideOutLeft 5s; */
 }
+
+.sldnContentBlock1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sldnContentBlock2 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.sldnTextBlock {
+  border: solid;
+  width: 45vw;
+  height: 26vw;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sldnImageBlock {
+  border: solid;
+  width: 45vw;
+  height: 26vw;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sldnContentBlock3 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.sldnImageBlock2 {
+  border: solid;
+  width: 30vw;
+  height: 40vw;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sldnContentBlock4 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.sldnImageBlock4 {
+  border: solid;
+  width: 45vw;
+  height: 40vw;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sldnTextBlock4 {
+  border: solid;
+  width: 45vw;
+  height: 40vw;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
 
 @keyframes slideInSlideOutRight{
   0% {
