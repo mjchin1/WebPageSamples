@@ -22,6 +22,9 @@ export default function Xylophone() {
     <button className="xylpBackButton" onClick={navToHome}>Home</button>
 
     <div className="xylpPageContent"> 
+    
+   
+    <div className="xylpOpeningText">
     <h1 className="xylpText">Xylophone</h1>
     <div className="slidingDivs">
       <div className="xylpSquare1"></div>
@@ -32,6 +35,20 @@ export default function Xylophone() {
       <div className="xylpSquare6"></div>
       <div className="xylpSquare7"></div>
       <div className="xylpSquare8"></div>
+    </div>
+
+    </div>
+
+
+    <div className="xlypContentBlock2">
+      <div className="xlypCb2Block"></div>
+      <div className="xlypCb2Block"></div>
+      <div className="xlypCb2Block"></div>
+    </div>
+
+    <div className="xlypContentBlock3">
+      <div className="xlypCb3Block"></div>
+      <div className="xlypCb3Block"></div>
     </div>
 
     </div>

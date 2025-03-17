@@ -1908,7 +1908,6 @@ font-weight: 600;
 
 
 
-
 @keyframes disappear {
   0% {
     opacity: 1;
@@ -1994,28 +1993,35 @@ font-weight: 600;
 
 /* Xylophone */
 
-.xylpHeader {
-  text-align: left;
+.xylpOpeningText {
+  animation: slideUpDisappear 4s;
+  animation-fill-mode: forwards;
+  animation-delay:3s;
   display: flex;
-  width: 100vw;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: white;
+  opacity: 1;
+}
+
+@keyframes slideUpDisappear {
+  0% {
+    transform : translateY(0vh)
+  
+  }
+  100% {
+    transform : translateY(-100vh)
+    
+  }
 }
 
 .xylpLogo {
   display: flex;
   justify-content: left;
   margin-left: 1vw;
-}
-
-.xylpBackgroundPic{
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffcab0;
-  object-fit: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 .xylpText {
@@ -2114,9 +2120,59 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: blue;
-  animation: slideDown 4s;
+  animation: slideDown 3.55s;
   /* animation: slideToPlaceLeft 4s; */
 }
+
+.xlypContentBlock2 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xlypCb2Block {
+  border: solid;
+  width: 30vw;
+  height: 30vw;
+  color: black;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  animation: slideUpToPlace 8s;
+}
+
+@keyframes slideUpToPlace {
+  0% {
+    transform: translateY(150vh);
+  }
+  50% {
+    transform: translateY(100vh);
+  }
+
+  100% { 
+    transform: translateY(0vh);
+  }
+}
+
+.xlypContentBlock3 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xlypCb3Block {
+  border: solid;
+  width: 48vw;
+  height: 48vw;
+  color: black;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  animation: slideUpToPlace 8s;
+}
+
 
 
 
