@@ -1,6 +1,6 @@
 import { useNavigate, Link } from 'react-router-dom'
 
-import chicago from '../assets/Photos/Outline/chicago.jpg'
+import shore from '../assets/Photos/Outline/shore.jpg'
 
 
 export default function Outline() {
@@ -37,10 +37,39 @@ export default function Outline() {
     <h1 className="outlnLogo">Outline</h1>
     <Link to = '/'><h3 className="outlnNav">Home</h3></Link>
     </div>
-    
-      
-      <div className="outlnMainImage"><img src={chicago}/></div>
+      <div className="outlnMainImage"><img src={shore}/></div>
     </div>
+
+    <div className="outlnContentBlock3">
+     <div className="outlnCb3Block"> </div>
+     <div className="outlnCb3Block"> </div>
+    </div>
+
+    <div className="outlnContentBlock4">
+     <div className="outlnCb4Block"> </div>
+     <div className="outlnCb4Block"></div>
+     <div className="outlnCb4Block"></div>
+     <div className="outlnCb4Block"> </div>
+     <div className="outlnCb4Block"></div>
+     <div className="outlnCb4Block"></div>
+     <div className="outlnCb4Block"> </div>
+     <div className="outlnCb4Block"></div>
+    </div>
+
+    <div className="outlnContentBlock5">
+     <div className="outlnCb5Block"> </div>
+     <div className="outlnCb5Block"></div>
+    </div>
+
+    <div className="outlnContentBlock6">
+     <div className="outlnCb6Block"> </div>
+     <div className="outlnCb6Block"></div>
+     <div className="outlnCb6Block"></div>
+    </div>
+
+
+
+
 
     </div>
     </>
