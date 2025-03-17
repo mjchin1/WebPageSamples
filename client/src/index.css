@@ -1791,8 +1791,32 @@ font-weight: 600;
   justify-content: center;
   position: absolute;
   background-color: white;
+  animation: disappear 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 }
 
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  /* 25% {
+    opacity: 1;
+    
+  }
+  50% {
+    opacity: 1;
+    
+  }
+  75% {
+    opacity: 0;
+    
+  } */
+  100% {
+    opacity: 0;
+    
+  }
+}
 
 /*Mosaic Grid*/
 
