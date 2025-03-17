@@ -1747,6 +1747,10 @@ font-weight: 600;
  margin: 0 auto;
  color: black;
  z-index: 10;
+ height: 30vh;
+ display:flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .outlnBackButton {
@@ -1767,12 +1771,24 @@ font-weight: 600;
   border-bottom: solid;
   border-width: thick;
   animation: slideToPlaceRight 3s;
-  
+  width: 65vw;
+  margin: 0 auto;
 }
+
 .outln2 {
   border-bottom: solid;
   border-width: thick;
+  width: 65vw;
   animation: slideToPlaceLeft 3s;
+  margin: 0 auto;
+}
+
+.outlnContentBlock1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
