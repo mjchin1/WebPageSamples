@@ -2018,11 +2018,46 @@ font-weight: 600;
   }
 }
 
+.xylpHeader {
+  text-align: left;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  animation: delayedAppear 7.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes delayedAppear{
+  0% {
+    opacity: 0
+  }
+  25% {
+    opacity: 0
+  }
+  75% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+
 .xylpLogo {
   display: flex;
   justify-content: left;
-  margin-left: 1vw;
+  margin-left: 2vw;
+
 }
+
+.xylpNav {
+  display: flex;
+  justify-content: right;
+  color: black;
+  margin-right: 2vw;
+
+}
+
 
 .xylpText {
  margin-top: 0;
@@ -2168,10 +2203,33 @@ font-weight: 600;
   width: 48vw;
   height: 48vw;
   color: black;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  animation: slideUpToPlace 8s;
 }
+.xlypContentBlock4 {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xlypCb4Block {
+  border: solid;
+  width: 18vw;
+  height: 40vh;
+  color: black;
+  margin-left: .5vw;
+  margin-right: .5vw;
+}
+
+.xlypContentBlock5 {
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+}
+
 
 
 

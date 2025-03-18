@@ -2,6 +2,12 @@ import { useNavigate, Link } from 'react-router-dom'
 
 export default function Xylophone() {
 
+  function scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+
+  scrollToTop();
+
   const navigate = useNavigate()
 
   function navToHome() {
@@ -13,13 +19,6 @@ export default function Xylophone() {
 
   return (
     <>
-  
-    {/* <div className="tfHeader">
-    <h1 className="tfLogo">Xylophone</h1>
-    <Link to = '/'><h3 className="tfNav">Home</h3></Link>
-    </div> */}
-
-    <button className="xylpBackButton" onClick={navToHome}>Home</button>
 
     <div className="xylpPageContent"> 
     
@@ -39,8 +38,13 @@ export default function Xylophone() {
 
     </div>
 
+    <div className="xylpHeader">
+    <h1 className="xylpLogo">Xylophone</h1>
+    <Link to = '/'><h3 className="xylpNav">Home</h3></Link>
+    </div> 
 
     <div className="xlypContentBlock2">
+      
       <div className="xlypCb2Block"></div>
       <div className="xlypCb2Block"></div>
       <div className="xlypCb2Block"></div>
@@ -49,7 +53,23 @@ export default function Xylophone() {
     <div className="xlypContentBlock3">
       <div className="xlypCb3Block"></div>
       <div className="xlypCb3Block"></div>
+
     </div>
+
+    <div className="xlypContentBlock4">
+      <div className="xlypCb4Block"></div>
+      <div className="xlypCb4Block"></div>
+      <div className="xlypCb4Block"></div>
+      <div className="xlypCb4Block"></div>
+      <div className="xlypCb4Block"></div>
+    </div>
+
+    <div className="xlypContentBlock5">
+      <div className="xlypCb5Block"></div>
+    </div>
+
+
+    <div className="footer"> </div>
 
     </div>
     </>
