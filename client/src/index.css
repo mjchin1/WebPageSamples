@@ -2004,7 +2004,6 @@ font-weight: 600;
   width: 100vw;
   position: absolute;
   background-color: white;
-  opacity: 1;
 }
 
 @keyframes slideUpDisappear {
@@ -2026,6 +2025,7 @@ font-weight: 600;
   align-items: center;
   animation: delayedAppear 7.5s;
   animation-fill-mode: forwards;
+  border-bottom: solid;
 }
 @keyframes delayedAppear{
   0% {
@@ -2042,6 +2042,12 @@ font-weight: 600;
   }
 
 }
+
+.xylpLargeText {
+  font-size: 70px;
+  padding: 1vw;
+
+} 
 
 .xylpLogo {
   display: flex;
@@ -2092,7 +2098,7 @@ font-weight: 600;
   width: 10vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+    background-color: #004445;
   animation: slideDown .5s;
   /* animation: slideToPlaceLeft .5s; */
 }
@@ -2101,7 +2107,7 @@ font-weight: 600;
   width: 10vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+    background-color: #004445;
   animation: slideDown 1s;
   /* animation: slideToPlaceLeft 1s; */
 }
@@ -2110,7 +2116,7 @@ font-weight: 600;
   width: 10vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+    background-color: #004445;
   animation: slideDown 1.5s;
   /* animation: slideToPlaceLeft 1.5s; */
 }
@@ -2119,7 +2125,7 @@ font-weight: 600;
   width: 10vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+    background-color: #004445;
   animation: slideDown 2s;
   /* animation: slideToPlaceLeft 2s; */
 }
@@ -2128,7 +2134,7 @@ font-weight: 600;
   width: 10vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+    background-color: #004445;
   animation: slideDown 2.5s;
   /* animation: slideToPlaceLeft 2.5s; */
 }
@@ -2137,7 +2143,7 @@ font-weight: 600;
   width: 10vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+    background-color: #004445;
   animation: slideDown 3s;
   /* animation: slideToPlaceLeft 3s; */
 }
@@ -2146,7 +2152,7 @@ font-weight: 600;
   width: 10vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+    background-color: #004445;
   animation: slideDown 3.5s;
   /* animation: slideToPlaceLeft 3.5s; */
 }
@@ -2154,13 +2160,13 @@ font-weight: 600;
   width: 10vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+    background-color: #004445;
   animation: slideDown 3.55s;
   /* animation: slideToPlaceLeft 4s; */
 }
 
 .xlypContentBlock2 {
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -2168,13 +2174,12 @@ font-weight: 600;
 }
 
 .xlypCb2Block {
-  border: solid;
   width: 30vw;
   height: 30vw;
   color: black;
   margin-left: 1vw;
   margin-right: 1vw;
-  animation: slideUpToPlace 8s;
+  /* animation: slideUpToPlace 8s; */
 }
 
 @keyframes slideUpToPlace {
@@ -2196,20 +2201,53 @@ font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .xlypCb3Block {
-  border: solid;
   width: 48vw;
-  height: 48vw;
+  height: 55vw;
   color: black;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: -12vh;
+  animation: delayedAppear 7.5s;
+  margin-top: 1vh;
 }
+
+.xlypCb3Block2 {
+  width: 48vw;
+  height: 55vw;
+  color: black;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: -12vh;
+  animation: delayedAppear 7.5s;
+  margin-top: 1vh;
+  background-color: #004445;
+  color: white;
+}
+
+
+.outlinedBlock {
+  border: solid;
+}
+
 .xlypContentBlock4 {
   height: 70vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #004445;
 }
 
 .xlypCb4Block {
@@ -2222,13 +2260,32 @@ font-weight: 600;
 }
 
 .xlypContentBlock5 {
-  height:100vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid;
+  margin-top: -7vh;
+  animation: delayedAppear 7.5s;
 }
+
+.xylpcb5pic {
+  height: 75vh;
+  width: 95vw;
+}
+
+.breakline {
+  border-bottom: solid;
+  width: 60vw;
+  margin: 0 auto;
+
+}
+
+.verticalBreakline {
+  border-right: solid;
+
+}
+
 
 
 

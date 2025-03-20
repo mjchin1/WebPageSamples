@@ -1,12 +1,17 @@
 import { useNavigate, Link } from 'react-router-dom'
+import bookstore2 from '../assets/Photos/Xylophone/bookstore2.jpg'
+import books1 from '../assets/Photos/Xylophone/books1.jpg'
+import fiction from '../assets/Photos/Xylophone/fiction.jpg'
+import poetry from '../assets/Photos/Xylophone/poetry.jpg'
+import art from '../assets/Photos/Xylophone/art.jpg'
 
 export default function Xylophone() {
 
-  function scrollToTop() {
+  window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   }
 
-  scrollToTop();
+  window.onbeforeunload()
 
   const navigate = useNavigate()
 
@@ -39,22 +44,31 @@ export default function Xylophone() {
     </div>
 
     <div className="xylpHeader">
-    <h1 className="xylpLogo">Xylophone</h1>
+    <h1 className="xylpLogo">Xylophone Books</h1>
     <Link to = '/'><h3 className="xylpNav">Home</h3></Link>
     </div> 
 
-    <div className="xlypContentBlock2">
-      
-      <div className="xlypCb2Block"></div>
-      <div className="xlypCb2Block"></div>
-      <div className="xlypCb2Block"></div>
+    <div className="xlypContentBlock5">
+      <div className="xlypCb5Block"><img className="xylpcb5pic" src={books1}/></div>
     </div>
+
+    <div className="breakline"></div> <br/> <br/>
 
     <div className="xlypContentBlock3">
-      <div className="xlypCb3Block"></div>
-      <div className="xlypCb3Block"></div>
+      <div className="xlypCb3Block"><img src={bookstore2}/></div>
+      <div className="verticalBreakline"></div>
+      <div className="xlypCb3Block2"> <p className="xylpLargeText">A new adventure with every page. </p> </div>
+    </div> <br/> <br></br>
+    <div className="breakline"></div>
 
+    <div className="xlypContentBlock2">
+      
+      <div className="xlypCb2Block"><img src={art}/></div>
+      <div className="xlypCb2Block"><img src={fiction}/></div>
+      <div className="xlypCb2Block"><img src={poetry}/></div>
     </div>
+
+ 
 
     <div className="xlypContentBlock4">
       <div className="xlypCb4Block"></div>
@@ -64,9 +78,7 @@ export default function Xylophone() {
       <div className="xlypCb4Block"></div>
     </div>
 
-    <div className="xlypContentBlock5">
-      <div className="xlypCb5Block"></div>
-    </div>
+  
 
 
     <div className="footer"> </div>
