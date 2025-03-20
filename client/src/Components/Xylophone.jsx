@@ -4,6 +4,14 @@ import books1 from '../assets/Photos/Xylophone/books1.jpg'
 import fiction from '../assets/Photos/Xylophone/fiction.jpg'
 import poetry from '../assets/Photos/Xylophone/poetry.jpg'
 import art from '../assets/Photos/Xylophone/art.jpg'
+import book1 from '../assets/Photos/Xylophone/book1.jpg'
+import book2 from '../assets/Photos/Xylophone/book2.jpg'
+import book3 from '../assets/Photos/Xylophone/book3.jpg'
+import book4 from '../assets/Photos/Xylophone/book4.jpg'
+import book5 from '../assets/Photos/Xylophone/book5.jpg'
+import book6 from '../assets/Photos/Xylophone/book6.jpg'
+import bookstore3 from '../assets/Photos/Xylophone/bookstore3.jpg'
+import cafe2 from '../assets/Photos/Xylophone/cafe2.jpg'
 
 export default function Xylophone() {
 
@@ -71,16 +79,12 @@ export default function Xylophone() {
  
 
     <div className="xlypContentBlock4">
-      <div className="xlypCb4Block"></div>
-      <div className="xlypCb4Block"></div>
-      <div className="xlypCb4Block"></div>
-      <div className="xlypCb4Block"></div>
-      <div className="xlypCb4Block"></div>
+      <div className="xlypCb4Block"><img src={book1}/></div>
+      <div className="xlypCb4Block"><img src={book5}/></div>
+      <div className="xlypCb4Block"><img src={book3}/></div>
+      <div className="xlypCb4Block"><img src={book4}/></div>
+      <div className="xlypCb4Block"><img src={book2}/></div>
     </div>
-
-  
-
-
     <div className="footer"> </div>
 
     </div>
