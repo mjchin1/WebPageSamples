@@ -1779,19 +1779,6 @@ font-weight: 600;
  align-items: center;
 }
 
-/* .outlnBackButton {
-  position: absolute;
-  float: right;
-  top: 2vh;
-  right: 2vw;
-  background: transparent; 
-  border-color: black;
-  border-width: thick;
-  color: black;
-  font-weight: 600;
-  font-size: 20px;
- 
-} */
 .outln1 {
   margin-right: 0;
   border-bottom: solid;
@@ -1833,7 +1820,7 @@ font-weight: 600;
 }
 
 .outlnMainImage {
-  height: 89vh;
+  height: 75vh;
 }
 
 .outlnContentBlock3 {

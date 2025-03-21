@@ -1,6 +1,7 @@
 import { useNavigate, Link } from 'react-router-dom'
 
 import shore from '../assets/Photos/Outline/shore.jpg'
+import painting1 from '../assets/Photos/Outline/painting1.jpg'
 
 
 export default function Outline() {
@@ -34,10 +35,10 @@ export default function Outline() {
 
     <div className="outlnContentBlock2">
     <div className="outlnHeader2">
-    <h1 className="outlnLogo">Outline</h1>
+    <h1 className="outlnLogo">Outline Gallery</h1>
     <Link to = '/'><h3 className="outlnNav">Home</h3></Link>
     </div>
-      <div className="outlnMainImage"><img src={shore}/></div>
+      <div className="outlnMainImage"><img src={painting1}/></div>
     </div>
 
     <div className="outlnContentBlock3">
