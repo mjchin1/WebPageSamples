@@ -2,6 +2,8 @@ import { useNavigate, Link } from 'react-router-dom'
 
 import shore from '../assets/Photos/Outline/shore.jpg'
 import painting1 from '../assets/Photos/Outline/painting1.jpg'
+import painting2 from '../assets/Photos/Outline/painting2.jpg'
+import painting3 from '../assets/Photos/Outline/painting3.jpg'
 
 
 export default function Outline() {
@@ -42,8 +44,8 @@ export default function Outline() {
     </div>
 
     <div className="outlnContentBlock3">
-     <div className="outlnCb3Block"> </div>
-     <div className="outlnCb3Block"> </div>
+     <div className="outlnCb3Block"><img src={painting2}/></div>
+     <div className="outlnCb3Block"><img src={painting3}/></div>
     </div>
 
     <div className="outlnContentBlock4">

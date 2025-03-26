@@ -1832,11 +1832,12 @@ font-weight: 600;
   align-items: center;
 }
 .outlnCb3Block {
-  border: solid;
   width: 48vw;
   height: 50vw;
   justify-content: center;
   align-items: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .outlnContentBlock4 {
