@@ -18,15 +18,15 @@ export default function TriFold2({}) {
     <div className="tf2Container"> 
     <div className="tf2Square1 tf2Square">
       <img className="image1" src={steps}/>
-      <img className="bottomImage1" src={plant1}/>
+      {/* <img className="bottomImage1" src={plant1}/> */}
     </div> 
     <div className="tf2Square2 tf2Square">
       <img src={pebbles}/>
-      <img className="bottomImage2" src={plant2}/>
+      {/* <img className="bottomImage2" src={plant2}/> */}
       </div>
     <div className="tf2Square3 tf2Square">
       <img src={fabric}/>
-      <img className="bottomImage3" src={plant3}/>
+      {/* <img className="bottomImage3" src={plant3}/> */}
       </div>
     </div>
     </>

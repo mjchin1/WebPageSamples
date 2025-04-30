@@ -1052,6 +1052,7 @@ img {
   height: 50vw;
   border: none;
   animation: imageAppear 1s linear;
+  animation-fill-mode: forwards;
 }
 
 .tf2Square2 {
@@ -1059,6 +1060,7 @@ img {
   height: 50vw;
   border: none;
   animation: imageAppear 2s linear;
+
 }
 .tf2Square3 {
   width: 32vw;
@@ -1067,7 +1069,7 @@ img {
   animation: imageAppear 3s linear;
 }
 
-.bottomImage1 {
+/* .bottomImage1 {
 position: absolute;
 left: 1.25vw;
 width: 32vw;
@@ -1104,9 +1106,9 @@ animation-delay:6s;
   animation: imageAppear 3s;
   animation-fill-mode: forwards;
   animation-delay:6s;
-  }
+  } */
 
-.bottomImage4 {
+/* .bottomImage4 {
   position: absolute;
   left: 1.25vw;
   width: 32vw;
@@ -1182,7 +1184,7 @@ animation-delay:6s;
   animation: altImageAppear 3s;
   animation-fill-mode: forwards;
   animation-delay:18s;
-  }
+  } */
 
 @keyframes imageAppear {
   0% {
@@ -1198,6 +1200,26 @@ animation-delay:6s;
     opacity: 1;
   };
 }
+
+@keyframes imageAppearDisappear {
+  0% {
+    opacity: 0
+  };
+  25% {
+    opacity: 0
+  }
+  75% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  };
+}
+
+
 
 
 /*Mondrian*/
