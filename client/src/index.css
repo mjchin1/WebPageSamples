@@ -1045,28 +1045,39 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
+  /* animation: disappear 1s; 
+  animation-delay: 4s; 
+  animation-fill-mode: forwards */
 }
 
 .tf2Square1 {
   width: 32vw;
   height: 50vw;
   border: none;
-  animation: imageAppear 1s linear;
+  animation: imageAppear 1s, imageDisappear 1s;
+  /* animation: imageAppearDisappear 1s linear; */
   animation-fill-mode: forwards;
+  animation-delay: 0s, 3s;
 }
 
 .tf2Square2 {
   width: 32vw;
   height: 50vw;
   border: none;
-  animation: imageAppear 2s linear;
+  animation: imageAppear 2s, imageDisappear 1s;
+  /* animation: imageAppearDisappear 2s linear; */
+  animation-fill-mode: forwards;
+  animation-delay: 0s, 3.8s;
 
 }
 .tf2Square3 {
   width: 32vw;
   height: 50vw;
   border: none;
-  animation: imageAppear 3s linear;
+  animation: imageAppear 3s, imageDisappear 1s;
+  /* animation: imageAppearDisappear 3s linear; */
+  animation-fill-mode: forwards;
+  animation-delay: 0s, 4.6s;
 }
 
 /* .bottomImage1 {
@@ -1201,12 +1212,29 @@ animation-delay:6s;
   };
 }
 
+@keyframes imageDisappear {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+} 
+}
+
+
 @keyframes imageAppearDisappear {
   0% {
     opacity: 0
   };
   25% {
     opacity: 0
+  }
+  50% {
+    opacity: 1;
   }
   75% {
     opacity: 1;
