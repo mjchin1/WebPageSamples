@@ -1075,14 +1075,22 @@ img {
 }
 .tf2EnterLink {
   position: absolute;
-  text-decoration: underline;
   opacity: 0;
   font-size: 200px;
   margin-top: -1vw;
   animation: imageAppear 4s;
-  animation-delay: 2.5s;
+  /* animation-delay: 2.5s; */
+  animation-delay: 1s;
   animation-fill-mode: forwards;
+  background-color: white;
 }
+
+.tf2Outline {
+  width: 20vw;
+  border-bottom: solid;
+  color: black;
+}
+
 .tf2Square1 {
   width: 32vw;
   height: 47vw;
@@ -1100,7 +1108,8 @@ img {
   animation: imageAppear 2s, imageDisappear 1s;
   /* animation: imageAppearDisappear 2s linear; */
   animation-fill-mode: forwards;
-  animation-delay: 0s, 3.2s;
+  /* animation-delay: 0s, 3.2s; */
+  animation-delay: 0s, 2.5s;
 
 }
 .tf2Square3 {
@@ -1110,7 +1119,8 @@ img {
   animation: imageAppear 3s, imageDisappear 1s;
   /* animation: imageAppearDisappear 3s linear; */
   animation-fill-mode: forwards;
-  animation-delay: 0s, 3.9s;
+  /* animation-delay: 0s, 3.9s; */
+  animation-delay: 0s, 2.5s;
 }
 
 /* .bottomImage1 {
