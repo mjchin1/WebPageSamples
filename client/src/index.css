@@ -1031,6 +1031,30 @@ img {
 }
 
 /*TriFold 2*/
+.tf2Header {
+  text-align: left;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.tf2Logo {
+  display: flex;
+  justify-content: left;
+  margin-left: 1vw;
+
+}
+
+.tf2Nav {
+  display: flex;
+  justify-content: right;
+  color: black;
+  margin-right: 1vw;
+
+}
 .tf2Square {
   border: solid;
   margin-left: .25vw;

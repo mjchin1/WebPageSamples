@@ -1,9 +1,7 @@
+import {Link} from 'react-router-dom'
 import steps from '../assets/Photos/TriFold/steps.jpg'
 import fabric from '../assets/Photos/TriFold/fabric.jpg'
 import pebbles from '../assets/Photos/TriFold/pebbles.jpg'
-import plant1 from '../assets/Photos/TriFold/plant1.jpg'
-import plant2 from '../assets/Photos/TriFold/plant2.jpg'
-import plant3 from '../assets/Photos/TriFold/plant3.jpg'
 
 export default function TriFold2({}) {
 
@@ -14,7 +12,11 @@ export default function TriFold2({}) {
   return (
     <>
 
-    <h1>Trifold 2</h1>
+    <div className="tf2Header">
+    <h1 className="tf2Logo">Tri-Fold2</h1>
+    <Link to = '/'><h3 className="tf2Nav">Home</h3></Link>
+    </div>
+
     <div className="tf2Container"> 
       <div className="tf2Square1 tf2Square">
         <img className="image1" src={steps}/>
