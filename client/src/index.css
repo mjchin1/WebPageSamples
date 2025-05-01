@@ -2590,7 +2590,6 @@ font-weight: 600;
 .bbkBottomPhoto {
   width: 100vw;
   height: 100vh;
-  margin-top: .5vw;
   border: none;
   display: flex;
   align-items: center;
