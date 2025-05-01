@@ -16,18 +16,16 @@ export default function TriFold2({}) {
 
     <h1>Trifold 2</h1>
     <div className="tf2Container"> 
-    <div className="tf2Square1 tf2Square">
-      <img className="image1" src={steps}/>
-      {/* <img className="bottomImage1" src={plant1}/> */}
-    </div> 
-    <div className="tf2Square2 tf2Square">
-      <img src={pebbles}/>
-      {/* <img className="bottomImage2" src={plant2}/> */}
+      <div className="tf2Square1 tf2Square">
+        <img className="image1" src={steps}/>
+      </div> 
+      <div className="tf2Square2 tf2Square">
+        <img src={pebbles}/>
       </div>
-    <div className="tf2Square3 tf2Square">
-      <img src={fabric}/>
-      {/* <img className="bottomImage3" src={plant3}/> */}
-      </div>
+      <div className="tf2Square3 tf2Square">
+        <img src={fabric}/>
+       </div>
+       <p className="tf2EnterLink">Enter</p>
     </div>
     </>
 );

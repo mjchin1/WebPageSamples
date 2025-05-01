@@ -1049,35 +1049,44 @@ img {
   animation-delay: 4s; 
   animation-fill-mode: forwards */
 }
-
+.tf2EnterLink {
+  position: absolute;
+  text-decoration: underline;
+  opacity: 0;
+  font-size: 200px;
+  margin-top: -1vw;
+  animation: imageAppear 4s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
 .tf2Square1 {
   width: 32vw;
-  height: 50vw;
+  height: 47vw;
   border: none;
   animation: imageAppear 1s, imageDisappear 1s;
   /* animation: imageAppearDisappear 1s linear; */
   animation-fill-mode: forwards;
-  animation-delay: 0s, 3s;
+  animation-delay: 0s, 2.5s;
 }
 
 .tf2Square2 {
   width: 32vw;
-  height: 50vw;
+  height: 47vw;
   border: none;
   animation: imageAppear 2s, imageDisappear 1s;
   /* animation: imageAppearDisappear 2s linear; */
   animation-fill-mode: forwards;
-  animation-delay: 0s, 3.8s;
+  animation-delay: 0s, 3.2s;
 
 }
 .tf2Square3 {
   width: 32vw;
-  height: 50vw;
+  height: 47vw;
   border: none;
   animation: imageAppear 3s, imageDisappear 1s;
   /* animation: imageAppearDisappear 3s linear; */
   animation-fill-mode: forwards;
-  animation-delay: 0s, 4.6s;
+  animation-delay: 0s, 3.9s;
 }
 
 /* .bottomImage1 {
