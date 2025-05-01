@@ -2045,10 +2045,6 @@ font-weight: 600;
   display: flex;
   justify-content: left;
   margin-left: 1vw;
-  opacity: 0;
-  animation: imageAppear 2s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
 }
 
 .mosaicGridContainer {
