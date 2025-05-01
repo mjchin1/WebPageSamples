@@ -1983,49 +1983,86 @@ font-weight: 600;
   display: flex;
   justify-content: left;
   margin-left: 1vw;
+  opacity: 0;
+  animation: imageAppear 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 .mosaicGridContainer {
-  width: 90vw;
+  width: 100vw;
+  height: 85vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
+  margin-top: -1vw;
 }
 
 .mgSquare1 {
-  width: 41vw;
-  height: 20vw;
+  width: 50vw;
+  height: 22vw;
+  opacity: 0;
+  animation: imageAppear 1s;
+  animation-fill-mode: forwards;
 
 }
 
 .mgSquare2 {
-  width: 26vw;
-  height: 20vw;
+  width: 28vw;
+  height: 22vw;
+  opacity: 0;
+  animation: imageAppear 1s;
+  /* animation-delay: 2.5s; */
+  animation-delay: 1.6s;
+  animation-fill-mode: forwards;
   
 }
 
 .mgSquare3 {
-  width: 16vw;
-  height: 20vw;
+  width: 18vw;
+  height: 22vw;
+  opacity: 0;
+  animation: imageAppear 1s;
+  /* animation-delay: 1s; */
+  animation-delay: .8s;
+  animation-fill-mode: forwards;
   
 }
 
 .mgSquare4 {
-  width: 16vw;
-  height: 20vw;
+  width: 18vw;
+  height: 22vw;
+  margin-top: -1vw;
+  opacity: 0;
+  animation: imageAppear 1s;
+  /* animation-delay: 1.5s; */
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
   
 }
 
 .mgSquare5 {
-  width: 26vw;
-  height: 20vw;
+  width: 28vw;
+  height: 22vw;
+  margin-top: -1vw;
+  opacity: 0;
+  animation: imageAppear 1s;
+  /* animation-delay: 2s; */
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
   
 }
 
 .mgSquare6 {
-  width: 41vw;
-  height: 20vw;
+  width: 50vw;
+  height: 22vw;
+  margin-top: -1vw;
+  opacity: 0;
+  animation: imageAppear 1s;
+  /* animation-delay: .5s; */
+  animation-delay: .4s;
+  animation-fill-mode: forwards;
   
 }
 
