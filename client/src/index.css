@@ -1971,12 +1971,31 @@ font-weight: 600;
   margin-bottom: .5vw;
 }
 
+.mgButton {
+  margin-top: -3vw;
+  background-color: white;
+  border: solid;
+  font-weight: 700;
+  font-size: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  opacity: 0;
+  animation: imageAppear 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+
+}
+
 .mgHeader {
   text-align: left;
   display: flex;
   width: 100vw;
   justify-content: space-between;
   align-items: center;
+  margin-top: -2vw;
 }
 
 .mgLogo {
@@ -1991,26 +2010,27 @@ font-weight: 600;
 
 .mosaicGridContainer {
   width: 100vw;
-  height: 85vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
   margin-top: -1vw;
+  
 }
 
 .mgSquare1 {
   width: 50vw;
-  height: 22vw;
+  height: 21vw;
   opacity: 0;
   animation: imageAppear 1s;
   animation-fill-mode: forwards;
-
+  border-radius: 50%;
 }
 
 .mgSquare2 {
   width: 28vw;
-  height: 22vw;
+  height: 21vw;
   opacity: 0;
   animation: imageAppear 1s;
   /* animation-delay: 2.5s; */
@@ -2021,7 +2041,7 @@ font-weight: 600;
 
 .mgSquare3 {
   width: 18vw;
-  height: 22vw;
+  height: 21vw;
   opacity: 0;
   animation: imageAppear 1s;
   /* animation-delay: 1s; */
@@ -2032,7 +2052,7 @@ font-weight: 600;
 
 .mgSquare4 {
   width: 18vw;
-  height: 22vw;
+  height: 21vw;
   margin-top: -1vw;
   opacity: 0;
   animation: imageAppear 1s;
@@ -2044,7 +2064,7 @@ font-weight: 600;
 
 .mgSquare5 {
   width: 28vw;
-  height: 22vw;
+  height: 21vw;
   margin-top: -1vw;
   opacity: 0;
   animation: imageAppear 1s;
@@ -2056,7 +2076,7 @@ font-weight: 600;
 
 .mgSquare6 {
   width: 50vw;
-  height: 22vw;
+  height: 21vw;
   margin-top: -1vw;
   opacity: 0;
   animation: imageAppear 1s;

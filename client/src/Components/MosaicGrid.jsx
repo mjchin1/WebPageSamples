@@ -31,6 +31,8 @@ export default function MosaicGrid({}) {
     <div className="mgSquare6 mgSquare"><img src={photo6}/></div>
     </div>
 
+    <button className="mgButton">Enter</button>
+
   
     </>
 );
