@@ -18,7 +18,14 @@ export default function BigBook({}) {
 
 
     <div className="bbkContainer"> 
-    <div className="bbkSquare1 bbkTopPhoto"><img src={sculpture2}/></div> 
+      <div className="bbkSquare1">
+        <div className="bbkTopText">
+        <span>About</span>
+        <span>Services</span>
+        <span>Gallery</span>
+        </div>
+      
+      </div> 
     <div className="bbkSquare2 bbkTopPhoto"><img src={sculpture1}/></div>
     {/* <div className="bbkDivider">sample text</div> */}
     <div className="bbkSquare2 bbkTextBlock"><p className="bbkText">Visit the Shop</p></div>
