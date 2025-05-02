@@ -2539,7 +2539,6 @@ font-weight: 600;
   font-size: 50px;
 }
 .bbkSquare {
-  border: solid;
   margin-top: .25vw; 
   margin-bottom: .25vw;
 }
@@ -2557,6 +2556,7 @@ font-weight: 600;
   height:100vh;
   border: none;
   background-color: black;
+  margin-bottom: .25vw;
 }
 
 .bbkTopText {
@@ -2583,6 +2583,7 @@ font-weight: 600;
   align-items: center;
   justify-content: center;
   font-size: 72px;
+   margin-bottom: .25vw;
 }
 .bbkMidPhoto {
   width: 50vw;
@@ -2601,7 +2602,19 @@ font-weight: 600;
   align-items: center;
   justify-content: center;
   font-size: 72px;
+  margin-top: .25vw;
 }
+.bbkTopMidPhoto {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+  margin-bottom: .25vw;
+}
+
 
 .bbkTextBlock {
   width: 50vw;

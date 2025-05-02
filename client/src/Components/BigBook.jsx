@@ -24,14 +24,14 @@ export default function BigBook({}) {
     <div className="bbkContainer"> 
       <div className="bbkSquare1">
         <div className="bbkTopText">
-        <span>About</span>
-        <span>Services</span>
-        <span>Gallery</span>
+        <span>Objects</span>
+        <span>Lighting</span>
+        <span>Furniture</span>
         </div>
       </div> 
     <div className="bbkSquare2 bbkTopPhoto"><img src={stillLife}/></div>
     {/* <div className="bbkDivider">sample text</div> */}
-    <div className="bbkBottomPhoto"><p className="bbkContactHeader"></p> <img src={vestibule}/></div>
+    <div className="bbkTopMidPhoto"><p className="bbkContactHeader"></p> <img src={vestibule}/></div>
     <div className="bbkSquare2 bbkTextBlock"><p className="bbkText">Objects</p></div>
     <div className="bbkSquare2 bbkMidPhoto"><img src={mountains}/></div>
     <div className="bbkSquare1 bbkMidPhoto"><img src={sphereLamp}/></div> 
