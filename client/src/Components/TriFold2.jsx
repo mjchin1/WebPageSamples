@@ -27,7 +27,10 @@ export default function TriFold2({}) {
       <div className="tf2Square3 tf2Square">
         <img src={earring}/>
        </div>
-       <p className="tf2EnterLink">Enter</p>
+      <div className= "tf2HomePageContent">
+       <span className= "tf2HomePageText">Simple. Timeless. Inspiring.</span> <br/>
+       <button className="tf2EnterLink">Enter</button>
+       </div>
     </div>
     </>
 );
