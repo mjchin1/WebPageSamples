@@ -1734,7 +1734,7 @@ font-weight: 600;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  
 }
 
 .sldnTextBlock {
@@ -1770,7 +1770,6 @@ font-weight: 600;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: blue;
 }
 
 .sldnImageBlock2 {
@@ -1793,7 +1792,6 @@ font-weight: 600;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: blue;
 }
 
 .sldnImageBlock4 {
