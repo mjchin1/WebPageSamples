@@ -8,10 +8,9 @@ export default function SlideIn() {
     navigate("/")
     
   }
-
-
-
-
+  function scroll() {
+    window.scroll(0, 900)
+  }
 
   return (
     <>
@@ -20,11 +19,15 @@ export default function SlideIn() {
     <div className="sldnPageContent"> 
     
     <div className="sldnContentBlock1">
-      <h1 className="sldnHeader">Slide-In</h1>
+      
       <div className="slidingDivs">
+        <h1 className="sldnHeader">Slide-In</h1>
         <div className="sldnDiv1"></div>
         <div className="sldnDiv2"></div>
-      </div>
+      </div> <br/>
+      <button className="sldnHomeButton" onClick={scroll}>See Our Work</button>
+     
+      
     </div>
 
     <div className="sldnContentBlock2">

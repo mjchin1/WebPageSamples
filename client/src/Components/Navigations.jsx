@@ -5,8 +5,8 @@ export default function Navigations() {
         <nav className="navbar">
 
 
-<Link to = '/bklt'>Booklet</Link>
-            <Link to = '/tf'>Trifold</Link> 
+            <Link to = '/bklt'>Booklet</Link>
+            {/* <Link to = '/tf'>Trifold</Link>  */}
             <Link to = '/sld'>Slide</Link> 
             <Link to = '/sldn'>Slide-In</Link> 
             <Link to = '/mg'>Mosaic Grid</Link>  

@@ -806,6 +806,13 @@ img {
   margin: 0 auto;
 }
 
+.bkltEnterButton {
+  position: absolute;
+  background: white;
+  font-size: 30px;
+  border: solid;
+}
+
 .bkltSquare1 {
   width: 49vw;
   height: 46vw;
@@ -1649,7 +1656,6 @@ font-weight: 600;
 .sldnBackgroundPic{
   width: 100vw;
   height: 100vh;
-  background-color: blue;
   object-fit: cover;
   position: fixed;
   top: 0;
@@ -1666,6 +1672,13 @@ font-weight: 600;
  margin: 0 auto;
  color: white;
  z-index: 10;
+ margin-top: -2vw;
+}
+
+.sldnHomeButton {
+  font-size: 30px;
+  background-color: white;
+  border: solid;
 }
 
 .sldnBackButton {
@@ -1674,22 +1687,24 @@ font-weight: 600;
   top: 2vh;
   right: 2vw;
   background: transparent; 
-  border-color: blue;
+  border: solid;
   border-width: thick;
-  color: blue;
   font-weight: 600;
   font-size: 20px;
  
 }
 .slidingDivs {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  border: solid;
+  border-color: white;
 }
 
 .sldnDiv1 {
   width: 40vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+  background-color: black;
   animation: slideToPlaceRight 3s;
   /* animation: slideInSlideOutRight 5s; */
 }
@@ -1698,7 +1713,7 @@ font-weight: 600;
   width: 40vw;
   color: black;
   height: 40vw;
-  background-color: blue;
+  background-color: black;
   animation: slideToPlaceLeft 3s;
   /* animation: slideInSlideOutLeft 5s; */
 }
@@ -1709,6 +1724,7 @@ font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .sldnContentBlock2 {
