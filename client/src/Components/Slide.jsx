@@ -1,6 +1,7 @@
 import pebbles from '../assets/Photos/Slide/pebbles.jpg'
 import steps from '../assets/Photos/Slide/steps.jpg'
 import { useNavigate } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 export default function Slide() {
@@ -19,8 +20,15 @@ export default function Slide() {
   return (
     <>
     <div className="sldBackgroundPic"><img src={steps}/></div> <br/>
-  
-    <button className="sldBackButton" onClick={navToHome}>Home</button>
+    <div className="sldNav">
+    {/* <button className="sldNavButton" onClick={navToHome}>Home</button>
+    <button className="sldNavButton" onClick={navToHome}>Home</button>
+    <button className="sldNavButton" onClick={navToHome}>Home</button> */}
+    <Link to = '/'><h3 className="sldNavLink">Shop</h3></Link>
+    <Link to = '/'><h3 className="sldNavLink">About</h3></Link>
+    <Link to = '/'><h3 className="sldNavLink">Home</h3></Link>
+    </div>
+    
     <div className="sldPageContent"> 
     <h1 className="sldHeader">Slide</h1>
     </div>

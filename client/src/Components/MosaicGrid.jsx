@@ -19,7 +19,12 @@ export default function MosaicGrid({}) {
 
   <div className="mgHeader">
     <h1 className="mgLogo">Mosaic Grid</h1>
-    <Link to = '/'><h3 className="mgNav">Home</h3></Link>
+    <div className="mgNav"> 
+    <Link to = '/'><h3 className="mgNavLink">Food</h3></Link>
+    <Link to = '/'><h3 className="mgNavLink">Gatherings</h3></Link>
+    <Link to = '/'><h3 className="mgNavLink">About Us</h3></Link>
+    <Link to = '/'><h3 className="mgNavLink">Home</h3></Link>
+    </div>
     </div>
 
     <div className="mosaicGridContainer"> 

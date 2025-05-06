@@ -1577,7 +1577,8 @@ font-weight: 600;
   color: white;
 }
 
-.sldBackButton {
+.sldNav {
+  display: inline-flex;
   position: absolute;
   float: right;
   top: 2vh;
@@ -1589,6 +1590,20 @@ font-weight: 600;
   font-weight: 600;
   font-size: 20px;
  
+}
+.sldNavButton {
+  margin-left: .25vw;
+  margin-right: .25vw;
+  background: transparent; 
+  border-color: white;
+  border-width: thick;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.sldNavLink {
+  color: white;
 }
 
 .sldFooter {
@@ -1819,8 +1834,24 @@ font-weight: 600;
   align-items: center;
 }
 
+@keyframes fadeToBlack{
+  0% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
 
+}
+@keyframes fadeToWhite{
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
 
+}
 
 
 @keyframes slideInSlideOutRight{
@@ -2045,6 +2076,7 @@ font-weight: 600;
 
 /*Mosaic Grid*/
 
+
 .mgSquare {
   margin-left: .5vw;
   margin-right: .5vw;
@@ -2071,7 +2103,6 @@ font-weight: 600;
 }
 
 .mgHeader {
-  text-align: left;
   display: flex;
   width: 100vw;
   justify-content: space-between;
@@ -2083,6 +2114,16 @@ font-weight: 600;
   display: flex;
   justify-content: left;
   margin-left: 1vw;
+}
+
+.mgNav {
+  display: flex;
+}
+
+.mgNavLink {
+  margin-left: .1vw;
+  margin-right: .1vw;
+
 }
 
 .mosaicGridContainer {
