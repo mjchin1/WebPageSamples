@@ -38,7 +38,7 @@ export default function Slide() {
       <div className="sldcb1Content"></div>
     </div> <br/> <br/>
     <div className="sldContentBlock2">
-      <div className="sldcb2Content"><p className="sldCBText">Text</p></div>
+      <div className="sldcb2Content"><p className="sldCBText">Bring the world to your living space.</p></div>
       <div className="sldcb2Content"></div>
     </div> <br/> <br/>
 

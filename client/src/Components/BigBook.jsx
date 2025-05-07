@@ -27,6 +27,7 @@ export default function BigBook({}) {
         <span>Objects</span>
         <span>Lighting</span>
         <span>Furniture</span>
+        {/* <span>Everything</span> */}
         </div>
       </div> 
     <div className="bbkSquare2 bbkTopPhoto"><img src={stillLife}/></div>
