@@ -25,8 +25,6 @@ export default function SlideIn() {
         <div className="sldnDiv2"></div>
       </div> 
       <button className="sldnHomeButton" onClick={scroll}>See Our Work</button>
-     
-      
     </div>
 
     <div className="sldnContentBlock2">

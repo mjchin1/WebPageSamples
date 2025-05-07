@@ -1693,14 +1693,15 @@ font-weight: 600;
 }
 
 .sldnHomeButton {
+  position: absolute;
   font-size:30px;
-  background-color: white;
-  color: white;
+  background-color: transparent;
+  opacity: 0;
   border: solid;
-  margin-top: -10vw;
-  animation: fadeToBlack 3s;
-  animation-delay: 4s;
+  animation: imageAppear 3s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
+  margin-top: 25vw;
 }
 
 .sldnBackButton {
