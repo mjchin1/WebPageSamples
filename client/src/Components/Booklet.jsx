@@ -14,8 +14,9 @@ export default function Booklet({}) {
     <div className="bkltHeader">
     <h1 className="bkltLogo">Booklet</h1>
     <div className="bkltNav">
-    <Link to = '/'><h3>Shop</h3></Link>
+    <Link to = '/'><h3>Work</h3></Link>
     <Link to = '/'><h3>About</h3></Link>
+    <Link to = '/'><h3>Contact</h3></Link>
     <Link to = '/'><h3>Home</h3></Link>
     </div>
     </div>
