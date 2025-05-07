@@ -1681,19 +1681,26 @@ font-weight: 600;
  margin-top: 0;
  font-size: 300px;
  position: absolute;
- top: 30vh;
  right: 0;
  left: 0;
  margin: 0 auto;
  color: white;
  z-index: 10;
- margin-top: -2vw;
+ /* margin-top: -2vw; */
+ animation: fadeToBlack 3s;
+ animation-fill-mode: forwards;
+ animation-delay: 3s;
 }
 
 .sldnHomeButton {
-  font-size: 30px;
+  font-size:30px;
   background-color: white;
+  color: white;
   border: solid;
+  margin-top: -10vw;
+  animation: fadeToBlack 3s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
 }
 
 .sldnBackButton {
@@ -1720,8 +1727,10 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: black;
-  animation: slideToPlaceRight 3s;
+  animation: slideToPlaceRight 3s, imageDisappear 3s;
+  animation-delay: 0s, 1s;
   /* animation: slideInSlideOutRight 5s; */
+  animation-fill-mode: forwards;
 }
 
 .sldnDiv2 {
@@ -1729,8 +1738,10 @@ font-weight: 600;
   color: black;
   height: 40vw;
   background-color: black;
-  animation: slideToPlaceLeft 3s;
+  animation: slideToPlaceLeft 3s, imageDisappear 3s;
+  animation-delay: 0s, 1s;
   /* animation: slideInSlideOutLeft 5s; */
+  animation-fill-mode: forwards;
 }
 
 .sldnContentBlock1 {
@@ -1764,6 +1775,7 @@ font-weight: 600;
   justify-content: center;
   align-items: center;
 }
+
 
 .sldnImageBlock {
   border: solid;
