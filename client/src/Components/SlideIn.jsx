@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 export default function SlideIn() {
 
@@ -15,7 +15,11 @@ export default function SlideIn() {
   return (
     <>
   
-    <button className="sldnBackButton" onClick={navToHome}>Home</button>
+  <div className="sldnNav">
+    <Link to = '/'><h3>Gallery</h3></Link>
+    <Link to = '/'><h3>About</h3></Link>
+    <Link to = '/'><h3>Contact</h3></Link>
+    </div>
     <div className="sldnPageContent"> 
     
     <div className="sldnContentBlock1">

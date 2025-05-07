@@ -1589,8 +1589,8 @@ font-weight: 600;
   color: white;
   font-weight: 600;
   font-size: 20px;
- 
 }
+
 .sldNavButton {
   margin-left: .25vw;
   margin-right: .25vw;
@@ -1702,6 +1702,14 @@ font-weight: 600;
   animation-delay: 2s;
   animation-fill-mode: forwards;
   margin-top: 25vw;
+}
+
+.sldnNav {
+  display: flex;
+  justify-content: right;
+  color: black;
+  position: absolute;
+  width: 100vw;
 }
 
 .sldnBackButton {
