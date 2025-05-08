@@ -14,10 +14,12 @@ export default function TriFold2({}) {
 
     <div className="tf2Header">
     <h1 className="tf2Logo">Tri-Fold2</h1>
+    <div className="tf2Nav">
     <Link to = '/'><h3 className="tf2Nav">Shop</h3></Link>
     <Link to = '/'><h3 className="tf2Nav">About</h3></Link>
     <Link to = '/'><h3 className="tf2Nav">Gallery</h3></Link>
     <Link to = '/'><h3 className="tf2Nav">Home</h3></Link>
+    </div>
     </div>
 
     <div className="tf2Container"> 
