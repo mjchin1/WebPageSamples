@@ -38,19 +38,12 @@ function App() {
 
       <Route path='/' element={<Homepage/> } />
 
-      <Route path='/bklt/work' element={<Booklet/> } />
-      <Route path='/bklt/home' element={<Booklet/> } />
-      <Route path='/bklt/contact' element={<Booklet/> } />
-  
-  
+      <Route path='/bklt' element={<Booklet/> } />
       <Route path='/tf2' element={<TriFold2/> } />
       <Route path='/sld' element={<Slide/> } />
       <Route path='/sldn' element={<SlideIn/> } />
       <Route path='/mg' element={<MosaicGrid/> } />
       <Route path='/bbk' element={<BigBook/> } />
-
-
-
 
 
       <Route path='/mos' element={<MosaicPage/> } />
