@@ -19,6 +19,7 @@ export default function SlideIn() {
     <Link to = '/'><h3>Gallery</h3></Link>
     <Link to = '/'><h3>About</h3></Link>
     <Link to = '/'><h3>Contact</h3></Link>
+    <Link to = '/'><h3>Home</h3></Link>
     </div>
     <div className="sldnPageContent"> 
     
