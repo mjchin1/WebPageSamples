@@ -35,6 +35,24 @@ function App() {
     <div>
     {/* <Link to = '/'>Home</Link> */}
     <Routes>
+
+      <Route path='/' element={<Homepage/> } />
+
+      <Route path='/bklt/work' element={<Booklet/> } />
+      <Route path='/bklt/home' element={<Booklet/> } />
+      <Route path='/bklt/contact' element={<Booklet/> } />
+  
+  
+      <Route path='/tf2' element={<TriFold2/> } />
+      <Route path='/sld' element={<Slide/> } />
+      <Route path='/sldn' element={<SlideIn/> } />
+      <Route path='/mg' element={<MosaicGrid/> } />
+      <Route path='/bbk' element={<BigBook/> } />
+
+
+
+
+
       <Route path='/mos' element={<MosaicPage/> } />
       <Route path='/ds2' element={<DescendingScalePage2/> } />
       <Route path='/as' element={<AlternatingScale/> } />
@@ -42,22 +60,16 @@ function App() {
       <Route path='/has' element={<HorizontalAlternatingSquares/> } />
       <Route path='/klds' element={<Kaleidescope/> } />
       <Route path='/bb' element={<BigBox/> } />
-      <Route path='/bklt' element={<Booklet/> } />
       <Route path='/bklt2' element={<Booklet2/> } />
       <Route path='/bf' element={<BlockFrame/> } />
       <Route path='/tf' element={<TriFold/> } />
       <Route path='/mon' element={<Mondrian/> } />
-      <Route path='/' element={<Homepage/> } />
       <Route path='/animations' element={<Animations/> } />
       <Route path='/fb' element={<FixedBackground/> } />
-      <Route path='/tf2' element={<TriFold2/> } />
-      <Route path='/sld' element={<Slide/> } />
-      <Route path='/sldn' element={<SlideIn/> } />
       <Route path='/outln' element={<Outline/> } />
       <Route path='/ct' element={<ChangingText/> } />
-      <Route path='/mg' element={<MosaicGrid/> } />
       <Route path='/xylp' element={<Xylophone/> } />
-      <Route path='/bbk' element={<BigBook/> } />
+      
     </Routes>
 
     </div>
