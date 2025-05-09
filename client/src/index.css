@@ -2637,6 +2637,12 @@ font-weight: 600;
   align-items: center;
   font-size: 50px;
 }
+
+.bbkText:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .bbkSquare {
   margin-top: .25vw; 
   margin-bottom: .25vw;
@@ -2739,4 +2745,8 @@ font-weight: 600;
 .bbkContactHeader {
   position: absolute;
   color: white;
+}
+.bbkContactHeader:hover {
+  color: white;
+  text-decoration: underline;
 }
