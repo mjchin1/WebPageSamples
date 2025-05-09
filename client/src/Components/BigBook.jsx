@@ -24,9 +24,12 @@ export default function BigBook({}) {
     <div className="bbkContainer"> 
       <div className="bbkSquare1">
         <div className="bbkTopText">
-        <span>Objects</span>
+        <Link to = '/'><span className="bbkHomeLink">Objects</span></Link>
+        <Link to = '/'><span className="bbkHomeLink">Lighting</span></Link>
+        <Link to = '/'><span className="bbkHomeLink">Furniture</span></Link>
+        {/* <span>Objects</span>
         <span>Lighting</span>
-        <span>Furniture</span>
+        <span>Furniture</span> */}
         {/* <span>Everything</span> */}
         </div>
       </div> 

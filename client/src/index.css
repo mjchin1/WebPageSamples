@@ -2656,21 +2656,33 @@ font-weight: 600;
   border: none;
   background-color: black;
   margin-bottom: .25vw;
+  display: flex; 
+  align-items: center;
 }
 
 .bbkTopText {
-  text-align: left;
-  vertical-align: middle;
   width: 50vw;
   height: 100vh;
-  font-size: 175px;
+  font-size: 170px;
   font-weight: 600;
   display: flex;
+  justify-content: left;
   flex-direction: column;
-  justify-content: center;
-  color: white;
   padding-left: 1vw;
- 
+  margin-top: 2vw;
+}
+
+.bbkHomeLink {
+  display: flex; 
+  justify-content: left;
+  width: 50vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  color: white;
+}
+.bbkHomeLink:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .bbkTopPhoto {
