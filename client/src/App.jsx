@@ -24,6 +24,7 @@ import MosaicGrid from './Components/MosaicGrid'
 import ChangingText from './Components/ChangingText'
 import Xylophone from './Components/Xylophone'
 import BigBook from './Components/BigBook'
+import BigBookP2 from './Components/BigBookP2'
 import Booklet2 from './Components/Booklet2'
 
 
@@ -43,7 +44,9 @@ function App() {
       <Route path='/sld' element={<Slide/> } />
       <Route path='/sldn' element={<SlideIn/> } />
       <Route path='/mg' element={<MosaicGrid/> } />
+      
       <Route path='/bbk' element={<BigBook/> } />
+      <Route path='/bbkp2' element={<BigBookP2/> } />
 
 
       <Route path='/mos' element={<MosaicPage/> } />
