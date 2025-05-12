@@ -17,16 +17,16 @@ export default function BigBook({}) {
 
     <div className="bbkHeader">
     <h1 className="bbkLogo">Big Book</h1>
-    <Link to = '/'><h3 className="bbkNav">Home</h3></Link>
+    <Link to = '/'><h3 className="bbkNav white">Home</h3></Link>
     </div>
 
 
     <div className="bbkContainer"> 
       <div className="bbkSquare1">
         <div className="bbkTopText">
-        <Link to = ''><span className="bbkHomeLink">Objects</span></Link>
-        <Link to = '/'><span className="bbkHomeLink">Lighting</span></Link>
-        <Link to = '/'><span className="bbkHomeLink">Furniture</span></Link>
+        <Link to = '/bbkp2'><span className="bbkHomeLink">Objects</span></Link>
+        <Link to = '/bbkp2'><span className="bbkHomeLink">Lighting</span></Link>
+        <Link to = '/bbkp2'><span className="bbkHomeLink">Furniture</span></Link>
         {/* <span>Objects</span>
         <span>Lighting</span>
         <span>Furniture</span> */}

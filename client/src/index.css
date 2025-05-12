@@ -2841,9 +2841,18 @@ font-weight: 600;
   text-decoration: underline;
 }
 
-.bbkProduct {
-  animation: slideAppear .5s
+.white {
+  color: white;
 }
+
+.black {
+  color: black;
+}
+
+/* .bbkProduct {
+  animation: slideAppear .5s;
+  animation-range-start: 20%;
+} */
 
 @keyframes slideAppear {
   0% {
