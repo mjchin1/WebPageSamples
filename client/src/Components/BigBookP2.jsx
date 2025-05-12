@@ -29,28 +29,28 @@ export default function BigBook({}) {
   const objects = [
     {
       productPhoto: cupAndPitcher,
-      productName: "Lamp"
+      productName: "Cup and Pitcher"
     },
     {
       productPhoto: vaseSet,
-      productName: "Lamp"
+      productName: "Vase Set"
     },
     {
       productPhoto: goblet,
-      productName: "Lamp"
+      productName: "Silver Goblet"
     },
     {
       productPhoto: globe,
-      productName: "Lamp"
+      productName: "Globe"
     },
     {
       productPhoto: goldVases,
-      productName: "Lamp"
+      productName: "Gold Vase Set"
     },
  
     {
       productPhoto: bowl,
-      productName: "Lamp"
+      productName: "Angled Bowl"
     },
    
 
@@ -59,54 +59,54 @@ export default function BigBook({}) {
   const lighting = [
     {
       productPhoto: greyLamp,
-      productName: "Lamp"
+      productName: "Grey Hanging Lamp"
     },
     {
       productPhoto: redLamp,
-      productName: "Lamp"
+      productName: "Red Lamp"
     },
     {
       productPhoto: goldLamp,
-      productName: "Lamp"
+      productName: "Gold Table Lamp"
     },
     {
       productPhoto: sphereLamp2,
-      productName: "Lamp"
+      productName: "Sphere Lamp"
     },
     {
       productPhoto: roseLamp,
-      productName: "Lamp"
+      productName: "Rose Gold Desk Lamp"
     },
     {
       productPhoto: whiteLamp,
-      productName: "Lamp"
+      productName: "Hanging White Lamp"
     },
   ]
 
   const furniture = [
     {
       productPhoto: brownChair,
-      productName: "Lamp"
+      productName: "Brown Velvet Chair"
     },
     {
       productPhoto: whiteChair,
-      productName: "Lamp"
+      productName: "White Velvet Chair"
     },
     {
       productPhoto: chairSet,
-      productName: "Lamp"
+      productName: "Brown Leather Chair Set"
     },
     {
       productPhoto: nestedStools,
-      productName: "Lamp"
+      productName: "Nested Wooden Stool Set"
     },
     {
       productPhoto: yellowChair,
-      productName: "Lamp"
+      productName: "Yellow Chair"
     },
     {
       productPhoto: table2,
-      productName: "Lamp"
+      productName: "Desk and Chair Set"
     }
   ]
 
@@ -123,16 +123,18 @@ export default function BigBook({}) {
     <Link to = '/'><span>Objects</span></Link>
     <Link to = '/'><span>Lighting</span></Link>
     <Link to = '/'><span>Furniture</span></Link>
-    <Link to = '/'><span>Home</span></Link>
+    <Link to = '/bbk'><span>Home</span></Link>
     </div>
-    </div> <br/><br/><br/> <br/> <br/> <br/>
+    <br/> <br/>
+    </div> 
+    <br/><br/><br/> <br/> <br/> 
 
-    <div className="bbkShopContainer"> 
-      
+    <div className="pageDivider"></div>
+    <div className="bbkShopContainer">  
       <h1 className="bbkShopContainerHeading"> Objects</h1>
       <div className="bbkObjectContainer">
         {objects.map((object)=> (
-        <div className="shopProduct">
+        <div className="shopProduct bbkProduct">
           <img className="shopProductPhoto" src={object.productPhoto}></img>
           <span className="shopProductTitle">{object.productName}</span>
         </div>
