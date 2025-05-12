@@ -1,56 +1,113 @@
-import stillLife from '../assets/Photos/BigBook/stillLife.jpg'
-import vestibule from '../assets/Photos/BigBook/vestibule.jpg'
-import stool1 from '../assets/Photos/BigBook/stool1.jpg'
-import greenCouch from '../assets/Photos/BigBook/greenCouch.jpg'
-import mountains from '../assets/Photos/BigBook/mountains.jpg'
-import sphereLamp from '../assets/Photos/BigBook/sphereLamp.jpg'
+import cupAndPitcher from '../assets/Photos/BigBook/cupAndPitcher.jpg'
+import vaseSet from '../assets/Photos/BigBook/vaseSet.jpg'
+import goblet from '../assets/Photos/BigBook/goblet.jpg'
+import roseLamp from '../assets/Photos/BigBook/roseLamp.jpg'
+import goldLamp from '../assets/Photos/BigBook/goldLamp.jpg'
+import greyLamp from '../assets/Photos/BigBook/greyLamp.jpg'
+import brownChair from '../assets/Photos/BigBook/brownChair.jpg'
+import nestedStools from '../assets/Photos/BigBook/nestedStools.jpg'
+import whiteChair from '../assets/Photos/BigBook/whiteChair.jpg'
+import chairSet from '../assets/Photos/BigBook/chairSet.jpg'
+import yellowChair from '../assets/Photos/BigBook/yellowChair.jpg'
+import blackChair from '../assets/Photos/BigBook/blackChair.jpg'
+import globe from '../assets/Photos/BigBook/globe.jpg'
+import goldVases from '../assets/Photos/BigBook/goldVases.jpg'
+import whiteLamp from '../assets/Photos/BigBook/whiteLamp.jpg'
+import table2 from '../assets/Photos/BigBook/table2.jpg'
+import bowl from '../assets/Photos/BigBook/bowl.jpg'
+import sphereLamp2 from '../assets/Photos/BigBook/sphereLamp2.jpg'
+import redLamp from '../assets/Photos/BigBook/redLamp.jpg'
+
+
+
+
+
 import {Link} from 'react-router-dom'
 
 export default function BigBook({}) {
 
   const objects = [
     {
-      productPhoto: sphereLamp,
+      productPhoto: cupAndPitcher,
       productName: "Lamp"
     },
     {
-      productPhoto: sphereLamp,
+      productPhoto: vaseSet,
       productName: "Lamp"
     },
     {
-      productPhoto: sphereLamp,
+      productPhoto: goblet,
       productName: "Lamp"
     },
+    {
+      productPhoto: globe,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: goldVases,
+      productName: "Lamp"
+    },
+ 
+    {
+      productPhoto: bowl,
+      productName: "Lamp"
+    },
+   
+
   ]
 
   const lighting = [
     {
-      productPhoto: sphereLamp,
+      productPhoto: greyLamp,
       productName: "Lamp"
     },
     {
-      productPhoto: sphereLamp,
+      productPhoto: redLamp,
       productName: "Lamp"
     },
     {
-      productPhoto: sphereLamp,
+      productPhoto: goldLamp,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: sphereLamp2,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: roseLamp,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: whiteLamp,
       productName: "Lamp"
     },
   ]
 
   const furniture = [
     {
-      productPhoto: sphereLamp,
+      productPhoto: brownChair,
       productName: "Lamp"
     },
     {
-      productPhoto: sphereLamp,
+      productPhoto: whiteChair,
       productName: "Lamp"
     },
     {
-      productPhoto: sphereLamp,
+      productPhoto: chairSet,
       productName: "Lamp"
     },
+    {
+      productPhoto: nestedStools,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: yellowChair,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: table2,
+      productName: "Lamp"
+    }
   ]
 
 
@@ -76,7 +133,7 @@ export default function BigBook({}) {
       <div className="bbkObjectContainer">
         {objects.map((object)=> (
         <div className="shopProduct">
-          <img className="shopProductPhoto" src={sphereLamp}></img>
+          <img className="shopProductPhoto" src={object.productPhoto}></img>
           <span className="shopProductTitle">{object.productName}</span>
         </div>
          ))}
@@ -84,25 +141,27 @@ export default function BigBook({}) {
       
       <h1 className="bbkShopContainerHeading">Lighting</h1>
       <div className="bbkLightingContainer">
-        {objects.map((object)=> (
+        {lighting.map((light)=> (
         <div className="shopProduct">
-          <img className="shopProductPhoto" src={sphereLamp}></img>
-          <span className="shopProductTitle">{object.productName}</span>
+          <img className="shopProductPhoto" src={light.productPhoto}></img>
+          <span className="shopProductTitle">{light.productName}</span>
         </div>
          ))}
       </div> <br/><br/>
       
       <h1 className="bbkShopContainerHeading">Furniture</h1>
       <div className="bbkFurnitureContainer">
-        {objects.map((object)=> (
+        {furniture.map((furniturePiece)=> (
         <div className="shopProduct">
-          <img className="shopProductPhoto" src={sphereLamp}></img>
-          <span className="shopProductTitle">{object.productName}</span>
+          <img className="shopProductPhoto" src={furniturePiece.productPhoto}></img>
+          <span className="shopProductTitle">{furniturePiece.productName}</span>
         </div>
          ))}
       </div>
 
     </div>
+    <br/> <br/>
+    <div className="footer"></div>
   
     </>
 );
