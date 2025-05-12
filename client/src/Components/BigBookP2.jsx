@@ -13,7 +13,46 @@ export default function BigBook({}) {
       productPhoto: sphereLamp,
       productName: "Lamp"
     },
+    {
+      productPhoto: sphereLamp,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: sphereLamp,
+      productName: "Lamp"
+    },
   ]
+
+  const lighting = [
+    {
+      productPhoto: sphereLamp,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: sphereLamp,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: sphereLamp,
+      productName: "Lamp"
+    },
+  ]
+
+  const furniture = [
+    {
+      productPhoto: sphereLamp,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: sphereLamp,
+      productName: "Lamp"
+    },
+    {
+      productPhoto: sphereLamp,
+      productName: "Lamp"
+    },
+  ]
+
 
 
 
@@ -44,7 +83,7 @@ export default function BigBook({}) {
       </div> <br/> <br/>
       
       <h1 className="bbkShopContainerHeading">Lighting</h1>
-      <div className="bbkLighingContainer">
+      <div className="bbkLightingContainer">
         {objects.map((object)=> (
         <div className="shopProduct">
           <img className="shopProductPhoto" src={sphereLamp}></img>
