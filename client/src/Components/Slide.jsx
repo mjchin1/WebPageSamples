@@ -30,7 +30,10 @@ export default function Slide() {
     </div>
     
     <div className="sldPageContent"> 
+    <div className ="sldHomeText">
     <h1 className="sldHeader">Slide</h1>
+    <span className= "sldSubHeader">Tile Co.</span>
+    </div>
     </div>
     <div className="sldContentBlock1">
       <div className="sldcb1Content"></div>
