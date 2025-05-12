@@ -24,7 +24,7 @@ export default function BigBook({}) {
     <div className="bbkContainer"> 
       <div className="bbkSquare1">
         <div className="bbkTopText">
-        <Link to = '/'><span className="bbkHomeLink">Objects</span></Link>
+        <Link to = ''><span className="bbkHomeLink">Objects</span></Link>
         <Link to = '/'><span className="bbkHomeLink">Lighting</span></Link>
         <Link to = '/'><span className="bbkHomeLink">Furniture</span></Link>
         {/* <span>Objects</span>
@@ -36,11 +36,11 @@ export default function BigBook({}) {
     <div className="bbkSquare2 bbkTopPhoto"><img src={stillLife}/></div>
     {/* <div className="bbkDivider">sample text</div> */}
     <div className="bbkTopMidPhoto"><p className="bbkContactHeader"></p> <img src={vestibule}/></div>
-    <div className="bbkSquare2 bbkTextBlock"><Link to = '/'><span className="bbkText">Objects</span></Link></div>
+    <div className="bbkSquare2 bbkTextBlock"><Link to = '/bbkp2'><span className="bbkText">Objects</span></Link></div>
     <div className="bbkSquare2 bbkMidPhoto"><img src={mountains}/></div>
     <div className="bbkSquare1 bbkMidPhoto"><img src={sphereLamp}/></div> 
-    <div className="bbkSquare2 bbkTextBlock"><Link to = '/'><span className="bbkText">Lighting</span></Link></div>
-    <div className="bbkSquare2 bbkTextBlock"><Link to = '/'><span className="bbkText">Furniture</span></Link></div>
+    <div className="bbkSquare2 bbkTextBlock"><Link to = '/bbkp2'><span className="bbkText">Lighting</span></Link></div>
+    <div className="bbkSquare2 bbkTextBlock"><Link to = '/bbkp2'><span className="bbkText">Furniture</span></Link></div>
     <div className="bbkSquare2 bbkMidPhoto"><img src={stool1}/></div>
      {/* <div className="bbkDivider">Come see us or get in touch.</div> */}
     <div className="bbkBottomPhoto"><p className="bbkContactHeader">Contact</p> <img src={greenCouch}/></div>
