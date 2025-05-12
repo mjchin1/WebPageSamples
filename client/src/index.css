@@ -85,6 +85,15 @@ a {
   margin-right: 10px;
 }
 
+.shopProduct {
+  width: 25vw;
+  height: 28vw;
+}
+
+.shopProductTitle {
+  font-size: 28px;
+}
+
 .square {
   border: solid;
   margin-left: 1vw;
@@ -2604,7 +2613,9 @@ font-weight: 600;
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  
+  top: 0;
+  left: 0;
+  margin-left: 1vw;
 }
 
 .bbkLogo {
@@ -2619,7 +2630,8 @@ font-weight: 600;
   display: flex;
   justify-content: right;
   color: black;
-  margin-right: 10px;
+  margin-right: 1vw;
+  font-size: 20px;
 }
 
 .bbkDivider {
@@ -2654,6 +2666,28 @@ font-weight: 600;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
+}
+
+.bbkShopContainer {
+  display: flex; 
+  flex-direction: column;
+  margin-left: 2vw;
+}
+
+.bbkShopContainerHeading {
+  text-align: left;
+  width: 100vw;
+  border: solid;
+}
+
+.bbkObjectContainer {
+  display: inline-flex;
+}
+.bbkLightingContainer {
+  display: inline-flex;
+}
+.bbkContainerContainer {
+  display: inline-flex;
 }
 
 .bbkSquare1 {
