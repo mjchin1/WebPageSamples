@@ -18,6 +18,7 @@ import Homepage from './Components/Homepage'
 import Animations from './Components/Animations'
 import FixedBackground from './Components/FixedBackground'
 import Slide from './Components/Slide'
+import SlideP2 from './Components/SlideP2'
 import SlideIn from './Components/SlideIn'
 import Outline from './Components/Outline'
 import MosaicGrid from './Components/MosaicGrid'
@@ -41,7 +42,11 @@ function App() {
 
       <Route path='/bklt' element={<Booklet/> } />
       <Route path='/tf2' element={<TriFold2/> } />
+      
       <Route path='/sld' element={<Slide/> } />
+      <Route path='/sldp2' element={<SlideP2/> } />
+      
+      
       <Route path='/sldn' element={<SlideIn/> } />
       <Route path='/mg' element={<MosaicGrid/> } />
       

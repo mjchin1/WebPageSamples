@@ -1,5 +1,7 @@
-import pebbles from '../assets/Photos/Slide/pebbles.jpg'
 import steps from '../assets/Photos/Slide/steps.jpg'
+import greenTile from '../assets/Photos/Slide/greenTile.jpg'
+import blueTile2 from '../assets/Photos/Slide/blueTile2.jpg'
+import blueGreenTile from '../assets/Photos/Slide/blueGreenTile.jpg'
 import { useNavigate } from 'react-router-dom'
 import {Link} from 'react-router-dom'
 
@@ -21,29 +23,33 @@ export default function Slide() {
     <>
     <div className="sldBackgroundPic"><img src={steps}/></div> <br/>
     <div className="sldNav">
-    {/* <button className="sldNavButton" onClick={navToHome}>Home</button>
-    <button className="sldNavButton" onClick={navToHome}>Home</button>
-    <button className="sldNavButton" onClick={navToHome}>Home</button> */}
-    <Link to = '/'><h3 className="sldNavLink">Shop</h3></Link>
-    <Link to = '/'><h3 className="sldNavLink">About</h3></Link>
+    <Link to = '/sldp2'><h3 className="sldNavLink">Shop</h3></Link>
+    <Link to = '/sldp2'><h3 className="sldNavLink">About</h3></Link>
     <Link to = '/'><h3 className="sldNavLink">Home</h3></Link>
     </div>
     
     <div className="sldPageContent"> 
-    <div className ="sldHomeText">
-    <h1 className="sldHeader">Slide</h1>
-    <span className= "sldSubHeader">Tile Co.</span>
-    </div>
-    </div>
+      <div className ="sldHomeText">
+        <h1 className="sldHeader">Slide</h1>
+        <span className= "sldSubHeader">Tile Co.</span>
+      </div>
+    </div> <br/><br/><br/>
+
     <div className="sldContentBlock1">
-      <div className="sldcb1Content"></div>
-      <div className="sldcb1Content"></div>
-      <div className="sldcb1Content"></div>
-    </div> <br/> <br/>
+      <div>
+      <img src={blueTile2}/>
+        </div>
+      <div className="sldCBText">
+        <span className="sldTextBoxHeader">Bring the world to your living space.</span>
+        <span>Our vintage tiles are sourced from the most beautiful places on earth.</span></div>
+    </div>
+
     <div className="sldContentBlock2">
-      <div className="sldcb2Content"><p className="sldCBText">Bring the world to your living space.</p></div>
-      <div className="sldcb2Content"></div>
+      <div className="sldcb1Content"> <img src={blueTile2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Colors</span> </Link></div>
+      <div className="sldcb1Content"><img src={blueTile2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Colors</span> </Link></div>
+      <div className="sldcb1Content"><img src={blueTile2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Colors</span> </Link></div>
     </div> <br/> <br/>
+  
 
     <div className="footer sldFooter"> © 2025 </div>
    
