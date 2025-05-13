@@ -20,21 +20,23 @@ export default function Slide() {
 
   return (
     <>
-    <div className="sldNav">
+    <div className="sldContainer">
+    <div className="sldNavP2">
     <Link to = '/sld'><h3 className="sldNavLink black">Shop</h3></Link>
     <Link to = '/sld'><h3 className="sldNavLink black">About</h3></Link>
     <Link to = '/sld'><h3 className="sldNavLink black">Home</h3></Link>
-    </div>
+    </div> 
     
-    <div className="sldContentBlock1">
-      <div className="sldcb1Content"><img src={greenTile}/></div>
-      <div className="sldcb1Content"><img src={whiteTile}/></div>
-      <div className="sldcb1Content"><img src={blueTile}/></div>
+    <div className="sldShopContainer">
+      <div className="shopProduct"><img src={greenTile}/></div>
+      <div className="shopProduct"><img src={whiteTile}/></div>
+      <div className="shopProduct"><img src={blueTile}/></div>
     </div>
     
 
     <div className="footer sldFooter"> © 2025 </div>
    
+    </div>
     </>
 );
 
