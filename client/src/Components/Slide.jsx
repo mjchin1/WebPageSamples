@@ -1,7 +1,9 @@
 import steps from '../assets/Photos/Slide/steps.jpg'
 import greenTile from '../assets/Photos/Slide/greenTile.jpg'
 import blueTile2 from '../assets/Photos/Slide/blueTile2.jpg'
-import blueGreenTile from '../assets/Photos/Slide/blueGreenTile.jpg'
+import whiteTile from '../assets/Photos/Slide/whiteTile.jpg'
+import pattern1 from '../assets/Photos/Slide/pattern1.jpg'
+import pattern2 from '../assets/Photos/Slide/pattern2.jpg'
 import { useNavigate } from 'react-router-dom'
 import {Link} from 'react-router-dom'
 
@@ -45,9 +47,9 @@ export default function Slide() {
     </div>
 
     <div className="sldContentBlock2">
-      <div className="sldcb1Content"> <img src={blueTile2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Colors</span> </Link></div>
-      <div className="sldcb1Content"><img src={blueTile2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Colors</span> </Link></div>
-      <div className="sldcb1Content"><img src={blueTile2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Colors</span> </Link></div>
+      <div className="sldcb1Content"> <img src={greenTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Colors</span> </Link></div>
+      <div className="sldcb1Content"><img src={whiteTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Neutrals</span> </Link></div>
+      <div className="sldcb1Content"><img src={pattern2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Patterns</span> </Link></div>
     </div> <br/> <br/>
   
 
