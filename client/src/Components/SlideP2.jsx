@@ -5,6 +5,9 @@ import blueTile from '../assets/Photos/Slide/blueTile.jpg'
 import blueTile2 from '../assets/Photos/Slide/blueTile2.jpg'
 import blueTile3 from '../assets/Photos/Slide/blueTile3.jpg'
 import blueTile4 from '../assets/Photos/Slide/blueTile4.jpg'
+import neutralTile from '../assets/Photos/Slide/neutralTile.jpg'
+import neutralTile2 from '../assets/Photos/Slide/neutralTile2.jpg'
+import neutralTile3 from '../assets/Photos/Slide/neutralTile3.jpg'
 import { useNavigate } from 'react-router-dom'
 import {Link} from 'react-router-dom'
 
@@ -24,6 +27,11 @@ export default function Slide() {
        },
 
        {
+        tilePhoto: blueTile,
+        tileName: "Blue Tile"
+       },
+
+       {
         tilePhoto: blueTile2,
         tileName: "Blue Tile"
        },
@@ -37,14 +45,20 @@ export default function Slide() {
         tileName: "Green Tile 2"
       },
        {
-        tilePhoto: whiteTile,
+        tilePhoto: neutralTile,
+        tileName: "Blue Tile"
+       },
+       {
+        tilePhoto: neutralTile2,
+        tileName: "Blue Tile"
+       },
+       {
+        tilePhoto: neutralTile3,
         tileName: "Blue Tile"
        },
 
-       {
-        tilePhoto: blueTile,
-        tileName: "Blue Tile"
-       },
+
+     
   ]
 
   const navigate = useNavigate()
