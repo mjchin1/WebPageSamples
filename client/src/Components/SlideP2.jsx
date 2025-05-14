@@ -8,8 +8,17 @@ import blueTile4 from '../assets/Photos/Slide/blueTile4.jpg'
 import neutralTile from '../assets/Photos/Slide/neutralTile.jpg'
 import neutralTile2 from '../assets/Photos/Slide/neutralTile2.jpg'
 import neutralTile3 from '../assets/Photos/Slide/neutralTile3.jpg'
+import pattern2 from '../assets/Photos/Slide/pattern2.jpg'
+import pattern3 from '../assets/Photos/Slide/pattern3.jpg'
+import pattern4 from '../assets/Photos/Slide/pattern4.jpg'
+import pattern5 from '../assets/Photos/Slide/pattern5.jpg'
+import pattern6 from '../assets/Photos/Slide/pattern6.jpg'
+import pattern7 from '../assets/Photos/Slide/pattern7.jpg'
 import { useNavigate } from 'react-router-dom'
 import {Link} from 'react-router-dom'
+import redTile from '../assets/Photos/Slide/redTile.jpg'
+import redTile2 from '../assets/Photos/Slide/redTile2.jpg'
+import redTile3 from '../assets/Photos/Slide/redTile3.jpg'
 
 
 export default function Slide() {
@@ -33,7 +42,7 @@ export default function Slide() {
 
        {
         tilePhoto: blueTile2,
-        tileName: "Blue Tile"
+        tileName: "Turquoise Tile"
        },
 
       {
@@ -44,17 +53,53 @@ export default function Slide() {
         tilePhoto: greenTile2,
         tileName: "Green Tile 2"
       },
+      {
+        tilePhoto: redTile,
+        tileName: "Red Tile"
+      },
+      {
+        tilePhoto: redTile2,
+        tileName: "Red Tile"
+      },
+      {
+        tilePhoto: redTile3,
+        tileName: "Red Tile"
+      },
        {
         tilePhoto: neutralTile,
-        tileName: "Blue Tile"
+        tileName: "Neutral Tile"
        },
        {
         tilePhoto: neutralTile2,
-        tileName: "Blue Tile"
+        tileName: "Neutral Tile"
        },
        {
         tilePhoto: neutralTile3,
-        tileName: "Blue Tile"
+        tileName: "Neutral Tile"
+       },
+       {
+        tilePhoto: pattern2,
+        tileName: "Patterned Tile"
+       },
+       {
+        tilePhoto: pattern3,
+        tileName: "Patterned Tile"
+       },
+       {
+        tilePhoto: pattern4,
+        tileName: "Patterned Tile"
+       },
+       {
+        tilePhoto: pattern5,
+        tileName: "Patterned Tile"
+       },
+       {
+        tilePhoto: pattern6,
+        tileName: "Patterned Tile"
+       },
+       {
+        tilePhoto: pattern7,
+        tileName: "Patterned Tile"
        },
 
 
@@ -89,7 +134,6 @@ export default function Slide() {
         </div>
          ))}
    </div>
-    
 
     <div className="footer sldFooter"> © 2025 </div>
    
