@@ -132,7 +132,7 @@ export default function Slide() {
     
     <div className="sldShopContainer">
     {tiles.map((tile)=> (
-        <div className="shopProduct bbkProduct">
+        <div className="shopProduct sldProduct">
           <img className="shopProductPhoto" src={tile.tilePhoto}></img>
           <span className="shopProductTitle">{tile.tileName}</span>
         </div>

@@ -1769,6 +1769,14 @@ font-weight: 600;
 
 }
 
+.sldProduct {
+  animation: slideUp;
+  animation-timeline: view();
+  animation-range: entry 0;
+  animation-fill-mode: forwards;
+
+}
+
 .sldP2Header {
   display: flex;
   justify-content: space-between;
