@@ -53,6 +53,7 @@ export default function Slide() {
       <div className="sldcb1Content"><img src={whiteTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> White Diamonds</span> </Link></div>
       <div className="sldcb1Content"><img src={pattern2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Multicolor Floral</span> </Link></div>
     </div> 
+    <button className="sldHomePageButton">Visit the Shop</button>
     </div>
 
     <br/> <br/>

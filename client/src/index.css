@@ -1672,6 +1672,14 @@ font-weight: 600;
   font-size: 20px;
 }
 
+.sldHomePageButton {
+  background-color: white;
+  border: solid;
+  margin-top: -100px;
+  font-size: 30px;
+
+}
+
 .sldNavLink {
   color: white;
 }
@@ -1716,14 +1724,13 @@ font-weight: 600;
 
 .sldContentBlock2 {
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   /* animation: slideRight;
   animation-timeline: view();
   animation-range: entry 0; */
-
 }
 
 .sldcb2Content {
