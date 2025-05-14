@@ -44,13 +44,18 @@ export default function Slide() {
       <div className="sldCBText">
         <span className="sldTextBoxHeader">Bring the world to your living space.</span>
         <span>Our vintage tiles are sourced from the most beautiful places on earth.</span></div>
-    </div>
+    </div> <br/> <br/>
 
+    <div>
+    <h1 className="sldcb2Header">See Our Shop</h1>
     <div className="sldContentBlock2">
       <div className="sldcb1Content"> <img src={greenTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Colors</span> </Link></div>
       <div className="sldcb1Content"><img src={whiteTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Neutrals</span> </Link></div>
       <div className="sldcb1Content"><img src={pattern2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Patterns</span> </Link></div>
-    </div> <br/> <br/>
+    </div> 
+    </div>
+
+    <br/> <br/>
   
 
     <div className="footer sldFooter"> © 2025 </div>
