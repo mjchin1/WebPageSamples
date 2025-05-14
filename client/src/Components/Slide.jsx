@@ -47,11 +47,11 @@ export default function Slide() {
     </div> <br/> <br/>
 
     <div>
-    <h1 className="sldcb2Header">See Our Shop</h1>
+    <h1 className="sldcb2Header">Featured Tiles</h1>
     <div className="sldContentBlock2">
-      <div className="sldcb1Content"> <img src={greenTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Colors</span> </Link></div>
-      <div className="sldcb1Content"><img src={whiteTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Neutrals</span> </Link></div>
-      <div className="sldcb1Content"><img src={pattern2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Shop Patterns</span> </Link></div>
+      <div className="sldcb1Content"> <img src={greenTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText">Green Herringbone</span> </Link></div>
+      <div className="sldcb1Content"><img src={whiteTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> White Diamonds</span> </Link></div>
+      <div className="sldcb1Content"><img src={pattern2}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> Multicolor Floral</span> </Link></div>
     </div> 
     </div>
 
