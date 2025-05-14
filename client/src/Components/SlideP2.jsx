@@ -27,17 +27,17 @@ export default function Slide() {
       
        {
         tilePhoto: blueTile3,
-        tileName: "Blue Tile"
+        tileName: "Blue Tile 1"
        },
 
        {
         tilePhoto: blueTile4,
-        tileName: "Blue Tile"
+        tileName: "Blue Tile 2"
        },
 
        {
         tilePhoto: blueTile,
-        tileName: "Blue Tile"
+        tileName: "Blue Tile 3"
        },
 
        {
@@ -55,51 +55,51 @@ export default function Slide() {
       },
       {
         tilePhoto: redTile,
-        tileName: "Red Tile"
+        tileName: "Red Tile 1"
       },
       {
         tilePhoto: redTile2,
-        tileName: "Red Tile"
+        tileName: "Red Tile 2"
       },
       {
         tilePhoto: redTile3,
-        tileName: "Red Tile"
+        tileName: "Red Tile 3"
       },
        {
         tilePhoto: neutralTile,
-        tileName: "Neutral Tile"
+        tileName: "Neutral Tile 1"
        },
        {
         tilePhoto: neutralTile2,
-        tileName: "Neutral Tile"
+        tileName: "Neutral Tile 2"
        },
        {
         tilePhoto: neutralTile3,
-        tileName: "Neutral Tile"
+        tileName: "Neutral Tile 3"
        },
        {
         tilePhoto: pattern2,
-        tileName: "Patterned Tile"
+        tileName: "Patterned Tile 1"
        },
        {
         tilePhoto: pattern3,
-        tileName: "Patterned Tile"
+        tileName: "Patterned Tile 2"
        },
        {
         tilePhoto: pattern4,
-        tileName: "Patterned Tile"
+        tileName: "Patterned Tile 3"
        },
        {
         tilePhoto: pattern5,
-        tileName: "Patterned Tile"
+        tileName: "Patterned Tile 4"
        },
        {
         tilePhoto: pattern6,
-        tileName: "Patterned Tile"
+        tileName: "Patterned Tile 5"
        },
        {
         tilePhoto: pattern7,
-        tileName: "Patterned Tile"
+        tileName: "Patterned Tile 6"
        },
 
 
@@ -120,11 +120,15 @@ export default function Slide() {
   return (
     <>
     <div className="sldContainer">
+
+    <div className="sldP2Header">
+    <h1 className="sldLogo2">Slide</h1>
     <div className="sldNavP2">
     <Link to = '/sld'><h3 className="sldNavLink black">Shop</h3></Link>
     <Link to = '/sld'><h3 className="sldNavLink black">About</h3></Link>
     <Link to = '/sld'><h3 className="sldNavLink black">Home</h3></Link>
     </div> 
+    </div>  
     
     <div className="sldShopContainer">
     {tiles.map((tile)=> (

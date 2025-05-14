@@ -91,11 +91,12 @@ a {
   margin-top: 3vw;
   margin-left: 2vw;
   margin-right: 2vw;
-  margin-bottom: 3vw;
+  margin-bottom: 5vw;
 }
 
 .shopProductTitle {
-  font-size: 28px;
+  display: flex;
+  font-size: 25px;
 }
 
 .shopProductTitle:hover {
@@ -1764,8 +1765,16 @@ font-weight: 600;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 2vw;
+  margin-bottom: 100px;
 
+}
+
+.sldP2Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 
