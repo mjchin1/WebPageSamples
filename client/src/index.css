@@ -2391,13 +2391,11 @@ font-weight: 600;
 }
 
 .mg2Block {
-  border: solid; 
   width: 50vw;
   height: 100vh;
   display: flex; 
   justify-content: center; 
   align-items: center;
-
 }
 
 .galleryContainer {
