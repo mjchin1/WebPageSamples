@@ -4,15 +4,16 @@ export default function Navigations() {
     return (
         <nav className="navbar">
 
-
-            <Link to = '/bklt'>Booklet</Link>
-            {/* <Link to = '/tf'>Trifold</Link>  */}
+            <Link to = '/bbk'>Big Book</Link> 
             <Link to = '/sld'>Slide</Link> 
-            <Link to = '/sldn'>Slide-In</Link> 
             <Link to = '/mg'>Mosaic Grid</Link>  
             <Link to = '/tf2'>Trifold 2</Link> 
-             <Link to = '/bbk'>Big Book</Link> 
-                        
+            <Link to = '/sldn'>Slide-In</Link> 
+            <Link to = '/bklt'>Booklet</Link>
+        
+        
+          
+            {/* <Link to = '/tf'>Trifold</Link>  */}
             {/* <Link to = '/bb'>Big Box</Link> */}
            
             
