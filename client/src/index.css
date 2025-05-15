@@ -1777,7 +1777,7 @@ font-weight: 600;
 }
 
 .sldProduct {
-  animation: slideUp;
+  animation: slideUp, imageAppear;
   animation-timeline: view();
   animation-range: entry 0;
   animation-fill-mode: forwards;

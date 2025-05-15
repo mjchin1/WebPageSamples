@@ -47,7 +47,7 @@ export default function Slide() {
     </div> <br/> <br/>
 
     <div>
-    <h1 className="sldcb2Header">Featured Tiles</h1>
+    <h1 className="sldcb2Header">Featured Tiles</h1> <br/> <br/>
     <div className="sldContentBlock2">
       <div className="sldcb1Content"> <img src={greenTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText">Green Herringbone</span> </Link></div>
       <div className="sldcb1Content"><img src={whiteTile}/><br/><br/><Link to = '/sldp2'> <span className="sldLinkText"> White Diamonds</span> </Link></div>
