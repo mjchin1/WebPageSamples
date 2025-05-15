@@ -2394,6 +2394,9 @@ font-weight: 600;
   border: solid; 
   width: 50vw;
   height: 100vh;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 
 }
 /* Xylophone */

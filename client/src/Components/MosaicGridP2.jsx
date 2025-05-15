@@ -10,9 +10,9 @@ export default function MosaicGridP2() {
     <div className="mgHeaderP2">
     <h1 className="mgLogo">Mosaic Grid</h1>
     <div className="mgNav"> 
-    <Link to = '/'><h3 className="mgNavLink">Food</h3></Link>
-    <Link to = '/'><h3 className="mgNavLink">Gatherings</h3></Link>
-    <Link to = '/'><h3 className="mgNavLink">About Us</h3></Link>
+    <Link to = '/mg'><h3 className="mgNavLink">Food</h3></Link>
+    <Link to = '/mg'><h3 className="mgNavLink">Gatherings</h3></Link>
+    <Link to = '/mg'><h3 className="mgNavLink">About Us</h3></Link>
     <Link to = '/'><h3 className="mgNavLink">Home</h3></Link>
     </div>
     </div>
@@ -23,7 +23,7 @@ export default function MosaicGridP2() {
     </div>  <br/>
 
     <div className="mgp2ContentBlock1">
-    <div className= "mg2Block"></div>
+    <div className= "mg2Block"><h2>Our food is the best.</h2></div>
     <div className= "mg2Block"><img src={pomegranate}/></div>
     </div>
       
