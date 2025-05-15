@@ -2262,9 +2262,17 @@ font-weight: 600;
   justify-content: space-between;
   align-items: center;
   margin-top: -2vw;
-  position: absolute;
-  left: 0;
-  top: 0;
+}
+.mgHeaderP2 {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22vh;
+  /* position: absolute;
+  top: 0; 
+  left: 0; */
+
 }
 
 .mgLogo {
@@ -2281,6 +2289,22 @@ font-weight: 600;
   margin-left: .1vw;
   margin-right: .1vw;
 
+}
+
+.mgp2Banner {
+  width: 100vw;
+  height: 30vw;
+  border: solid;
+  margin-top: -200px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+.mgp2BannerText {
+  position: absolute;
 }
 
 .mosaicGridContainer {
@@ -2361,6 +2385,17 @@ font-weight: 600;
   
 }
 
+.mgp2ContentBlock1 {
+  display: flex;
+
+}
+
+.mg2Block {
+  border: solid; 
+  width: 50vw;
+  height: 100vh;
+
+}
 /* Xylophone */
 
 .xylpOpeningText {
