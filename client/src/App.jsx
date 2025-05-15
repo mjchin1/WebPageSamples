@@ -22,6 +22,7 @@ import SlideP2 from './Components/SlideP2'
 import SlideIn from './Components/SlideIn'
 import Outline from './Components/Outline'
 import MosaicGrid from './Components/MosaicGrid'
+import MosaicGridP2 from './Components/MosaicGridP2'
 import ChangingText from './Components/ChangingText'
 import Xylophone from './Components/Xylophone'
 import BigBook from './Components/BigBook'
@@ -48,7 +49,9 @@ function App() {
       
       
       <Route path='/sldn' element={<SlideIn/> } />
+      
       <Route path='/mg' element={<MosaicGrid/> } />
+      <Route path='/mgp2' element={<MosaicGridP2/> } />
       
       <Route path='/bbk' element={<BigBook/> } />
       <Route path='/bbkp2' element={<BigBookP2/> } />
