@@ -2399,6 +2399,11 @@ font-weight: 600;
   align-items: center;
 
 }
+
+.galleryContainer {
+  width: 100vw;
+  height: 100vh;
+}
 /* Xylophone */
 
 .xylpOpeningText {

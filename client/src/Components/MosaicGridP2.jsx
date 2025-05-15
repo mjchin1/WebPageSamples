@@ -26,8 +26,33 @@ export default function MosaicGridP2() {
     <div className= "mg2Block"><h2>Our food is the best.</h2></div>
     <div className= "mg2Block"><img src={pomegranate}/></div>
     </div>
-      
+    <h1>Gallery</h1>
+    <div className="galleryContainer"></div>
+    <div className="mgp2Banner"> <h1 className="mgp2BannerText">Gatherings</h1>
+    <img src={tableSetting}></img>
+    </div>  <br/>
+
+    <div className="mgp2ContentBlock1">
+    <div className= "mg2Block"><h2>We create experiences that you and your loved ones will remember forever.</h2></div>
+    <div className= "mg2Block"><img src={pomegranate}/></div>
     </div>
+    <h1>Gallery</h1>
+    <div className="galleryContainer"></div>
+    <div className="mgp2Banner"> <h1 className="mgp2BannerText">About Us</h1>
+    <img src={tableSetting}></img>
+    </div>  <br/>
+
+    <div className="mgp2ContentBlock1">
+    <div className= "mg2Block"><h2>We put a ton of heart into everything we do.</h2></div>
+    <div className= "mg2Block"><img src={pomegranate}/></div>
+    </div>
+    <h1>Gallery</h1>
+    <div className="galleryContainer"></div>
+   
+   
+    </div>
+
+    
     </>
   )
 }
