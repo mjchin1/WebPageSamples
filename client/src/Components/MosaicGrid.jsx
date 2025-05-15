@@ -10,6 +10,8 @@ import { useNavigate, Link } from 'react-router-dom'
 
 export default function MosaicGrid({}) {
 
+  const navigate = useNavigate()
+
 
 
 
@@ -36,7 +38,7 @@ export default function MosaicGrid({}) {
     <div className="mgSquare6 mgSquare"><img src={plate2}/></div>
     </div>
 
-    <button className="mgButton">Enter</button>
+    <button className="mgButton" onClick={()=> { navigate("/mgp2")}}>Enter</button>
 
   
     </>
