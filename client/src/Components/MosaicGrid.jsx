@@ -6,6 +6,8 @@ import pomegranate from '../assets/Photos/MosaicGrid/pomegranate.jpg'
 import tableSetting4 from '../assets/Photos/MosaicGrid/tableSetting4.jpg'
 import picnic5 from '../assets/Photos/MosaicGrid/picnic5.jpg'
 
+
+
 import { useNavigate, Link } from 'react-router-dom'
 
 export default function MosaicGrid({}) {

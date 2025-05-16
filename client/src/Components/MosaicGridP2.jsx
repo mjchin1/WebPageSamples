@@ -6,6 +6,7 @@ import tableSetting11 from '../assets/Photos/MosaicGrid/tableSetting11.jpg'
 import tableSetting7 from '../assets/Photos/MosaicGrid/tableSetting7.jpg'
 import oranges from '../assets/Photos/MosaicGrid/oranges.jpg'
 import tomatoes from '../assets/Photos/MosaicGrid/tomatoes.jpg'
+import plate7 from '../assets/Photos/MosaicGrid/plate7.jpg'
 
 
 export default function MosaicGridP2() {
@@ -25,13 +26,21 @@ export default function MosaicGridP2() {
 
     <div className="mgp2Container">
     <div className="mgp2Banner"> <h1 className="mgp2BannerText">Food</h1>
-    <img src={tableSetting3}></img>
+    <img src={plate7}></img>
     </div>  <br/>
 
     <div className="mgp2ContentBlock1">
     <div className= "mg2Block"><h2>Our food is the best.</h2></div>
     <div className= "mg2Block"><img src={plate5}/></div>
+   
     </div>
+    
+    <div className="mgp2ContentBlock1">
+    <div className= "mg2Block"> <img src={plate5}/></div>
+    <div className= "mg2Block"><h2>Our food is the best.</h2></div>
+    </div>
+    
+    
     <h1>Gallery</h1>
     <div className="galleryContainer"></div>
     <div className="mgp2Banner"> <h1 className="mgp2BannerText">Gatherings</h1>
