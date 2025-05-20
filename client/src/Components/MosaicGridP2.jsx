@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
 import tableSetting3 from '../assets/Photos/MosaicGrid/tableSetting3.jpg'
 import plate5 from '../assets/Photos/MosaicGrid/plate5.jpg'
+import plate8 from '../assets/Photos/MosaicGrid/plate8.jpg'
 import tableSetting5 from '../assets/Photos/MosaicGrid/tableSetting5.jpg'
 import tableSetting11 from '../assets/Photos/MosaicGrid/tableSetting11.jpg'
 import tableSetting7 from '../assets/Photos/MosaicGrid/tableSetting7.jpg'
 import oranges from '../assets/Photos/MosaicGrid/oranges.jpg'
 import tomatoes from '../assets/Photos/MosaicGrid/tomatoes.jpg'
-import plate7 from '../assets/Photos/MosaicGrid/plate7.jpg'
+import carrots from '../assets/Photos/MosaicGrid/carrots.jpg'
+import tableSetting from '../assets/Photos/MosaicGrid/tableSetting.jpg'
 
 
 export default function MosaicGridP2() {
@@ -26,7 +28,7 @@ export default function MosaicGridP2() {
 
     <div className="mgp2Container">
     <div className="mgp2Banner"> <h1 className="mgp2BannerText">Food</h1>
-    <img src={plate7}></img>
+    <img src={tableSetting}></img>
     </div>  <br/>
 
     <div className="mgp2ContentBlock1">
@@ -36,7 +38,7 @@ export default function MosaicGridP2() {
     </div>
     
     <div className="mgp2ContentBlock1">
-    <div className= "mg2Block"> <img src={plate5}/></div>
+    <div className= "mg2Block"> <img src={carrots}/></div>
     <div className= "mg2Block"><h2>Our food is the best.</h2></div>
     </div>
     
