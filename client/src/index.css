@@ -2812,7 +2812,7 @@ font-weight: 600;
 .bbkNav {
   display: flex;
   justify-content: right;
-  color: black;
+  color: white;
   font-size: 20px;
   width: 50vw;
 }
@@ -2894,6 +2894,7 @@ font-weight: 600;
   margin-bottom: .25vw;
   display: flex; 
   align-items: center;
+  justify-content: center;
 }
 
 .bbkTopText {
@@ -2906,6 +2907,7 @@ font-weight: 600;
   flex-direction: column;
   padding-left: 1vw;
   margin-top: 2vw;
+  margin-top: 200px;
 }
 
 .bbkHomeLink {
@@ -2915,6 +2917,7 @@ font-weight: 600;
   margin-bottom: 1vw;
   margin-top: 1vw;
   color: white;
+  font-size: 9vw;
 }
 .bbkHomeLink:hover {
   color: white;
