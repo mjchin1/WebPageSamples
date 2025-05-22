@@ -17,7 +17,7 @@ export default function MosaicGridP2() {
     <>
 
     <div className="mgHeaderP2">
-    <h1 className="mgLogo">Mosaic Grid</h1>
+    <h1 className="mgLogo">Mosaic Grid</h1> <br/> <br/>
     <div className="mgNav"> 
     <Link to = '/mg'><h3 className="mgNavLink">Food</h3></Link>
     <Link to = '/mg'><h3 className="mgNavLink">Gatherings</h3></Link>
