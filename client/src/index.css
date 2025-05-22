@@ -2726,7 +2726,7 @@ font-weight: 600;
  margin: 0 auto;
  color: black;
  z-index: 10;
- animation: changeText .5s;
+ animation: changeText 1s;
 }
 
 .ctBackButton {
@@ -2748,24 +2748,38 @@ font-weight: 600;
   0% {
     font-family: "Libre Barcode 128", system-ui; 
   }
-  15% {
+  10% {
     font-family: "Flow Circular", system-ui;
+    
+  }
+  20% {
+  font-family: "Redacted Script", cursive;
     
   }
   30% {
-  font-family: "Redacted Script", cursive;
-    
-  }
-  45% {
     font-family: "Libre Barcode 128", system-ui; 
   }
-  60% {
+  40% {
     font-family: "Flow Circular", system-ui;
     
   }
-  75% {
+  50% {
   font-family: "Redacted Script", cursive;
     
+  }
+  60% {
+    font-family: "Libre Barcode 128", system-ui; 
+  }
+  70% {
+    font-family: "Flow Circular", system-ui;
+    
+  }
+  80% {
+  font-family: "Redacted Script", cursive;
+    
+  }
+  90% {
+    font-family: "Libre Barcode 128", system-ui; 
   }
   100% {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
