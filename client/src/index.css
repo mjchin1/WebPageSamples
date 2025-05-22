@@ -2396,6 +2396,20 @@ font-weight: 600;
   display: flex; 
   justify-content: center; 
   align-items: center;
+  background-color: #00563B;
+  background-color: #003153;
+  background-color: #58111A;
+  color: white;
+}
+
+.mg2InnerBorder {
+  width: 45vw;
+  height: 90vh;
+  border: solid;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .galleryContainer {
