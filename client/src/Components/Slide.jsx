@@ -23,6 +23,7 @@ export default function Slide() {
 
   return (
     <>
+    <div className="sldContainer"> 
     <div className="sldBackgroundPic"><img src={steps}/></div> <br/>
     <div className="sldNav">
     <Link to = '/sldp2'><h3 className="sldNavLink">Shop</h3></Link>
@@ -35,8 +36,7 @@ export default function Slide() {
         <h1 className="sldHeader">Slide</h1>
         <span className= "sldSubHeader">Tile Co.</span>
       </div>
-    </div> <br/><br/><br/>
-
+    </div> 
     <div className="sldContentBlock1">
       <div>
       <img src={blueTile2}/>
@@ -60,6 +60,8 @@ export default function Slide() {
   
 
     <div className="footer sldFooter"> © 2025 </div>
+
+    </div>
    
     </>
 );

@@ -1594,6 +1594,7 @@ font-weight: 600;
   top: 0;
   left: 0;
   animation: slideLeft 4s;
+  border: solid;
 }
 
 .sldHomeText {
@@ -1627,12 +1628,18 @@ font-weight: 600;
 
 .sldPageContent {
   position: absolute;
-  top: 30vh;
+  height: 100vh;
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   margin: 0 auto;
   color: white;
+  border: solid;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+
 }
 
 .sldNav {
@@ -1690,7 +1697,6 @@ font-weight: 600;
 
 .sldContentBlock1 {
   width: 100vw;
-  height: 100vh;
   color: white; 
   display: inline-flex;
   align-items: center;
