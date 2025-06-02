@@ -1697,14 +1697,13 @@ font-weight: 600;
 
 .sldContentBlock1 {
   width: 100vw;
+  height: 100vh;
   color: white; 
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  /* animation: slideLeft;
-  animation-timeline: view();
-  animation-range: entry 0; */
-  /* margin-top: -24px; */
+  background-image: url("./assets/Photos/Slide/blueTile2.jpg");
+  background-size: 100vw;
 }
 
 .sldcb1Content {

@@ -17,6 +17,14 @@ export default function Slide() {
     
   }
 
+  function scrollToTop () {
+    window.scrollTo(0, 0);
+
+  };
+
+  scrollToTop();
+ 
+
 
 
 
@@ -37,9 +45,10 @@ export default function Slide() {
         <span className= "sldSubHeader">Tile Co.</span>
       </div>
     </div> 
+
     <div className="sldContentBlock1">
       <div>
-      <img src={blueTile2}/>
+      {/* <img src={blueTile2}/>  */}
         </div>
       <div className="sldCBText">
         <span className="sldTextBoxHeader">Bring the world to your living space.</span>
