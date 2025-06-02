@@ -1701,7 +1701,7 @@ font-weight: 600;
   color: white; 
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   background-image: url("./assets/Photos/Slide/blueTile2.jpg");
   background-size: 100vw;
 }
@@ -1761,10 +1761,10 @@ font-weight: 600;
 
 .sldCBText {
   font-size: 60px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
   width: 60vw;
 }
 
