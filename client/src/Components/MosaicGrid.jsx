@@ -37,10 +37,11 @@ export default function MosaicGrid({}) {
     <div className="mgSquare3 mgSquare"><img src={pomegranate}/></div>
     <div className="mgSquare4 mgSquare"><img src={picnic}/></div> 
     <div className="mgSquare5 mgSquare"><img src={tableSetting4}/></div>
-    <div className="mgSquare6 mgSquare"><img src={plate2}/></div>
+    <div className="mgSquare6 mgSquare"><img src={plate2}/></div> <br/>
+    <button className="mgButton" onClick={()=> { navigate("/mgp2")}}>Enter</button>
     </div>
 
-    <button className="mgButton" onClick={()=> { navigate("/mgp2")}}>Enter</button>
+
 
   
     </>
