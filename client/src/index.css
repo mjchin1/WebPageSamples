@@ -1817,7 +1817,7 @@ font-weight: 600;
 
 .sldnHeader {
  margin-top: 0;
- font-size: 300px;
+ font-size: 20vw;
  position: absolute;
  right: 0;
  left: 0;
@@ -1832,14 +1832,14 @@ font-weight: 600;
 
 .sldnHomeButton {
   position: absolute;
-  font-size:30px;
+  font-size: 2.5vw;
   background-color: transparent;
   opacity: 0;
   border: solid;
   animation: imageAppear 3s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
-  margin-top: 25vw;
+  margin-top: 60vh;
 }
 
 .sldnNav {
