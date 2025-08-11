@@ -153,6 +153,19 @@ img {
   height: 100vh;
 }
 
+.mazeTitleSquare {
+  position: absolute;
+  border: solid;
+  width: 76vw;
+  height: 60vh;
+  top: 20vh;
+  background-color: white;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+}
+
 .mazeSquare {
   border: solid;
   margin-top: 0;

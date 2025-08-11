@@ -45,6 +45,8 @@ export default function Maze() {
     <div className="mazeSquare35 mazeSquare">35</div>
     <div className="mazeSquare35 mazeSquare">36</div>
 
+    <div className="mazeTitleSquare"> Melissa Chin</div>
+
     </div>
 
   
