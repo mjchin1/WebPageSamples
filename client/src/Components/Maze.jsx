@@ -28,6 +28,22 @@ export default function Maze() {
     <div className="mazeSquare18 mazeSquare">18</div>
     <div className="mazeSquare19 mazeSquare">19</div>
     <div className="mazeSquare20 mazeSquare">20</div>
+    <div className="mazeSquare21 mazeSquare">21</div>
+    <div className="mazeSquare22 mazeSquare">22</div>
+    <div className="mazeSquare23 mazeSquare">23</div>
+    <div className="mazeSquare24 mazeSquare">24</div>
+    <div className="mazeSquare25 mazeSquare">25</div>
+    <div className="mazeSquare26 mazeSquare">26</div>
+    <div className="mazeSquare27 mazeSquare">27</div>
+    <div className="mazeSquare28 mazeSquare">28</div>
+    <div className="mazeSquare29 mazeSquare">29</div>
+    <div className="mazeSquare30 mazeSquare">30</div>
+    <div className="mazeSquare31 mazeSquare">31</div>
+    <div className="mazeSquare32 mazeSquare">32</div>
+    <div className="mazeSquare33 mazeSquare">33</div>
+    <div className="mazeSquare34 mazeSquare">34</div>
+    <div className="mazeSquare35 mazeSquare">35</div>
+    <div className="mazeSquare35 mazeSquare">36</div>
 
     </div>
 

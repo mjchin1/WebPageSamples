@@ -149,7 +149,8 @@ img {
 .mazeContainer {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content:center
+  justify-content:center;
+  height: 100vh;
 }
 
 .mazeSquare {
@@ -161,90 +162,158 @@ img {
 }
 
 .mazeSquare1 {
-  height: 20vh;
+
   width: 24.5vw;
 
 }
 .mazeSquare2 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare3 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare4 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare5 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare6 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare7 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare8 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare9 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare10 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare11 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare12 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 
 .mazeSquare13 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 
 .mazeSquare14 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare15 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 .mazeSquare16 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 
 .mazeSquare17 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 
 .mazeSquare18 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 
 .mazeSquare19 {
-  height: 20vh;
+
   width: 24.5vw;
 }
 
 .mazeSquare20 {
-  height: 20vh;
+
+  width: 24.5vw;
+}
+
+.mazeSquare21 {
+
+  width: 24.5vw;
+
+}
+.mazeSquare22 {
+
+  width: 24.5vw;
+}
+.mazeSquare23 {
+
+  width: 24.5vw;
+}
+.mazeSquare24 {
+
+  width: 24.5vw;
+}
+.mazeSquare25 {
+
+  width: 24.5vw;
+}
+.mazeSquare26 {
+
+  width: 24.5vw;
+}
+.mazeSquare27 {
+
+  width: 24.5vw;
+}
+.mazeSquare28 {
+
+  width: 24.5vw;
+}
+.mazeSquare29 {
+
+  width: 24.5vw;
+}
+.mazeSquare30 {
+
+  width: 24.5vw;
+}
+.mazeSquare31 {
+
+  width: 24.5vw;
+}
+.mazeSquare32 {
+
+  width: 24.5vw;
+}
+
+.mazeSquare33 {
+
+  width: 24.5vw;
+}
+
+.mazeSquare34 {
+
+  width: 24.5vw;
+}
+.mazeSquare35 {
+
+  width: 24.5vw;
+}
+.mazeSquare36 {
+
   width: 24.5vw;
 }
 
