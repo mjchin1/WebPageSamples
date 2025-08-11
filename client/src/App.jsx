@@ -28,6 +28,7 @@ import Xylophone from './Components/Xylophone'
 import BigBook from './Components/BigBook'
 import BigBookP2 from './Components/BigBookP2'
 import Booklet2 from './Components/Booklet2'
+import Maze from './Components/Maze'
 
 
 function App() {
@@ -55,6 +56,8 @@ function App() {
       
       <Route path='/bbk' element={<BigBook/> } />
       <Route path='/bbkp2' element={<BigBookP2/> } />
+
+      <Route path='/maze' element={<Maze/> } />
 
 
       <Route path='/mos' element={<MosaicPage/> } />

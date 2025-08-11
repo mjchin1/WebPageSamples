@@ -10,6 +10,7 @@ export default function Navigations() {
             <Link to = '/tf2'>Trifold 2</Link> 
             <Link to = '/sldn'>Slide-In</Link> 
             <Link to = '/bklt'>Booklet</Link>
+            <Link to = '/maze'>Maze</Link>
         
         
           

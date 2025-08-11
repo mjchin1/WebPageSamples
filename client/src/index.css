@@ -144,6 +144,111 @@ img {
 }
 
 
+/*MAZE*/
+
+.mazeContainer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content:center
+}
+
+.mazeSquare {
+  border: solid;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mazeSquare1 {
+  height: 20vh;
+  width: 24.5vw;
+
+}
+.mazeSquare2 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare3 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare4 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare5 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare6 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare7 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare8 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare9 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare10 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare11 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare12 {
+  height: 20vh;
+  width: 24.5vw;
+}
+
+.mazeSquare13 {
+  height: 20vh;
+  width: 24.5vw;
+}
+
+.mazeSquare14 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare15 {
+  height: 20vh;
+  width: 24.5vw;
+}
+.mazeSquare16 {
+  height: 20vh;
+  width: 24.5vw;
+}
+
+.mazeSquare17 {
+  height: 20vh;
+  width: 24.5vw;
+}
+
+.mazeSquare18 {
+  height: 20vh;
+  width: 24.5vw;
+}
+
+.mazeSquare19 {
+  height: 20vh;
+  width: 24.5vw;
+}
+
+.mazeSquare20 {
+  height: 20vh;
+  width: 24.5vw;
+}
+
+
 /*MOSAIC TEMPLATE*/
 .mosaicContainer {
   border: solid;
