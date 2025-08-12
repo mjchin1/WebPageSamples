@@ -53,10 +53,13 @@ export default function Maze() {
     <div className="verticalLine3"></div>
     <div className="verticalLine4"></div>
     <div className="verticalLine5"></div>
+    <div className="verticalLine6"></div>
     <div className="verticalLine7"></div>
     <div className="verticalLine8"></div>
     <div className="verticalLine9"></div>
     <div className="verticalLine10"></div>
+    <div className="verticalLine11"></div>
+    <div className="verticalLine12"></div>
     
     <div className="horizontalLine1"></div>
     <div className="horizontalLine2"></div>
@@ -64,11 +67,11 @@ export default function Maze() {
     <div className="horizontalLine4"></div>
     <div className="horizontalLine5"></div>
     <div className="horizontalLine6"></div>
-    <div className="horizontalLine7"></div>
+    <div className="horizontalLine7"></div> 
     <div className="horizontalLine8"></div>
-    <div className="horizontalLine9"></div>
+    {/* <div className="horizontalLine9"></div>
     <div className="horizontalLine10"></div>
-    <div className="horizontalLine11"></div>
+    <div className="horizontalLine11"></div>  */}
 
 
     <div className="mazeTitleSquare"> Melissa Chin</div>

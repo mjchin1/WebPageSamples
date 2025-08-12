@@ -161,33 +161,99 @@ img {
   animation: lineSlideUp 5s;
 }
 .verticalLine2 {
-  height: 100vh;
+  height: 62.5vh;
+  position: absolute;
+  left: 5vw;
+  top: 12.5vh;
+  border-left: solid;
+  animation: lineSlideUp 5s;
+}
+.verticalLine3{
+  height: 75vh;
+  position: absolute;
+  left: 10vw;
+  top: 25vh;
+  border-left: solid;
+  animation: lineSlideUp 5s;
+}
+
+.verticalLine4 {
+  height: 87.5vh;
   position: absolute;
   left: 25vw;
+  top: 12.5vh;
   border-left: solid;
   animation: lineSlideDown 5s;
 }
-.verticalLine3 {
-  height: 100vh;
+.verticalLine5 {
+  height: 12.5vh;
   position: absolute;
   left: 50vw;
   border-left: solid;
   animation: lineSlideUp 5s;
 }
-.verticalLine4 {
-  height: 100vh;
+.verticalLine6 {
+  height: 87.5vh;
   position: absolute;
   left: 75vw;
+  top: 12.5;
   border-left: solid;
   animation: lineSlideDown 5s;
 }
-.verticalLine5 {
+
+.verticalLine7 {
+  height: 75vh;
+  position: absolute;
+  left: 90vw;
+  border-left: solid;
+  animation: lineSlideUp 5s;
+}
+
+.verticalLine8 {
+  height: 62.5vh;
+  position: absolute;
+  left: 95vw;
+  top: 25vh;
+  border-left: solid;
+  animation: lineSlideUp 5s;
+}
+
+.verticalLine9 {
   height: 100vh;
   position: absolute;
   left: 99.5vw;
   border-left: solid;
   animation: lineSlideUp 5s;
 }
+
+.verticalLine10 {
+  height: 12.5vh;
+  position: absolute;
+  left: 50vw;
+  top: 87.5vh;
+  border-left: solid;
+  animation: lineSlideUp 5s;
+}
+
+.verticalLine11 {
+  height: 12.5vh;
+  position: absolute;
+  left: 12.5vw;
+  top: 0vh;
+  border-left: solid;
+  animation: lineSlideDown 5s;
+}
+
+.verticalLine12 {
+  height: 12.5vh;
+  position: absolute;
+  left: 87.5vw;
+  top: 87.5vh;
+  border-left: solid;
+  animation: lineSlideUp 5s;
+}
+
+
 
 
 .horizontalLine1 {
@@ -198,75 +264,68 @@ img {
   animation: lineSlideLeft 5s;
 }
 .horizontalLine2 {
-  width: 99vw;
+  width: 75vw;
   position: absolute;
-  top: 10vh;
+  top: 12.5vh;
+  left: 0vw;
   border-bottom: solid;
   animation: lineSlideRight 5s;
 }
+.horizontalLine8 {
+  width: 9.5vw;
+  position: absolute;
+  top: 12.5vh;
+  left: 90vw;
+  border-bottom: solid;
+  animation: lineSlideLeft 5s;
+}
+
 .horizontalLine3 {
   width: 99vw;
   position: absolute;
-  top: 20vh;
+  top: 25vh;
   border-bottom: solid;
   animation: lineSlideLeft 5s;
 }
+
 .horizontalLine4 {
   width: 99vw;
   position: absolute;
-  top: 30vh;
+  top: 75vh;
   border-bottom: solid;
   animation: lineSlideRight 5s;
 }
-.horizontalLine5 {
-  width: 99vw;
-  position: absolute;
-  top: 40vh;
-  border-bottom: solid;
-  animation: lineSlideLeft 5s;
-}
-.horizontalLine6 {
-  width: 99vw;
-  position: absolute;
-  top: 50vh;
-  border-bottom: solid;
-  animation: lineSlideRight 5s;
-}
+
 .horizontalLine7 {
-  width: 99vw;
+  width: 9.5vw;
   position: absolute;
-  top: 60vh;
-  border-bottom: solid;
-  animation: lineSlideLeft 5s;
-}
-.horizontalLine8 {
-  width: 99vw;
-  position: absolute;
-  top: 70vh;
+  top: 87.5vh;
+  left: .5vw;
   border-bottom: solid;
   animation: lineSlideRight 5s;
 }
-.horizontalLine9 {
-  width: 99vw;
+
+.horizontalLine5 {
+  width: 75vw;
   position: absolute;
-  top: 80vh;
+  top: 87.5vh;
+  left: 25vw;
   border-bottom: solid;
   animation: lineSlideLeft 5s;
 }
-.horizontalLine10 {
-  width: 99vw;
-  position: absolute;
-  top: 90vh;
-  border-bottom: solid;
-  animation: lineSlideRight 5s;
-}
-.horizontalLine11 {
+
+
+.horizontalLine6 {
   width: 99vw;
   position: absolute;
   top: 100vh;
   border-bottom: solid;
   animation: lineSlideLeft 5s;
 }
+
+
+
+
 
 .mazeTitleSquare {
   position: absolute;
