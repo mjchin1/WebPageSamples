@@ -74,7 +74,7 @@ export default function Maze() {
     <div className="horizontalLine11"></div>  */}
 
 
-    <div className="mazeTitleSquare"> Melissa Chin</div>
+    {/* <div className="mazeTitleSquare"> Melissa Chin</div> */}
 
     </div>
 
