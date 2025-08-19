@@ -211,7 +211,7 @@ img {
 }
 
 .verticalLine8 {
-  height: 60vh;
+  height: 70vh;
   position: absolute;
   left: 95vw;
   top: 20vh;
@@ -330,15 +330,19 @@ img {
 
 .mazeTitleSquare {
   position: absolute;
-  border: solid;
   width: 76vw;
   height: 60vh;
   top: 20vh;
-  background-color: white;
   display: flex; 
   justify-content: center;
   align-items: center;
-  font-size: 200px;
+  font-size: 11vw;
+  /* opacity: 0; */
+  animation: textAppear 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+  
+  
 }
 
 @keyframes lineSlideUp {
