@@ -162,48 +162,48 @@ img {
   animation: lineSlideUp 5s;
 }
 .verticalLine2 {
-  height: 62.5vh;
+  height: 70vh;
   position: absolute;
   left: 5vw;
-  top: 12.5vh;
+  top: 10vh;
   border-left: solid;
   animation: lineSlideUp 5s;
 }
 .verticalLine3{
-  height: 75vh;
+  height: 80vh;
   position: absolute;
   left: 10vw;
-  top: 25vh;
+  top: 20vh;
   border-left: solid;
   animation: lineSlideUp 5s;
 }
 
 .verticalLine4 {
-  height: 87.5vh;
+  height: 90vh;
   position: absolute;
-  left: 25vw;
-  top: 12.5vh;
+  left: 18vw;
+  top: 10vh;
   border-left: solid;
   animation: lineSlideDown 5s;
 }
 .verticalLine5 {
-  height: 12.5vh;
+  height: 20vh;
   position: absolute;
   left: 50vw;
   border-left: solid;
-  animation: lineSlideUp 5s;
+  animation: lineSlideDown 5s;
 }
 .verticalLine6 {
-  height: 87.5vh;
+  height: 90vh;
   position: absolute;
-  left: 75vw;
+  left: 82vw;
   top: 12.5;
   border-left: solid;
   animation: lineSlideDown 5s;
 }
 
 .verticalLine7 {
-  height: 75vh;
+  height: 80vh;
   position: absolute;
   left: 90vw;
   border-left: solid;
@@ -211,10 +211,10 @@ img {
 }
 
 .verticalLine8 {
-  height: 62.5vh;
+  height: 60vh;
   position: absolute;
   left: 95vw;
-  top: 25vh;
+  top: 20vh;
   border-left: solid;
   animation: lineSlideUp 5s;
 }
@@ -228,16 +228,16 @@ img {
 }
 
 .verticalLine10 {
-  height: 12.5vh;
+  height: 20vh;
   position: absolute;
   left: 50vw;
-  top: 87.5vh;
+  top: 80vh;
   border-left: solid;
   animation: lineSlideUp 5s;
 }
 
 .verticalLine11 {
-  height: 12.5vh;
+  height: 10vh;
   position: absolute;
   left: 12.5vw;
   top: 0vh;
@@ -246,10 +246,10 @@ img {
 }
 
 .verticalLine12 {
-  height: 12.5vh;
+  height: 10vh;
   position: absolute;
   left: 87.5vw;
-  top: 87.5vh;
+  top: 90vh;
   border-left: solid;
   animation: lineSlideUp 5s;
 }
@@ -265,10 +265,10 @@ img {
   animation: lineSlideLeft 5s;
 }
 .horizontalLine2 {
-  width: 75vw;
+  width: 81.5vw;
   position: absolute;
-  top: 12.5vh;
-  left: 0vw;
+  top: 10vh;
+  left: .5vw;
   border-bottom: solid;
   animation: lineSlideRight 5s;
 }
@@ -284,7 +284,7 @@ img {
 .horizontalLine3 {
   width: 99vw;
   position: absolute;
-  top: 25vh;
+  top: 20vh;
   border-bottom: solid;
   animation: lineSlideLeft 5s;
 }
@@ -292,7 +292,7 @@ img {
 .horizontalLine4 {
   width: 99vw;
   position: absolute;
-  top: 75vh;
+  top: 80vh;
   border-bottom: solid;
   animation: lineSlideRight 5s;
 }
@@ -307,10 +307,10 @@ img {
 }
 
 .horizontalLine5 {
-  width: 75vw;
+  width: 82vw;
   position: absolute;
-  top: 87.5vh;
-  left: 25vw;
+  top: 90vh;
+  left: 18vw;
   border-bottom: solid;
   animation: lineSlideLeft 5s;
 }
