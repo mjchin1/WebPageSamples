@@ -29,6 +29,7 @@ import BigBook from './Components/BigBook'
 import BigBookP2 from './Components/BigBookP2'
 import Booklet2 from './Components/Booklet2'
 import Maze from './Components/Maze'
+import Label from './Components/Label'
 
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
       <Route path='/outln' element={<Outline/> } />
       <Route path='/ct' element={<ChangingText/> } />
       <Route path='/xylp' element={<Xylophone/> } />
+      <Route path='/lbl' element={<Label/> } />
       
     </Routes>
 

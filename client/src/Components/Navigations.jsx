@@ -11,6 +11,7 @@ export default function Navigations() {
             <Link to = '/sldn'>Slide-In</Link> 
             <Link to = '/bklt'>Booklet</Link>
             <Link to = '/maze'>Maze</Link>
+            <Link to = '/lbl'>Label</Link>
         
         
           
