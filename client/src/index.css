@@ -3274,3 +3274,81 @@ font-weight: 600;
     
   }
 }
+
+/*label*/
+
+.labelContainer {
+  background-color: #84d9cb;
+  background-color:#91a887;
+  /* background-color: #9ea887; */
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.lblTitleDiv {
+  border: solid;
+  border-color: white;
+  color: white;
+  width: 98vw;
+  height: 20vh;
+  margin-top: 10px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+}
+
+.lblDiv1 {
+  border: solid;
+  border-color: white;
+  color: white;
+  position: absolute;
+  top: 20vh;
+  left: 0vw;
+  margin-top: 10px;
+  height: 60vh;
+  width: 33vw;
+
+}
+.lblDiv2 {
+  border: solid;
+  border-color: white;
+  color: white;
+  position: absolute;
+  top: 20vh;
+  left: 33vw;
+  margin-top: 10px;
+  height: 60vh;
+  width: 33vw;
+
+  
+}
+.lblDiv3 {
+  border: solid;
+  border-color: white;
+  color: white;
+  position: absolute;
+  top: 20vh;
+  left: 66vw;
+  width: 33vw;
+  margin-top: 10px;
+  height: 60vh;
+
+  
+}
+.lblDiv4 {
+  border: solid;
+  border-color: white;
+  color: white;
+  position: absolute;
+  top: 80vh;
+  left: 1vw;
+  margin-top: 10px;
+  height: 60vh;
+  width: 98vw;
+
+  
+}
