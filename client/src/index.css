@@ -3383,3 +3383,100 @@ font-weight: 600;
   border-right: none;
   left: 66vw;
 }
+
+/*label2*/
+
+.label2Container {
+  background-color: #84d9cb;
+  background-color:#91a887;
+  background-color: #9ea887;
+  background-color: #566fa8;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.lbl2TitleDiv {
+  border: solid;
+  width: 99vw;
+  height: 20vh;
+  margin-top: 1vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+  border-bottom: none;
+}
+
+.lbl2CenterDivs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+  position: absolute;
+  top: 19.75vh;
+  
+}
+
+.lbl2Div1 {
+  border: solid;
+  /* position: absolute;
+  top: 20vh;
+  left: .33vw; */
+
+  height: 58vh;
+  width: 33vw;
+  border-right: none;
+
+
+}
+.lbl2Div2 {
+  border: solid;
+  /* position: absolute;
+  top: 20vh;
+  left: 33.5vw; */
+  height: 58vh;
+  width: 33vw;
+  border-right: none;
+  border-left: none;
+
+
+  
+}
+.lbl2Div3 {
+  border: solid;
+  /* position: absolute;
+  top: 20vh;
+  left: 66.5vw; */
+  width: 33vw;
+  height: 58vh;
+  border-left: none;
+
+  
+}
+.lbl2Div4 {
+  border: solid;
+  position: absolute;
+  top: 78.9vh;
+  height: 20vh;
+  width: 99vw;
+  border-top: none;
+}
+
+.lbl2DividingLine1 {
+  height: 58vh;
+  position: absolute;
+  border: solid;
+  border-right: none;
+  left: 33vw;
+}
+.lbl2DividingLine2{
+  height: 58vh;
+  position: absolute;
+  border: solid;
+  border-right: none;
+  left: 66vw;
+}
