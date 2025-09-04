@@ -3280,7 +3280,8 @@ font-weight: 600;
 .labelContainer {
   background-color: #84d9cb;
   background-color:#91a887;
-  /* background-color: #9ea887; */
+  background-color: #9ea887;
+  background-color: #566fa8;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -3293,7 +3294,7 @@ font-weight: 600;
   color: white;
   width: 99vw;
   height: 20vh;
-  margin-top: 10px;
+  margin-top: 1vh;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -3302,30 +3303,43 @@ font-weight: 600;
   border-bottom: none;
 }
 
+.lblCenterDivs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+  position: absolute;
+  top: 19.75vh;
+  
+}
+
 .lblDiv1 {
   border: solid;
   border-color: white;
   color: white;
-  position: absolute;
+  /* position: absolute;
   top: 20vh;
-  left: .5vw;
-  margin-top: 10px;
-  height: 60vh;
+  left: .33vw; */
+
+  height: 58vh;
   width: 33vw;
   border-right: none;
+
 
 }
 .lblDiv2 {
   border: solid;
   border-color: white;
   color: white;
-  position: absolute;
+  /* position: absolute;
   top: 20vh;
-  left: 33.5vw;
-  margin-top: 10px;
-  height: 60vh;
+  left: 33.5vw; */
+  height: 58vh;
   width: 33vw;
   border-right: none;
+  border-left: none;
+
 
   
 }
@@ -3333,12 +3347,12 @@ font-weight: 600;
   border: solid;
   border-color: white;
   color: white;
-  position: absolute;
+  /* position: absolute;
   top: 20vh;
-  left: 66.5vw;
+  left: 66.5vw; */
   width: 33vw;
-  margin-top: 10px;
-  height: 60vh;
+  height: 58vh;
+  border-left: none;
 
   
 }
@@ -3347,11 +3361,25 @@ font-weight: 600;
   border-color: white;
   color: white;
   position: absolute;
-  top: 80vh;
-  margin-top: 10px;
-  height: 19vh;
+  top: 78.9vh;
+  height: 20vh;
   width: 99vw;
   border-top: none;
+}
 
-  
+.lblDividingLine1 {
+  height: 58vh;
+  position: absolute;
+  color: white; 
+  border: solid;
+  border-right: none;
+  left: 33vw;
+}
+.lblDividingLine2{
+  height: 58vh;
+  position: absolute;
+  color: white; 
+  border: solid;
+  border-right: none;
+  left: 66vw;
 }

@@ -8,9 +8,14 @@ export default function Label() {
     <>
     <div className="labelContainer">
         <div className="lblTitleDiv">Label</div>
+        <div className="lblCenterDivs">
         <div className="lblDiv1">Div1</div>
+        <div className="lblDividingLine1"></div>
         <div className="lblDiv2">Div2</div>
+        <div className="lblDividingLine2"></div>
         <div className="lblDiv3">Div3</div>
+        </div>
+
         <div className="lblDiv4">Div4</div>
     </div>
 
