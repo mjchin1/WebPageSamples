@@ -12,6 +12,7 @@ export default function Navigations() {
             <Link to = '/bklt'>Booklet</Link>
             <Link to = '/maze'>Maze</Link>
             <Link to = '/lbl'>Label</Link>
+            <Link to = '/lbl2'>Label2</Link>
         
         
           

@@ -30,6 +30,7 @@ import BigBookP2 from './Components/BigBookP2'
 import Booklet2 from './Components/Booklet2'
 import Maze from './Components/Maze'
 import Label from './Components/Label'
+import Label2 from './Components/Label2'
 
 
 function App() {
@@ -78,6 +79,7 @@ function App() {
       <Route path='/ct' element={<ChangingText/> } />
       <Route path='/xylp' element={<Xylophone/> } />
       <Route path='/lbl' element={<Label/> } />
+      <Route path='/lbl2' element={<Label2/> } />
       
     </Routes>
 
