@@ -5,14 +5,14 @@ export default function Navigations() {
         <nav className="navbar">
 
             <Link to = '/bbk'>Big Book</Link> 
-            <Link to = '/sld'>Slide</Link> 
+            {/* <Link to = '/sld'>Slide</Link>  */}
             <Link to = '/mg'>Mosaic Grid</Link>  
             <Link to = '/tf2'>Trifold 2</Link> 
-            <Link to = '/sldn'>Slide-In</Link> 
+            {/* <Link to = '/sldn'>Slide-In</Link>  */}
             <Link to = '/bklt'>Booklet</Link>
             <Link to = '/maze'>Maze</Link>
-            <Link to = '/lbl'>Label</Link>
-            <Link to = '/lbl2'>Label2</Link>
+            {/* <Link to = '/lbl'>Label</Link> */}
+            {/* <Link to = '/lbl2'>Label2</Link> */}
         
         
           
