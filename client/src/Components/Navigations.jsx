@@ -21,9 +21,9 @@ export default function Navigations() {
            
             
             {/* animations */}
-            <Link to = '/xylp'>Xylophone</Link> 
-            <Link to = '/outln'>Outline</Link> 
-            <Link to = '/ct'>Changing Text</Link> 
+            {/* <Link to = '/xylp'>Xylophone</Link>  */}
+            {/* <Link to = '/outln'>Outline</Link>  */}
+            {/* <Link to = '/ct'>Changing Text</Link>  */}
             
           {/* galleries */}
             {/* <Link to = '/mos'>Mosaic</Link> */}
