@@ -3062,13 +3062,14 @@ font-weight: 600;
   justify-content: space-between;
   align-items: center;
   position: absolute;
+  background: white;
 }
 
 .bbkLogo {
   display: flex;
   justify-content: left;
   margin-left: 20px;
-  color: white;
+  color: black;
 }
 
 .bbkBlackLogo {
@@ -3079,7 +3080,7 @@ font-weight: 600;
 .bbkNav {
   display: flex;
   justify-content: right;
-  color: white;
+  color: black;
   font-size: 20px;
   width: 50vw;
 }
