@@ -3059,10 +3059,12 @@ font-weight: 600;
 .bbkHeader {
   display: flex;
   width: 100vw;
+  height: 14vh;
   justify-content: space-between;
-  align-items: center;
-  position: absolute;
+  /* align-items: center;
+  position: absolute; */
   background: white;
+  position: fixed;
 }
 
 .bbkLogo {
@@ -3156,13 +3158,14 @@ font-weight: 600;
 
 .bbkSquare1 {
   width: 50vw;
-  height:100vh;
+  height:86vh;
   border: none;
   background-color: black;
   margin-bottom: .25vw;
   display: flex; 
   align-items: center;
   justify-content: center;
+  margin-top: 14vh;
 }
 
 .bbkTopText {
@@ -3176,6 +3179,19 @@ font-weight: 600;
   padding-left: 1vw;
   margin-top: 2vw;
   margin-top: 200px;
+}
+
+.bbkTopPhoto {
+  width: 50vw;
+  height: 86vh;
+  /* margin-bottom: .5vw; */
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+  margin-top: 14vh;
+   margin-bottom: .25vw;
 }
 
 .bbkHomeLink {
@@ -3192,17 +3208,7 @@ font-weight: 600;
   text-decoration: underline;
 }
 
-.bbkTopPhoto {
-  width: 50vw;
-  height: 100vh;
-  /* margin-bottom: .5vw; */
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 72px;
-   margin-bottom: .25vw;
-}
+
 .bbkMidPhoto {
   width: 50vw;
   height: 100vh;
