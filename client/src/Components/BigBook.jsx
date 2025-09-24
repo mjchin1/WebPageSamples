@@ -1,4 +1,4 @@
-import stillLife from '../assets/Photos/BigBook/stillLife.jpg'
+import stillLife3 from '../assets/Photos/BigBook/stillLife3.jpg'
 import vestibule from '../assets/Photos/BigBook/vestibule.jpg'
 import stool1 from '../assets/Photos/BigBook/stool1.jpg'
 import greenCouch from '../assets/Photos/BigBook/greenCouch.jpg'
@@ -33,7 +33,7 @@ export default function BigBook({}) {
         {/* <span>Everything</span> */}
         </div>
       </div> 
-    <div className="bbkSquare2 bbkTopPhoto"><img src={stillLife}/></div>
+    <div className="bbkSquare2 bbkTopPhoto"><img src={stillLife3}/></div>
     {/* <div className="bbkDivider">sample text</div> */}
     <div className="bbkTopMidPhoto"><p className="bbkContactHeader"></p> <img src={vestibule}/></div>
     <div className="bbkSquare2 bbkTextBlock"><Link to = '/bbkp2'><span className="bbkText">Objects</span></Link></div>
