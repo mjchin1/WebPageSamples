@@ -10,9 +10,9 @@ export default function Navigations() {
             <Link to = '/tf2'>Trifold 2</Link> 
             {/* <Link to = '/sldn'>Slide-In</Link>  */}
             <Link to = '/bklt'>Booklet</Link>
-            <Link to = '/maze'>Maze</Link>
+            {/* <Link to = '/maze'>Maze</Link> */}
             {/* <Link to = '/lbl'>Label</Link> */}
-            {/* <Link to = '/lbl2'>Label2</Link> */}
+            <Link to = '/lbl2'>Label2</Link>
         
         
           
@@ -23,7 +23,7 @@ export default function Navigations() {
             {/* animations */}
             {/* <Link to = '/xylp'>Xylophone</Link>  */}
             {/* <Link to = '/outln'>Outline</Link>  */}
-            {/* <Link to = '/ct'>Changing Text</Link>  */}
+            <Link to = '/ct'>Changing Text</Link> 
             
           {/* galleries */}
             {/* <Link to = '/mos'>Mosaic</Link> */}
