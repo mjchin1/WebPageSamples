@@ -16,7 +16,7 @@ export default function BigBook({}) {
     <>
 
     <div className="bbkHeader">
-    <h1 className="bbkLogo">Big Book</h1>
+    <h1 className="bbkLogo">Emme Brooks</h1>
     <Link to = '/'><h3 className="bbkNav">Home</h3></Link>
     </div>
 
@@ -24,25 +24,16 @@ export default function BigBook({}) {
     <div className="bbkContainer"> 
       <div className="bbkSquare1">
         <div className="bbkTopText">
-        <Link to = '/bbkp2'><span className="bbkHomeLink">Bites</span></Link>
-        <Link to = '/bbkp2'><span className="bbkHomeLink">Sips</span></Link>
-        <Link to = '/bbkp2'><span className="bbkHomeLink">Info</span></Link>
-        {/* <span>Objects</span>
-        <span>Lighting</span>
-        <span>Furniture</span> */}
-        {/* <span>Everything</span> */}
+        <Link to = '/bbkp2'><span className="bbkHomeLink">Portfolio.</span></Link>
+        <Link to = '/bbkp2'><span className="bbkHomeLink">About.</span></Link>
+        <Link to = '/bbkp2'><span className="bbkHomeLink">Contact.</span></Link>
+        {/* <div className="bbkHomeLink">Effortlessly Iconic.</div> */}
         </div>
       </div> 
     <div className="bbkSquare2 bbkTopPhoto"><img src={stillLife3}/></div>
     {/* <div className="bbkDivider">sample text</div> */}
-    <div className="bbkTopMidPhoto"><p className="bbkContactHeader"></p> <img src={vestibule}/></div>
-    <div className="bbkSquare2 bbkTextBlock"><Link to = '/bbkp2'><span className="bbkText">Objects</span></Link></div>
-    <div className="bbkSquare2 bbkMidPhoto"><img src={mountains}/></div>
-    <div className="bbkSquare1 bbkMidPhoto"><img src={sphereLamp}/></div> 
-    <div className="bbkSquare2 bbkTextBlock"><Link to = '/bbkp2'><span className="bbkText">Lighting</span></Link></div>
-    <div className="bbkSquare2 bbkTextBlock"><Link to = '/bbkp2'><span className="bbkText">Furniture</span></Link></div>
-    <div className="bbkSquare2 bbkMidPhoto"><img src={stool1}/></div>
-     {/* <div className="bbkDivider">Come see us or get in touch.</div> */}
+    <div className="bbkTopMidPhoto"><p className="bbkContactHeader"> Effortlessly Iconic.</p> <img src={vestibule}/></div>
+  
     <div className="bbkBottomPhoto"><p className="bbkContactHeader">Contact</p> <img src={greenCouch}/></div>
     {/* <div className="bbkSquare3"> A minimal canvas for your masterpieces. </div> <br/> 
     <div className="bbkSquare4 bkltSquare"><img src={cups}/></div>  */}
