@@ -16,7 +16,7 @@ export default function BigBook({}) {
     <>
 
     <div className="bbkHeader">
-    <h1 className="bbkLogo">Emme Brooks</h1>
+    <h1 className="bbkLogo">Clique Studio</h1>
     <Link to = '/'><h3 className="bbkNav">Home</h3></Link>
     </div>
 
