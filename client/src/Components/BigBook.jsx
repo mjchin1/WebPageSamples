@@ -16,7 +16,7 @@ export default function BigBook({}) {
     <>
 
     <div className="bbkHeader">
-    <h1 className="bbkLogo">Clique Studio</h1>
+    <h1 className="bbkLogo">Icon</h1>
     <Link to = '/'><h3 className="bbkNav">Home</h3></Link>
     </div>
 
@@ -31,13 +31,9 @@ export default function BigBook({}) {
         </div>
       </div> 
     <div className="bbkSquare2 bbkTopPhoto"><img src={stillLife3}/></div>
-    {/* <div className="bbkDivider">sample text</div> */}
-    <div className="bbkTopMidPhoto"><p className="bbkContactHeader"> Effortlessly Iconic.</p> <img src={vestibule}/></div>
+     {/* <div className="bbkTopMidPhoto"><p className="bbkContactHeader"> Effortlessly Iconic.</p> <img src={vestibule}/></div>
   
-    <div className="bbkBottomPhoto"><p className="bbkContactHeader">Contact</p> <img src={greenCouch}/></div>
-    {/* <div className="bbkSquare3"> A minimal canvas for your masterpieces. </div> <br/> 
-    <div className="bbkSquare4 bkltSquare"><img src={cups}/></div>  */}
-
+    <div className="bbkBottomPhoto"><p className="bbkContactHeader">Contact</p> <img src={greenCouch}/></div>  */}
     </div>
     </>
 );

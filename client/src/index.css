@@ -3170,15 +3170,14 @@ font-weight: 600;
 
 .bbkTopText {
   width: 50vw;
-  height: 100vh;
+  height: 86vh;
   font-size: 170px;
   font-weight: 600;
   display: flex;
   justify-content: left;
   flex-direction: column;
   padding-left: 1vw;
-  margin-top: 2vw;
-  margin-top: 200px;
+  margin-top: 0vw;
 }
 
 .bbkTopPhoto {
