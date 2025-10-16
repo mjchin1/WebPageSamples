@@ -25,8 +25,8 @@ export default function BigBook({}) {
       <div className="bbkSquare1">
         <div className="bbkTopText">
         <Link to = '/bbkp2'><span className="bbkHomeLink">Portfolio.</span></Link>
+          <Link to = '/bbkp2'><span className="bbkHomeLink">Services.</span></Link>
         <Link to = '/bbkp2'><span className="bbkHomeLink">About.</span></Link>
-        <Link to = '/bbkp2'><span className="bbkHomeLink">Contact.</span></Link>
         {/* <div className="bbkHomeLink">Effortlessly Iconic.</div> */}
         </div>
       </div> 
