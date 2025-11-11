@@ -1,10 +1,6 @@
-import sculpture1 from '../assets/Photos/Booklet/sculpture1.jpg'
-import sculpture2 from '../assets/Photos/Booklet/sculpture2.jpg'
 import {Link} from 'react-router-dom'
 
-export default function Animations() {
-
-
+export default function ColorBlock() {
 
 
 

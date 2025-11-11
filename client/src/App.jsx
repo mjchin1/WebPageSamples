@@ -15,7 +15,7 @@ import TriFold from './Components/TriFold'
 import TriFold2 from './Components/TriFold2'
 import Mondrian from './Components/Mondrian'
 import Homepage from './Components/Homepage'
-import Animations from './Components/Animations'
+import ColorBlock from './Components/ColorBlock'
 import FixedBackground from './Components/FixedBackground'
 import Slide from './Components/Slide'
 import SlideP2 from './Components/SlideP2'
@@ -73,7 +73,7 @@ function App() {
       <Route path='/bf' element={<BlockFrame/> } />
       <Route path='/tf' element={<TriFold/> } />
       <Route path='/mon' element={<Mondrian/> } />
-      <Route path='/animations' element={<Animations/> } />
+      <Route path='/cblk' element={<ColorBlock/> } />
       <Route path='/fb' element={<FixedBackground/> } />
       <Route path='/outln' element={<Outline/> } />
       <Route path='/ct' element={<ChangingText/> } />

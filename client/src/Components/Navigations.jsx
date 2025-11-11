@@ -38,7 +38,7 @@ export default function Navigations() {
         
             {/* <Link to = '/bklt2'>Booklet 2</Link> */}
             {/* <Link to = '/bf'>BlockFrame</Link> */}
-            <Link to = '/animations'>Animations</Link>
+            <Link to = '/cblk'>ColorBlock</Link>
             {/* <Link to = '/fb'>Fixed Background</Link> */}
 
        
