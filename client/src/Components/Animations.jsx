@@ -1,3 +1,7 @@
+import sculpture1 from '../assets/Photos/Booklet/sculpture1.jpg'
+import sculpture2 from '../assets/Photos/Booklet/sculpture2.jpg'
+import {Link} from 'react-router-dom'
+
 export default function Animations() {
 
 
@@ -6,9 +10,28 @@ export default function Animations() {
 
   return (
     <>
-    <div className="text"><h1 className="text1">Hello</h1> </div> <br/>
+
+    <div className="cBlockHeader">
+    <h1 className="cBlockLogo">Melissa Chin</h1>
+    <div className="cBlockNav">
+    <Link to = '/'><h3>Work</h3></Link>
+    <Link to = '/'><h3>About</h3></Link>
+    <Link to = '/'><h3>Contact</h3></Link>
+    <Link to = '/'><h3>Home</h3></Link>
+    </div>
+    </div>
+
+
+    <div className="cBlockContainer"> 
+    <div className="cBlockSquare1 cBlockSquare">
+      <h1 className="cBlockMainText">Where Art Meets Engineering.</h1>
     
-    <div className="text"><h1 className="text2">Hello</h1> </div>
+      </div> 
+    {/* <button className="bkltEnterButton">Shop</button> */}
+    {/* <div className="bkltSquare3"> A minimal canvas for your masterpieces. </div> <br/> 
+    <div className="bkltSquare4 bkltSquare"><img src={cups}/></div>  */}
+
+    </div>
    
     </>
 );

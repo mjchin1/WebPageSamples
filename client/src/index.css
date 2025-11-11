@@ -1250,7 +1250,79 @@ img {
   border-radius: 5%;
   /* text-decoration: underline; */
 }
-  
+
+
+/*Booklet*/
+
+.cBlockHeader {
+  text-align: left;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 10vh;
+}
+
+.cBlockMainText {
+  color: white;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.cBlockLogo {
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+}
+
+.cBlockNav {
+  display: flex;
+  justify-content: right;
+  color: black;
+}
+.cBlockContainer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cBlockEnterButton {
+  position: absolute;
+  background: white;
+  font-size: 30px;
+  border: solid;
+}
+
+.cBlockSquare1 {
+  width:96vw;
+  height: 46vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+  margin-top: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 13vh;
+  background-color: #569cd1;
+  font-size: 2vw;
+}
+
+.cBlockHPButton {
+  position: absolute;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 200;
+  background-color: transparent;
+  color: white;
+  border: solid;
+  border-radius: 5%;
+  /* text-decoration: underline; */
+}
 
 
 /*TriFold*/
